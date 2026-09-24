@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-09-23T02:42:23.970628+00:00",
+  "scope": "Design artifacts only; not application or business acceptance.",
+  "schema_draft": "2020-12",
+  "schema_valid": true,
+  "valid_examples": [
+    "report-a.example.json",
+    "report-b.example.json",
+    "sequence.example.json",
+    "single-frame.example.json"
+  ],
+  "invalid_cases_rejected": [
+    "unknown_with_non_null_value",
+    "missing_required_frame_field",
+    "camera_motion_marked_observed",
+    "text_only_interval_marked_observed"
+  ],
+  "example_frame_interval_cross_checks": "passed",
+  "local_markdown_links": "passed",
+  "credential_values_in_deliverables": 0
+}

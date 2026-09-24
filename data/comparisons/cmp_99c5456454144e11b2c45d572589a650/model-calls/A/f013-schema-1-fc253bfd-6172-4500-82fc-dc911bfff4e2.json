@@ -1,0 +1,46 @@
+{
+  "call_id": "fc253bfd-6172-4500-82fc-dc911bfff4e2",
+  "request_id": "ab551b15-6ba9-45ed-b4bd-82e2101af1f8",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 423,
+    "total_tokens": 3012,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2151
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f013",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "a298ac2d1c864c39c1f004fc1ef7a79507581f415eb75653d3ea3a16f34c552a",
+  "image_inputs": [
+    {
+      "frame_id": "f013",
+      "sample_time_ms": 32500,
+      "source_time_ms": null,
+      "timestamp_ms": 32500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "d230b40476e378e343e79e609369826031109ab72143ad7189aad228799251f3",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f013.jpg",
+      "size_bytes": 59636
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f013\",\"timestamp_ms\":32500,\"subject\":{\"value\":\"一名扎马尾、戴蓝色花纹发带的女性，穿白色长袖上衣和深蓝色紧身运动裤，侧身跑步姿态。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"人物面部与服装可见，未识别身份。\"},\"scene\":{\"value\":\"户外草地与树木背景，前景有铺装路面边缘。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"背景虚化，远处有建筑轮廓。\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"腿部未完全入画。\"},\"camera_angle\":{\"value\":\"侧面平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"人物侧脸朝向画面右侧。\"},\"composition\":{\"value\":\"人物位于画面中央偏左，纵向占据大部分画幅，背景为虚化草地。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"lighting\":{\"value\":\"自然日光，人物面部与上衣受光较亮，背景较柔和。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"未判断具体光源位置。\"},\"color_palette\":{\"value\":\"白色上衣、深蓝色裤装与发带、绿色草地背景为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"侧身站立跑步姿态，双臂屈肘前后摆动，右腿抬起向前。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"为单帧静态姿势。\"},\"visible_text\":{\"value\":\"跑多久都不用分心拽裤子\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"画面下方白色字幕，可辨认。\"}}}"
+}

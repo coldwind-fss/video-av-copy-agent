@@ -1,0 +1,46 @@
+{
+  "call_id": "4d74afbf-542a-465e-9a55-cb63e51db9e8",
+  "request_id": "826739a5-6fdb-4fd6-bc21-aa80a92fa2ea",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 483,
+    "total_tokens": 3072,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2737
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f012",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "fee809befac871ec9e9e387127550da87211d2334fd87fddd243541b7c8d2b67",
+  "image_inputs": [
+    {
+      "frame_id": "f012",
+      "sample_time_ms": 18000,
+      "source_time_ms": null,
+      "timestamp_ms": 18000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "30545e2ebbf97f127c5ba57002b1509840d2fb36c772979533175409a67147be",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f012.jpg",
+      "size_bytes": 73150
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f012\",\"timestamp_ms\":18000,\"subject\":{\"value\":\"一名长发女性，穿白色短袖上衣，双手在身前展示一条灰色长裤，裤侧有白色竖排文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"人物面部与手部可见，裤侧文字较小。\"},\"scene\":{\"value\":\"室内直播或展示场景，背景为蓝绿色调的模糊画面，画面左侧有商品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"背景细节模糊，无法确认具体环境。\"},\"shot_size\":{\"value\":\"中景，人物从头部到腰部以下可见，画面下方被长裤占据。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"正面平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"人物面部正对镜头。\"},\"composition\":{\"value\":\"人物居中，长裤位于画面中下部，文字信息分布在顶部、左侧和右侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"lighting\":{\"value\":\"人物面部和白色上衣受光均匀，背景较暗。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"无法判断具体灯具位置。\"},\"color_palette\":{\"value\":\"以蓝绿色背景、白色上衣、灰色长裤和黄色文字为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"人物站立，双手分别捏住长裤两侧，长裤垂在身前。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"visible_text\":{\"value\":\"可见文字包括：FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、李鱼、170CM/54KG、试穿尺码 S、官方正品、运费险、七天无理由、这个就是我们的灰色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"部分小字如裤侧文字和左侧表格内容难以完全辨认。\"}}}"
+}

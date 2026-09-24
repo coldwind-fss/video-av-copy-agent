@@ -1,0 +1,46 @@
+{
+  "call_id": "85c27d5c-4774-4991-9b5f-9a6ab99c8a26",
+  "request_id": "de39f8da-adfe-4c8a-9d20-265bbff55ec8",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 484,
+    "total_tokens": 3073,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2706
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f015",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "1710d358c623cf3667af734648ed1901dabbbb667f9ea171a36325a2791dab24",
+  "image_inputs": [
+    {
+      "frame_id": "f015",
+      "sample_time_ms": 22500,
+      "source_time_ms": null,
+      "timestamp_ms": 22500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "8861f3e8ecb8abd5b7fcda7f2c5b4af781483487797cfa3e9d1de815813f4144",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f015.jpg",
+      "size_bytes": 69932
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f015\",\"timestamp_ms\":22500,\"subject\":{\"value\":\"一名长发女性手持挂有紫色长裤的衣架，画面右侧另有一件浅黄色上衣。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"人物面部与手持衣物可见。\"},\"scene\":{\"value\":\"室内直播或商品展示场景，背景为蓝色调宣传画面，含人物与文字贴片。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"背景为平面宣传图，非实景空间。\"},\"shot_size\":{\"value\":\"中景，人物上半身至大腿位置入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"以人物可见范围判断。\"},\"camera_angle\":{\"value\":\"平视正面角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"人物面部正对镜头。\"},\"composition\":{\"value\":\"人物居中偏右，紫色长裤位于画面中央偏左，文字与贴片分布在四周。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"主体与文字位置关系可见。\"},\"lighting\":{\"value\":\"人物面部与衣物受光均匀，背景为平面亮色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"仅描述可见明暗效果。\"},\"color_palette\":{\"value\":\"以蓝色、紫色、白色和浅黄色为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"画面主要色块可见。\"},\"visible_pose\":{\"value\":\"人物站立，双手持衣架，长裤自然垂挂。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"为当前静态姿势。\"},\"visible_text\":{\"value\":\"可见“FLIPBELT”“新品首发「轻」装上阵”“26FW 新品首发”“限时 上新优惠”“李鱼 170CM/54KG 试穿尺码 S”“官方正品 运费险 七天无理由”“的朋友也可以在直播间发”等文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"部分小字可能不完整，仅记录可辨认内容。\"}}}"
+}

@@ -1,0 +1,109 @@
+{
+  "schema_version": "content-1.0",
+  "kind": "transcript",
+  "transcript_id": "tr_68d235319e6542a6900b0d91314d45bf",
+  "video_id": "video_225d45ddfe834732aa7bfced75054dd6",
+  "duration_ms": 20540,
+  "source": "manual",
+  "content_basis": "subtitle",
+  "outcome": "text_available",
+  "timing": "sentence",
+  "timestamp_origin": "video_start",
+  "provider": null,
+  "model": null,
+  "language": null,
+  "segments": [
+    {
+      "segment_id": "t000",
+      "text": "左侧可见“FLIPBELT 飞比特”，右侧可见“P绒轻量马甲4.0”与“26FW NEW ARRIVALS”。",
+      "start_ms": 0,
+      "end_ms": 2500,
+      "words": []
+    },
+    {
+      "segment_id": "t001",
+      "text": "动态温控科技；动态合身 叠穿不压身",
+      "start_ms": 2500,
+      "end_ms": 3750,
+      "words": []
+    },
+    {
+      "segment_id": "t002",
+      "text": "画面左下有两行白色中文文字，上行较大为“动态温控科技”，下行较小为“动态合身 叠穿不压身”；右侧有浅色字母标志“fb”。",
+      "start_ms": 3750,
+      "end_ms": 5000,
+      "words": []
+    },
+    {
+      "segment_id": "t003",
+      "text": "画面左下角可见白色文字“动态温控科技”，其下方有较小文字“动态合身 叠穿不压身”。",
+      "start_ms": 5000,
+      "end_ms": 6250,
+      "words": []
+    },
+    {
+      "segment_id": "t004",
+      "text": "PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气",
+      "start_ms": 6250,
+      "end_ms": 8750,
+      "words": []
+    },
+    {
+      "segment_id": "t005",
+      "text": "轻量防风外层面料；建立迎风面的低透风屏障",
+      "start_ms": 8750,
+      "end_ms": 11250,
+      "words": []
+    },
+    {
+      "segment_id": "t006",
+      "text": "双头拉链调温；上下独立开合调控散热",
+      "start_ms": 11250,
+      "end_ms": 13750,
+      "words": []
+    },
+    {
+      "segment_id": "t007",
+      "text": "画面左下角有白色中文字幕“双头拉链调温”和“上下独立开合调控散热”。",
+      "start_ms": 13750,
+      "end_ms": 15000,
+      "words": []
+    },
+    {
+      "segment_id": "t008",
+      "text": "画面左下有白色中文字幕“双头拉链调温”与“上下独立开合调控散热”。",
+      "start_ms": 15000,
+      "end_ms": 16250,
+      "words": []
+    },
+    {
+      "segment_id": "t009",
+      "text": "画面下方有两行白色中文：第一行“侧口袋自收纳”，第二行“轻量便携快速收起”。",
+      "start_ms": 16250,
+      "end_ms": 17500,
+      "words": []
+    },
+    {
+      "segment_id": "t010",
+      "text": "侧口袋自收纳；轻量便携快速收起",
+      "start_ms": 17500,
+      "end_ms": 18750,
+      "words": []
+    },
+    {
+      "segment_id": "t011",
+      "text": "P绒轻量马甲4.0；9月20日 正式上线",
+      "start_ms": 18750,
+      "end_ms": 20540,
+      "words": []
+    }
+  ],
+  "input_sha256": "7defa7d1826ed17b458777d6c4a8061ad3371e0a38438b8c3dd8437c5d9a146c",
+  "derived_from_id": "cmp_68d9bbd84ec04cc1aa91525cdd9f8d23",
+  "is_fixture": false,
+  "reviewed_by_human": false,
+  "warnings": [
+    "该文本由既有视觉分析中的画面文字证据整理，不代表音频转写或实际口播。",
+    "时间范围来自抽帧时间点，不能视为字幕或口播的精确边界。"
+  ]
+}

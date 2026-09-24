@@ -1,0 +1,45 @@
+{
+  "schema_version": "content-1.0",
+  "kind": "transcript",
+  "transcript_id": "tr_fixture",
+  "video_id": "video_fixture",
+  "duration_ms": 10000,
+  "source": "fixture",
+  "content_basis": "speech",
+  "outcome": "text_available",
+  "timing": "sentence",
+  "timestamp_origin": "video_start",
+  "provider": null,
+  "model": null,
+  "language": "zh",
+  "segments": [
+    {
+      "segment_id": "t000",
+      "text": "跑步时口袋总是晃？",
+      "start_ms": 200,
+      "end_ms": 2400,
+      "words": []
+    },
+    {
+      "segment_id": "t001",
+      "text": "这款腰包可以贴身收纳。",
+      "start_ms": 3400,
+      "end_ms": 6200,
+      "words": []
+    },
+    {
+      "segment_id": "t002",
+      "text": "今天下单有优惠，点开看看。",
+      "start_ms": 6800,
+      "end_ms": 9400,
+      "words": []
+    }
+  ],
+  "input_sha256": null,
+  "derived_from_id": null,
+  "is_fixture": true,
+  "reviewed_by_human": false,
+  "warnings": [
+    "合成文本，仅说明契约格式，未经实际 ASR 或模型调用。"
+  ]
+}

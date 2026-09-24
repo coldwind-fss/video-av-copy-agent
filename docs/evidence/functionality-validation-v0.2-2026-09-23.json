@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-09-23T06:08:23+00:00",
+  "scope": "One v0.2 model run plus local browser presentation; not business acceptance.",
+  "comparison_id": "cmp_68d9bbd84ec04cc1aa91525cdd9f8d23",
+  "status": "completed",
+  "video": "3D.mp4",
+  "duration_ms": 20540,
+  "sample_interval_ms": 1250,
+  "frame_count": 17,
+  "prompt_version": "poc-v0.2",
+  "schema_version": "1.1",
+  "branches": {
+    "A_single_frame": {
+      "status": "completed",
+      "frames": 17,
+      "calls": 18,
+      "dedup_actions": 4,
+      "browser_view": "17 per-frame rows; no temporal segment cards"
+    },
+    "B_ordered_multi_frame": {
+      "status": "completed",
+      "frames": 17,
+      "intervals": 16,
+      "temporal_segments": 5,
+      "calls": 2,
+      "browser_view": "5 temporal segment cards with 17 sampled frames in filmstrips; frame evidence expandable; pairwise detail collapsed by default"
+    }
+  },
+  "total_tokens": 110191,
+  "verification": {
+    "schema_and_evidence_checks": "passed",
+    "segment_partition_and_order": "passed",
+    "json_export_http_status": 200,
+    "markdown_export_http_status": 200,
+    "frame_image_http_status": 200,
+    "video_content_http_status": 206,
+    "javascript_syntax": "passed",
+    "python_compile": "passed",
+    "schema_examples": "4 examples valid against the current schema",
+    "health_endpoint": "passed",
+    "browser_A_B_view_switch": "passed; each tab showed only its corresponding primary result layout",
+    "browser_computed_body_colors": {
+      "background": "rgb(237, 241, 246)",
+      "text": "rgb(21, 34, 56)"
+    }
+  },
+  "limits": [
+    "Only 3D.mp4 was rerun with prompt v0.2/schema 1.1; the other two saved videos still contain v0.1 results.",
+    "Segment time boundaries are approximate from sparse samples, not exact edit points.",
+    "No human semantic accuracy or business usefulness review has been performed."
+  ]
+}

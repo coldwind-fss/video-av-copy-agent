@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.1",
+  "kind": "sequence_analysis",
+  "frames": [
+    {
+      "frame_id": "f000",
+      "timestamp_ms": 0,
+      "subject": {
+        "value": "一个白色方块",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f000"
+        ],
+        "note": ""
+      },
+      "scene": {
+        "value": "纯黑色背景",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f000"
+        ],
+        "note": ""
+      },
+      "shot_size": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": [
+          "f000"
+        ],
+        "note": "合成几何图形无法可靠套用实拍人物景别。"
+      },
+      "camera_angle": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": [
+          "f000"
+        ],
+        "note": "二维图形没有足够空间线索判断摄像机角度。"
+      },
+      "composition": {
+        "value": "白色方块位于画面左侧，其余区域大面积留黑。",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f000"
+        ],
+        "note": ""
+      },
+      "lighting": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": [
+          "f000"
+        ],
+        "note": "合成色块不提供实际布光依据。"
+      },
+      "color_palette": {
+        "value": "黑白对比",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f000"
+        ],
+        "note": ""
+      },
+      "visible_pose": {
+        "value": "方块边缘与画面边缘平行。",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f000"
+        ],
+        "note": ""
+      },
+      "visible_text": {
+        "value": "未见可读文字",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f000"
+        ],
+        "note": ""
+      }
+    },
+    {
+      "frame_id": "f001",
+      "timestamp_ms": 1000,
+      "subject": {
+        "value": "一个白色方块",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f001"
+        ],
+        "note": ""
+      },
+      "scene": {
+        "value": "纯黑色背景",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f001"
+        ],
+        "note": ""
+      },
+      "shot_size": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": [
+          "f001"
+        ],
+        "note": "合成几何图形无法可靠套用实拍人物景别。"
+      },
+      "camera_angle": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": [
+          "f001"
+        ],
+        "note": "二维图形没有足够空间线索判断摄像机角度。"
+      },
+      "composition": {
+        "value": "白色方块位于画面右侧，其余区域大面积留黑。",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f001"
+        ],
+        "note": ""
+      },
+      "lighting": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": [
+          "f001"
+        ],
+        "note": "合成色块不提供实际布光依据。"
+      },
+      "color_palette": {
+        "value": "黑白对比",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f001"
+        ],
+        "note": ""
+      },
+      "visible_pose": {
+        "value": "方块边缘与画面边缘平行。",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f001"
+        ],
+        "note": ""
+      },
+      "visible_text": {
+        "value": "未见可读文字",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f001"
+        ],
+        "note": ""
+      }
+    }
+  ],
+  "visual_intervals": [
+    {
+      "from_frame_id": "f000",
+      "to_frame_id": "f001",
+      "start_ms": 0,
+      "end_ms": 1000,
+      "evidence_source": "ordered_images",
+      "visual_change": {
+        "value": "方块在两帧中的位置从左侧变为右侧。",
+        "basis": "observed",
+        "evidence_frame_ids": [
+          "f000",
+          "f001"
+        ],
+        "note": ""
+      },
+      "subject_motion": {
+        "value": "方块可能向右移动。",
+        "basis": "inferred",
+        "evidence_frame_ids": [
+          "f000",
+          "f001"
+        ],
+        "note": "两帧之间的连续轨迹未被观察。"
+      },
+      "camera_motion": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": [
+          "f000",
+          "f001"
+        ],
+        "note": "纯色背景缺少可用于区分主体运动与摄像机运动的参照。"
+      },
+      "transition": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": [
+          "f000",
+          "f001"
+        ],
+        "note": "两帧之间是否存在剪辑无法确认。"
+      }
+    }
+  ],
+  "temporal_segments": [
+    {
+      "start_frame_id": "f000",
+      "end_frame_id": "f001",
+      "start_ms": 0,
+      "end_ms": 1000,
+      "description": {
+        "value": "纯黑背景保持不变，白色方块从画面左侧出现在右侧。",
+        "basis": "observed",
+        "evidence_frame_ids": ["f000", "f001"],
+        "note": "仅归纳两个采样时刻可见的端点差异。"
+      },
+      "action_progression": {
+        "value": "方块可能向右移动；两帧之间的连续轨迹未被观察。",
+        "basis": "inferred",
+        "evidence_frame_ids": ["f000", "f001"],
+        "note": "由起始与结束位置推断，不代表测得连续运动。"
+      },
+      "camera_motion": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": ["f000", "f001"],
+        "note": "仅凭两个抽帧无法排除镜头运动或其他原因。"
+      },
+      "continuity": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": ["f000", "f001"],
+        "note": "无法确认这两个采样时刻之间是否有剪辑。"
+      }
+    }
+  ]
+}

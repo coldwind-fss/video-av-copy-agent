@@ -1,0 +1,46 @@
+{
+  "call_id": "bac1d916-c19e-4f50-9134-6565e5018e20",
+  "request_id": "54bc1834-39fe-47c4-a484-750d8edabe74",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 400,
+    "total_tokens": 2989,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2026
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f016",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "48bbe183cb3b84b1833531e707849c0f822a714037118558791b2b7e404ad483",
+  "image_inputs": [
+    {
+      "frame_id": "f016",
+      "sample_time_ms": 24000,
+      "source_time_ms": null,
+      "timestamp_ms": 24000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "6662fd27135fadf61c3aada0f044d285d9b2ab5e42b96b350e270d0bcbd36d1b",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f016.jpg",
+      "size_bytes": 9574
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f016\",\"timestamp_ms\":24000,\"subject\":{\"value\":\"画面中央的白色文字标识，上方为斜体大写拉丁字母，下方为较小的中文字符\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"文字边缘有像素化/锯齿感。\"},\"scene\":{\"value\":\"纯黑色背景，无其他可见元素\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"画面为纯文字图形，无人物或实体对象，无法套用景别判断。\"},\"camera_angle\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"二维文字画面缺少空间线索，无法判断拍摄角度。\"},\"composition\":{\"value\":\"文字组位于画面中央偏上位置，四周大面积黑色留白\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"lighting\":{\"value\":\"白色文字在黑色背景上呈现高对比发光效果\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"仅描述可见明暗对比，不推断光源设备。\"},\"color_palette\":{\"value\":\"黑底白字，单色高对比\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"visible_pose\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"画面中无人物或可描述姿态的主体。\"},\"visible_text\":{\"value\":\"上方为斜体大写字母“FLIPBELT”，下方为较小的中文字符“飞比特”\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"文字边缘模糊，中文字符按可见字形辨认。\"}}}"
+}

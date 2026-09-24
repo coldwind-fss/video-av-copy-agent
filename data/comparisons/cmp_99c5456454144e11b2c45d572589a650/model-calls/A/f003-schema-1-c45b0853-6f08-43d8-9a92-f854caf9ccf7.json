@@ -1,0 +1,46 @@
+{
+  "call_id": "c45b0853-6f08-43d8-9a92-f854caf9ccf7",
+  "request_id": "a37f822c-fd9a-4831-b59c-b34a08e7ac94",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 450,
+    "total_tokens": 3039,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2677
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f003",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "822e7656ae8096f1b70c8eab81a8f1ce0939e1584f09d50ddd726e5f88c6a38e",
+  "image_inputs": [
+    {
+      "frame_id": "f003",
+      "sample_time_ms": 7500,
+      "source_time_ms": null,
+      "timestamp_ms": 7500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "a7d401425439abb940f7dc4d7b4c4b40f833006ce55a6aeed135363c2ee2ae06",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f003.jpg",
+      "size_bytes": 70992
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f003\",\"timestamp_ms\":7500,\"subject\":{\"value\":\"一名戴蓝色花纹头巾、穿白色长袖上衣和深蓝色紧身裤的女性，左手举着一个透明塑料袋，袋内装有深色衣物。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"人物与手中物品在画面中央可见。\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木和天空。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"可见草地、树木和地面铺砖。\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖以下入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"画面包含人物上半身及腿部。\"},\"camera_angle\":{\"value\":\"平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"人物面部与镜头大致同高。\"},\"composition\":{\"value\":\"人物位于画面中央，手持物品在画面左侧，右侧有字幕和手势。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"人物居中，左右两侧有元素分布。\"},\"lighting\":{\"value\":\"自然光，人物面部和衣物受光均匀，背景天空较亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"可见户外日光照明效果。\"},\"color_palette\":{\"value\":\"以白色、深蓝色、绿色为主，辅以肤色和黑色文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"人物衣物、草地和字幕颜色明显。\"},\"visible_pose\":{\"value\":\"人物站立，右手抬起掌心向上，左手举着塑料袋，头部微侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"当前帧可见的静态姿势。\"},\"visible_text\":{\"value\":\"画面左侧有红色描边、黑色填充的中文字样“氨纶”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"字幕文字清晰可辨。\"}}}"
+}

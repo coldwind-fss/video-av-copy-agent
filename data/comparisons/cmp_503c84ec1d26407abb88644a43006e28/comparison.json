@@ -1,0 +1,93 @@
+{
+  "comparison_id": "cmp_503c84ec1d26407abb88644a43006e28",
+  "video_id": "video_225d45ddfe834732aa7bfced75054dd6",
+  "status": "failed",
+  "stage": "failed",
+  "created_at": 1790135033.8561387,
+  "finished_at": 1790135034.9029403,
+  "error": {
+    "code": "FRAME_COUNT_MISMATCH",
+    "message": "预期抽取 17 张图片，实际抽取 16 张；本次实验已停止，避免 A/B 使用不完整画面。"
+  },
+  "interval_ms": 1250,
+  "target_brief": null,
+  "model_id": "deepseek-flash",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "run_order": [
+    "A",
+    "B"
+  ],
+  "manifest": null,
+  "branches": {
+    "A": {
+      "status": "failed",
+      "stage": "failed",
+      "progress": {
+        "completed": 0,
+        "total": 0
+      },
+      "frames": [],
+      "interval_observations": [],
+      "report": null,
+      "calls": [],
+      "usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "cached_tokens": 0
+      },
+      "wall_ms": null,
+      "errors": [],
+      "error": {
+        "code": "FRAME_COUNT_MISMATCH",
+        "message": "对照任务在该分支完成前失败。"
+      }
+    },
+    "B": {
+      "status": "failed",
+      "stage": "failed",
+      "progress": {
+        "completed": 0,
+        "total": 0
+      },
+      "frames": [],
+      "interval_observations": [],
+      "report": null,
+      "calls": [],
+      "usage": {
+        "prompt_tokens": 0,
+        "completion_tokens": 0,
+        "total_tokens": 0,
+        "cached_tokens": 0
+      },
+      "wall_ms": null,
+      "errors": [],
+      "error": {
+        "code": "FRAME_COUNT_MISMATCH",
+        "message": "对照任务在该分支完成前失败。"
+      }
+    }
+  },
+  "video_metadata": {
+    "original_filename": "3D.mp4",
+    "duration_ms": 20540,
+    "width": 1080,
+    "height": 1920,
+    "sha256": "c8b278c4067ff0ff29ef3a8f85bd4c619cc42d23e604e1537424b922d699e07b"
+  },
+  "configuration": {
+    "model_base_url": "https://api.deepseek.com",
+    "model_id": "deepseek-flash",
+    "temperature": 0.2,
+    "thinking": "disabled",
+    "image_detail": "high",
+    "frame_concurrency": 3,
+    "max_tokens": {
+      "frame": 2048,
+      "sequence": 16384,
+      "report": 8192
+    }
+  },
+  "comparison_wall_ms": 1045
+}

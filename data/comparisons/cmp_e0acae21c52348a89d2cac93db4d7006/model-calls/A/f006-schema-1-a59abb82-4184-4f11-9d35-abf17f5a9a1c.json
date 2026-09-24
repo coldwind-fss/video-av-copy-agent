@@ -1,0 +1,49 @@
+{
+  "call_id": "a59abb82-4184-4f11-9d35-abf17f5a9a1c",
+  "request_id": "862afcec-f74a-416c-9f2c-f2ef1e5d4dde",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2576,
+    "completion_tokens": 426,
+    "total_tokens": 3002,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 656
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 3014
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f006",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "63b3ea205e1eeddc87e8e3a2b005aa562d28ab60f336ccd5348d0d728d86bd71",
+  "image_inputs": [
+    {
+      "frame_id": "f006",
+      "sample_time_ms": 7500,
+      "source_time_ms": null,
+      "timestamp_ms": 7500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "3775fb485f9d771f8cb213f41583d28204e8801c99eae075b4570229469ecedf",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f006.jpg",
+      "size_bytes": 44916
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f006\",\"timestamp_ms\":7500,\"subject\":{\"value\":\"浅黄绿色带横向褶皱纹理的织物表面，中部有一条纵向拉链及压边条\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"画面为织物局部特写，未见完整人物或服装整体轮廓。\"},\"scene\":{\"value\":\"浅色织物局部特写，左上角可见一小块灰蓝色背景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\",\"f006\"],\"note\":\"背景信息极少，无法判断具体环境。\"},\"shot_size\":{\"value\":\"特写\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"织物纹理与拉链占据几乎整个画面。\"},\"camera_angle\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"单张静态特写缺少足够空间线索判断拍摄角度。\"},\"composition\":{\"value\":\"纵向拉链偏画面右侧，织物纹理充满画面，文字位于左下角\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"lighting\":{\"value\":\"整体明亮均匀，织物褶皱处有柔和阴影\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"仅描述可见明暗效果，不推断灯位。\"},\"color_palette\":{\"value\":\"以浅黄绿色为主，左上角有少量灰蓝色，文字为白色\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"织物平铺或贴合状态，拉链呈纵向闭合排列\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"仅描述当前静态摆放。\"},\"visible_text\":{\"value\":\"PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"画面左下角白色文字，可辨认。\"}}}",
+  "validation_errors": [
+    "frame.scene.evidence_frame_ids: ['f006', 'f006'] has non-unique elements"
+  ]
+}

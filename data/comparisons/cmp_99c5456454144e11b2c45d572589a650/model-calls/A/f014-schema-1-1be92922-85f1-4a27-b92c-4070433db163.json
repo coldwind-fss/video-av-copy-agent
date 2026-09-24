@@ -1,0 +1,46 @@
+{
+  "call_id": "1be92922-85f1-4a27-b92c-4070433db163",
+  "request_id": "95e74b84-a285-41b7-a037-dd1b5836359e",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 407,
+    "total_tokens": 2996,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 1992
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f014",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "2c956db9574f72d7486e9757555639188a796041d5a7d84d2828a3029b77a11a",
+  "image_inputs": [
+    {
+      "frame_id": "f014",
+      "sample_time_ms": 35000,
+      "source_time_ms": null,
+      "timestamp_ms": 35000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "2b9b8e68e02fad0f48bf09d32e36accbacabd0b6827d30ca18c8ec1bb027d762",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f014.jpg",
+      "size_bytes": 50247
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f014\",\"timestamp_ms\":35000,\"subject\":{\"value\":\"一名站立在户外的女性，戴蓝色花纹头巾，穿白色长袖短款上衣和深蓝色紧身裤，腰间系深蓝色腰包，颈前挂有一个黑色小设备。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"仅描述可见外观，不推断身份。\"},\"scene\":{\"value\":\"户外草地，背景有树木和天空，前景为石板铺地。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，占据画面主体，背景草地和树木形成层次。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"lighting\":{\"value\":\"自然光，人物面部和身体受光均匀，背景天空较亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"仅描述可见光照效果。\"},\"color_palette\":{\"value\":\"以白色、深蓝色和绿色为主，头巾有蓝色花纹。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"人物正面站立，双臂自然下垂，双手放在大腿两侧，面部朝向镜头。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"visible_text\":{\"value\":\"未见可读文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"衣物和腰包上的图案无法辨认具体文字。\"}}}"
+}

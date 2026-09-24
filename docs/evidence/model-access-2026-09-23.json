@@ -1,0 +1,128 @@
+{
+  "checked_at_utc": "2026-09-23T02:27:54.195469+00:00",
+  "base_url": "https://api.deepseek.com",
+  "models_list_status": 200,
+  "models_list": [
+    "deepseek-flash",
+    "deepseek-v4-pro"
+  ],
+  "fixture": "Black background and one white square at x=8+10*i. 128x96 PNGs, generated in memory. These are connectivity/capability checks, not video-quality evaluation.",
+  "probes": [
+    {
+      "name": "single_image",
+      "http_status": 200,
+      "elapsed_seconds": 0.808,
+      "requested_model": "deepseek-flash",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 301,
+        "completion_tokens": 37,
+        "total_tokens": 338,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 301
+      },
+      "json_valid": true,
+      "frame_ids_match": true,
+      "result": {
+        "frames": [
+          {
+            "id": "f000",
+            "background": "black",
+            "object": "white square",
+            "horizontal_position": "left"
+          }
+        ],
+        "change": "No motion can be established from a single frame."
+      }
+    },
+    {
+      "name": "ten_ordered_images",
+      "http_status": 200,
+      "elapsed_seconds": 1.331,
+      "requested_model": "deepseek-flash",
+      "returned_model": "deepseek-flash",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 2155,
+        "completion_tokens": 216,
+        "total_tokens": 2371,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 1899
+      },
+      "json_valid": true,
+      "frame_ids_match": true,
+      "result": {
+        "frames": [
+          {
+            "id": "f000",
+            "background": "black",
+            "object": "white square",
+            "horizontal_position": "left"
+          },
+          {
+            "id": "f001",
+            "background": "black",
+            "object": "white square",
+            "horizontal_position": "left"
+          },
+          {
+            "id": "f002",
+            "background": "black",
+            "object": "white square",
+            "horizontal_position": "left"
+          },
+          {
+            "id": "f003",
+            "background": "black",
+            "object": "white square",
+            "horizontal_position": "center"
+          },
+          {
+            "id": "f004",
+            "background": "black",
+            "object": "white square",
+            "horizontal_position": "center"
+          },
+          {
+            "id": "f005",
+            "background": "black",
+            "object": "white square",
+            "horizontal_position": "center"
+          },
+          {
+            "id": "f006",
+            "background": "black",
+            "object": "white square",
+            "horizontal_position": "center"
+          },
+          {
+            "id": "f007",
+            "background": "black",
+            "object": "white square",
+            "horizontal_position": "right"
+          },
+          {
+            "id": "f008",
+            "background": "black",
+            "object": "white square",
+            "horizontal_position": "right"
+          },
+          {
+            "id": "f009",
+            "background": "black",
+            "object": "white square",
+            "horizontal_position": "right"
+          }
+        ],
+        "change": "white square moves from left to right across frames"
+      }
+    }
+  ]
+}

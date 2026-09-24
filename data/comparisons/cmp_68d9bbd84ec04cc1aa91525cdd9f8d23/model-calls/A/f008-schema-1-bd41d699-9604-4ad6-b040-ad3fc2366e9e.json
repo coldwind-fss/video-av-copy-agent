@@ -1,0 +1,46 @@
+{
+  "call_id": "bd41d699-9604-4ad6-b040-ad3fc2366e9e",
+  "request_id": "c89e1682-a726-4386-8495-6fad9247d84a",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2796,
+    "completion_tokens": 478,
+    "total_tokens": 3274,
+    "prompt_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "prompt_cache_hit_tokens": 2176,
+    "prompt_cache_miss_tokens": 620
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2907
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f008",
+  "prompt_version": "poc-v0.2",
+  "schema_version": "1.1",
+  "system_prompt_sha256": "fba558a42cb47a533f8e30e0b7e4a7df8d66d9caf5927800d3a2e1c3c33a0879",
+  "input_text_sha256": "eae1d2cc535b6f8c844e4606ab6779f3df6d3b6fc6fb72f8fe3d659fb36b7033",
+  "image_inputs": [
+    {
+      "frame_id": "f008",
+      "sample_time_ms": 10000,
+      "source_time_ms": null,
+      "timestamp_ms": 10000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "b67c05ba67a507732b2fa278cc81e685a90190f6029b6ca3d7f928e1467fab81",
+      "image_path": "frame_sets/fs_7bee6f212dc343f5bd821bfd6640ba6a/f008.jpg",
+      "size_bytes": 28860
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.1\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f008\",\"timestamp_ms\":10000,\"subject\":{\"value\":\"一件浅绿色立领拉链外套的局部，可见领口、肩部、前襟与拉链头。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"仅见服装局部，无法确认整体款式或穿着者。\"},\"scene\":{\"value\":\"浅灰白色背景，画面左侧有数条白色流线状纹理。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"背景为纯色棚拍式背景，流线纹理为画面元素。\"},\"shot_size\":{\"value\":\"服装局部特写，仅呈现领口至前襟区域。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"画面未包含完整服装或人物。\"},\"camera_angle\":{\"value\":\"近似正面平视，略偏服装右前方。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"由领口与拉链的透视关系推断，非精确测量。\"},\"composition\":{\"value\":\"服装主体位于画面右侧偏下，左上方大面积留白并承载文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"lighting\":{\"value\":\"柔和均匀的亮调照明，面料表面有平缓高光，未见明显硬阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"仅描述可见明暗效果，不推断灯位。\"},\"color_palette\":{\"value\":\"以浅绿、浅灰白为主，拉链头为黑色，文字为白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"外套呈自然垂挂或撑起状态，领口立起，拉链处于闭合位置。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"静态摆放状态，不涉及动作过程。\"},\"visible_text\":{\"value\":\"轻量防风外层面料；建立迎风面的低透风屏障\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"画面左下方两行白色中文文字。\"}}}"
+}

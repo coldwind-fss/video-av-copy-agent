@@ -1,0 +1,46 @@
+{
+  "call_id": "3e0790dd-e2c1-4e24-a04e-3b878118de2b",
+  "request_id": "31ae0b9c-668d-46d4-a04a-793399d2a703",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 381,
+    "total_tokens": 2970,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2112
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f019",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "f28b2d9e5a45782797d6c0b5ce6908db0c9923b7458a0bbad09b25cb02ae5ad3",
+  "image_inputs": [
+    {
+      "frame_id": "f019",
+      "sample_time_ms": 47500,
+      "source_time_ms": null,
+      "timestamp_ms": 47500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "e1433aba57f666d78772e19e02e577a9474efbccdc6a92f83e9851af71cccade",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f019.jpg",
+      "size_bytes": 10584
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f019\",\"timestamp_ms\":47500,\"subject\":{\"value\":\"黑色背景中央的白色文字标志，上行为斜体英文“FLIPBELT”，下行为中文“飞比特”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"文字为画面唯一可见内容。\"},\"scene\":{\"value\":\"纯黑色背景，无其他可见环境元素。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"画面除文字外均为黑色。\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"纯文字图形画面，无人物或实物可判断景别。\"},\"camera_angle\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"二维文字画面缺少空间线索判断拍摄角度。\"},\"composition\":{\"value\":\"文字标志位于画面中央偏上，四周大面积黑色留白。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"文字水平居中。\"},\"lighting\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"纯色背景文字画面，无布光依据。\"},\"color_palette\":{\"value\":\"黑白对比，白色文字配纯黑背景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"\"},\"visible_pose\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"画面中无人物或可描述姿势的主体。\"},\"visible_text\":{\"value\":\"FLIPBELT 飞比特\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"英文为斜体大写，中文位于其下方。\"}}}"
+}

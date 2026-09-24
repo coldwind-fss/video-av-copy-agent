@@ -1,0 +1,46 @@
+{
+  "call_id": "c4cfc9a3-629b-4181-acdc-5fbf4c8a76de",
+  "request_id": "a011cbda-a7d1-4287-b57f-4d482c8cb80f",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2576,
+    "completion_tokens": 472,
+    "total_tokens": 3048,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 656
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2865
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f016",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "af4db9e0e34164209b3b45a750462258acf447ffecb29f04c12bc9375a3e6e86",
+  "image_inputs": [
+    {
+      "frame_id": "f016",
+      "sample_time_ms": 20000,
+      "source_time_ms": null,
+      "timestamp_ms": 20000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "c72617fdfeedf40788568d107111e44edbf87bbd07b51f00e166e3483c365f5e",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f016.jpg",
+      "size_bytes": 27767
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f016\",\"timestamp_ms\":20000,\"subject\":{\"value\":\"一个浅黄绿色、带拉链的扁平收纳袋状物品，拉链头挂有彩色小饰件。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"仅描述可见外形与颜色，不判断材质与品牌。\"},\"scene\":{\"value\":\"蓝灰色渐变背景，左上角有斜向亮光带，底部较暗。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"背景无其他可辨物体。\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"画面为悬浮物品加文字排版，缺少可参照的人物或环境尺度，无法可靠判定景别。\"},\"camera_angle\":{\"value\":\"近似正面平视，物品略呈倾斜摆放。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"由物品正面朝向与倾斜轮廓推断，无明确透视参照。\"},\"composition\":{\"value\":\"物品居中偏上，下方居中排列两行文字，整体为居中对称式构图。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"lighting\":{\"value\":\"左上角有斜向亮光带，物品表面受光较均匀，背景由亮到暗渐变。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"只描述可见明暗效果，不推断灯位与器材。\"},\"color_palette\":{\"value\":\"蓝灰色背景、浅黄绿色主体、白色文字，拉链头带少量彩色点缀。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"物品呈倾斜悬浮状态，拉链位于上缘，拉链头垂在右侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"仅描述此刻静态摆放。\"},\"visible_text\":{\"value\":\"P绒轻量马甲4.0；9月20日 正式上线\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"文字清晰可辨。\"}}}"
+}

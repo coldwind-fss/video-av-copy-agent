@@ -1,0 +1,46 @@
+{
+  "call_id": "8fc085a0-31e0-4dbf-a89e-e3ce870140bc",
+  "request_id": "b961a260-c342-4576-bc68-040fceee270d",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 437,
+    "total_tokens": 3026,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2286
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f014",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "da15b51dc972c86160f3d0f46de7651e6ec8b43494617d610f477244f7a018e0",
+  "image_inputs": [
+    {
+      "frame_id": "f014",
+      "sample_time_ms": 17500,
+      "source_time_ms": null,
+      "timestamp_ms": 17500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "8220689e7a650296a4a2498db1d29010f2522958380ebb0fc68a7ef4db6b8578",
+      "image_path": "frame_sets/fs_5cd07c0a297a402589766a09aa881bc3/f014.jpg",
+      "size_bytes": 21444
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f014\",\"timestamp_ms\":17500,\"subject\":{\"value\":\"一件浅黄绿色轻薄衣物，被收拢塞入自身口袋中，呈悬空团块状\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"可见拉链与彩色拉链头，材质与品牌不可辨。\"},\"scene\":{\"value\":\"灰蓝色渐变纯色背景，底部有淡淡投影\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"无其他环境元素。\"},\"shot_size\":{\"value\":\"主体约占画面中部三分之一，属近景/特写\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"无人物参照，景别按主体占比估计。\"},\"camera_angle\":{\"value\":\"平视略偏仰\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"主体悬于画面中部，背景无明确地平线，角度判断有限。\"},\"composition\":{\"value\":\"主体位于画面中央偏下，上方大面积留白，左下角有字幕\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"lighting\":{\"value\":\"左上方有柔和亮光，主体受光面偏亮，背景由亮到暗渐变\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"不推断具体灯具或灯位。\"},\"color_palette\":{\"value\":\"灰蓝色背景配浅黄绿色主体，字幕为白色\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"衣物被折叠收拢成团，拉链呈半开状态，彩色拉链头垂下\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"仅描述此刻静止形态。\"},\"visible_text\":{\"value\":\"侧口袋自收纳；轻量便携快速收起\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"位于画面左下角的两行白色字幕。\"}}}"
+}

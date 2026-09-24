@@ -1,0 +1,46 @@
+{
+  "call_id": "8647c431-6a5b-42a6-9c92-c55c1b5b311d",
+  "request_id": "c19ece73-39f9-4411-a052-2e38d753ca22",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 489,
+    "total_tokens": 3078,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2786
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f014",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "61a91f3e0be02ad489e06caede564b0900381ff485cd0f5c7ea00b9a3f755634",
+  "image_inputs": [
+    {
+      "frame_id": "f014",
+      "sample_time_ms": 21000,
+      "source_time_ms": null,
+      "timestamp_ms": 21000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "f73c6506f66acdde66012b3362062112c8f598cd83ed581e432d1cb404872cd6",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f014.jpg",
+      "size_bytes": 71158
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f014\",\"timestamp_ms\":21000,\"subject\":{\"value\":\"一名长发女性站在画面中央，双手分别提着深色长裤和浅色上衣。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"人物面部与手中衣物可见。\"},\"scene\":{\"value\":\"室内直播或展示场景，背景为大幅雪山与人物海报，画面叠加多处文字与商品信息框。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"背景为平面印刷或屏幕画面。\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖以上可见。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"画面下缘截断于腿部。\"},\"camera_angle\":{\"value\":\"平视正面角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"人物面部正对镜头。\"},\"composition\":{\"value\":\"人物居中，左右两侧分布文字与信息框，背景海报占据大部分画面。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"中央人物与两侧叠加信息形成对称布局。\"},\"lighting\":{\"value\":\"人物面部与衣物受光均匀，背景较亮，整体为均匀照明。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"未见明显阴影或强光比。\"},\"color_palette\":{\"value\":\"以蓝色、白色、浅绿色和深色为主，辅以黄色文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"背景蓝色与人物白色上衣形成对比。\"},\"visible_pose\":{\"value\":\"人物站立，双臂下垂，双手分别握住衣物上端。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"为静态展示姿势。\"},\"visible_text\":{\"value\":\"可见文字包括“FLIPBELT”、“新品首发「轻」装上阵”、“26FW 新品首发”、“限时上新优惠”、“待会想看这个灰色上身效果”、“李鱼”、“170CM/54KG”、“过穿尺码 S”、“官方正品”、“运费险”、“七天无理由”等。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"部分小字可能不完整。\"}}}"
+}

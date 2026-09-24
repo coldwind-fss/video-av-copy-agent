@@ -1,0 +1,53 @@
+{
+  "call_id": "6bbe54e2-c0b0-4e6c-bb65-8193d3ef6a37",
+  "request_id": "a130c686-b81c-4899-9281-a19a2e0aa22c",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 466,
+    "total_tokens": 3055,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2428
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f002",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "9e4d0a2d4a8a8493f34d6d1ca1dd194d1f52ddc5ae647ab37864174da89b733a",
+  "image_inputs": [
+    {
+      "frame_id": "f002",
+      "sample_time_ms": 5000,
+      "source_time_ms": null,
+      "timestamp_ms": 5000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "1198e742a9d6c907e656bbd3d8b376e3482eee1caaeff99ef46bdf6ae8085e7d",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f002.jpg",
+      "size_bytes": 52750
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f002\",\"timestamp_ms\":5000,\"subject\":{\"value\":\"一只手捏着两张卡片式吊牌，吊牌上有可辨认的 FLIPBELT 与 LYCRA 字样\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"吊牌文字可读，但未确认具体商品信息。\"},\"scene\":{\"value\":\"深蓝色运动裤面料前，裤腰处有拉链和蓝色小标签\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"背景为衣物局部，无环境空间信息。\"},\"shot_size\":{\"value\":\"手部与吊牌的特写\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"画面以手和吊牌为主体，未出现人物面部。\"},\"camera_angle\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"单张静态图缺少足够空间线索判断拍摄角度。\"},\"composition\":{\"value\":\"手与吊牌位于画面中部偏左，深蓝裤面占据大部分背景，底部有白色字幕。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"lighting\":{\"value\":\"光线均匀，吊牌与手部无明显强烈阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"仅描述可见明暗效果，不推断灯位。\"},\"color_palette\":{\"value\":\"深蓝、黑色、荧光黄绿、浅粉、白色为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"拇指与食指捏住吊牌上缘，吊牌呈倾斜叠放状态。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\",\"f002\"],\"note\":\"仅描述当前静态姿势。\"},\"visible_text\":{\"value\":\"可见 FLIPBELT、LYCRA、ADAPTIV、FlipBelt.com 及底部白色字幕“黑标莱卡标识”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"部分小字模糊，仅记录可辨认文字。\"}}}",
+  "application_normalizations": [
+    {
+      "path": "$.frame.visible_pose.evidence_frame_ids",
+      "action": "deduplicated_evidence_frame_ids",
+      "removed_count": 1
+    }
+  ]
+}

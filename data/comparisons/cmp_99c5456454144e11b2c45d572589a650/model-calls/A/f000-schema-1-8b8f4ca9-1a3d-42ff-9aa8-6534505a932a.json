@@ -1,0 +1,46 @@
+{
+  "call_id": "8b8f4ca9-1a3d-42ff-9aa8-6534505a932a",
+  "request_id": "b9a07530-214f-4b63-8faf-a6fff932c126",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2587,
+    "completion_tokens": 444,
+    "total_tokens": 3031,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "prompt_cache_hit_tokens": 2048,
+    "prompt_cache_miss_tokens": 539
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2704
+    }
+  ],
+  "input_text_chars": 87,
+  "branch": "A",
+  "node": "f000",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "ed9f86b53685f789bb3300b80339a5423dcfd1019ee2709c2cbb0c58b5aa4f87",
+  "image_inputs": [
+    {
+      "frame_id": "f000",
+      "sample_time_ms": 0,
+      "source_time_ms": null,
+      "timestamp_ms": 0,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "4d8b310bcf1972aa2a8b1a742e35026a3d237711fe14b9532b05a3130b24ca6b",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f000.jpg",
+      "size_bytes": 62442
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f000\",\"timestamp_ms\":0,\"subject\":{\"value\":\"一名戴蓝色花纹头巾、穿白色长袖短款上衣和深蓝色紧身裤的女性，右手举着一个透明塑料包装袋。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"人物与手中物品在画面中央清晰可见。\"},\"scene\":{\"value\":\"户外草地与树木背景，前景为铺砖地面。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"背景可见草坪、树冠和砖石路面。\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖以下入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"画面下缘裁切在人物小腿附近。\"},\"camera_angle\":{\"value\":\"平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"人物面部与镜头大致等高。\"},\"composition\":{\"value\":\"人物居中，占据画面主体，手中透明袋位于画面左侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"人物位于画面中央偏右，透明袋向左伸出。\"},\"lighting\":{\"value\":\"户外自然光，人物面部和衣物受光均匀，背景天空偏亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"可见柔和日光效果，无强烈阴影。\"},\"color_palette\":{\"value\":\"以绿色草地、白色上衣、深蓝色裤子和蓝色头巾为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"整体色调偏冷，绿色与蓝色占比较大。\"},\"visible_pose\":{\"value\":\"人物站立，右手抬起举着透明袋，左手自然下垂，面部朝向镜头。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"静态画面中的姿势。\"},\"visible_text\":{\"value\":\"未见可读文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"画面中无可辨认的文字内容。\"}}}"
+}

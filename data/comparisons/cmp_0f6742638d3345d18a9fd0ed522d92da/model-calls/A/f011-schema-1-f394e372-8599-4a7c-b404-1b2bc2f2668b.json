@@ -1,0 +1,46 @@
+{
+  "call_id": "f394e372-8599-4a7c-b404-1b2bc2f2668b",
+  "request_id": "a5bc06c6-a043-40a4-84fa-76cd021122cb",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 460,
+    "total_tokens": 3049,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2522
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f011",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "b888d92f8a4e6d12d04184f615ca24471afff80a618126e1c2b6c87cd7a60224",
+  "image_inputs": [
+    {
+      "frame_id": "f011",
+      "sample_time_ms": 16500,
+      "source_time_ms": null,
+      "timestamp_ms": 16500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "bf2b1548790aada515102e8c6412675d6222ed4723e571d4b2c5ec6081668526",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f011.jpg",
+      "size_bytes": 73651
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f011\",\"timestamp_ms\":16500,\"subject\":{\"value\":\"一名长发女性手持挂有深紫色长裤的衣架，画面叠加多处商品文字信息。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"人物面部与手中衣物均可见。\"},\"scene\":{\"value\":\"室内背景，人物身后为模糊的蓝绿色与浅色画面，叠加商品宣传文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"背景细节模糊，无法确认具体场所。\"},\"shot_size\":{\"value\":\"中景，人物上半身及手中衣物占据画面中部。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"正面平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"人物面部朝向镜头，无明显俯仰。\"},\"composition\":{\"value\":\"人物居中，手中长裤垂于画面中央偏下，文字信息分布在顶部、左侧和右侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"lighting\":{\"value\":\"人物面部受光均匀，背景较亮，整体为柔和正面光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"仅描述可见明暗效果。\"},\"color_palette\":{\"value\":\"以深紫色长裤、浅黄色上衣和蓝绿色背景为主，叠加白色与黄色文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"人物正面站立，双手持衣架将长裤举于身前。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"为当前静态姿势。\"},\"visible_text\":{\"value\":\"可见“FLIPBELT”“新品首发「轻」装上阵”“26FW 新品首发”“限时 上新优惠”“同样的显白高级有质感”等文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"部分小字如左侧表格内容较模糊，未逐字记录。\"}}}"
+}

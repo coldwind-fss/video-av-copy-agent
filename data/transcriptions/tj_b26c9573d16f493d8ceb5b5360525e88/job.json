@@ -1,0 +1,49 @@
+{
+  "transcription_job_id": "tj_b26c9573d16f493d8ceb5b5360525e88",
+  "video_id": "video_41cab5fb16bc40539ac240278815afc2",
+  "status": "failed",
+  "stage": "failed",
+  "created_at": "2026-09-24T03:14:52.075828+00:00",
+  "updated_at": "2026-09-24T03:17:54.178035+00:00",
+  "finished_at": "2026-09-24T03:17:54.178070+00:00",
+  "retry_of": null,
+  "language_hint": "zh",
+  "vocabulary": [],
+  "audio_asset": {
+    "sha256": "7b291fc2e8fc2f051f94aba66c3e6baaad1c9f45db285d9a61a5c069da567959",
+    "format": "wav",
+    "sample_rate": 16000,
+    "channels": 1,
+    "stream_index": null,
+    "audio_offset_from_video_ms": 0,
+    "alignment_known": true,
+    "audio_id": "aud_d6e1cdf2720b4bdb9f09fb414dea8069",
+    "duration_ms": 47808,
+    "storage_name": "aud_d6e1cdf2720b4bdb9f09fb414dea8069.wav"
+  },
+  "transcript_id": null,
+  "error": {
+    "code": "ASR_TIMEOUT",
+    "message": "阿里云 ASR 转写超时。",
+    "retryable": true
+  },
+  "usage": null,
+  "probe": {
+    "has_audio": true,
+    "tracks": [
+      {
+        "stream_index": null,
+        "audio_ordinal": 0,
+        "codec": "aac",
+        "sample_rate": 44100,
+        "channel_layout": "stereo",
+        "channels": null,
+        "start_time_ms": 0,
+        "offset_from_video_ms": 0,
+        "alignment_known": true
+      }
+    ],
+    "video_start_time_ms": 0,
+    "probe_method": "bundled_ffmpeg"
+  }
+}

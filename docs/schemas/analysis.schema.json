@@ -1,0 +1,218 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Video POC model outputs",
+  "description": "Model payloads only. Trusted run metadata and manifest cross-checks are handled by the application. See POC_SPEC.md.",
+  "oneOf": [
+    { "$ref": "#/$defs/SingleFrameOutput" },
+    { "$ref": "#/$defs/SequenceOutput" },
+    { "$ref": "#/$defs/FinalReport" }
+  ],
+  "$defs": {
+    "FrameId": {
+      "type": "string",
+      "pattern": "^f[0-9]{3}$"
+    },
+    "Claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "basis", "evidence_frame_ids", "note"],
+      "properties": {
+        "value": { "type": ["string", "null"], "maxLength": 500 },
+        "basis": { "enum": ["observed", "inferred", "unknown"] },
+        "evidence_frame_ids": {
+          "type": "array",
+          "maxItems": 20,
+          "uniqueItems": true,
+          "items": { "$ref": "#/$defs/FrameId" }
+        },
+        "note": { "type": "string", "maxLength": 400 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "basis": { "const": "unknown" } }, "required": ["basis"] },
+          "then": {
+            "properties": {
+              "value": { "type": "null" },
+              "note": { "minLength": 1 }
+            }
+          },
+          "else": {
+            "properties": {
+              "value": { "type": "string", "minLength": 1 },
+              "evidence_frame_ids": { "minItems": 1 }
+            }
+          }
+        }
+      ]
+    },
+    "InferenceClaim": {
+      "allOf": [
+        { "$ref": "#/$defs/Claim" },
+        { "properties": { "basis": { "enum": ["inferred", "unknown"] } } }
+      ]
+    },
+    "FrameObservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "frame_id", "timestamp_ms", "subject", "scene", "shot_size",
+        "camera_angle", "composition", "lighting", "color_palette",
+        "visible_pose", "visible_text"
+      ],
+      "properties": {
+        "frame_id": { "$ref": "#/$defs/FrameId" },
+        "timestamp_ms": { "type": "integer", "minimum": 0 },
+        "subject": { "$ref": "#/$defs/Claim" },
+        "scene": { "$ref": "#/$defs/Claim" },
+        "shot_size": { "$ref": "#/$defs/Claim" },
+        "camera_angle": { "$ref": "#/$defs/Claim" },
+        "composition": { "$ref": "#/$defs/Claim" },
+        "lighting": { "$ref": "#/$defs/Claim" },
+        "color_palette": { "$ref": "#/$defs/Claim" },
+        "visible_pose": { "$ref": "#/$defs/Claim" },
+        "visible_text": { "$ref": "#/$defs/Claim" }
+      }
+    },
+    "IntervalObservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "from_frame_id", "to_frame_id", "start_ms", "end_ms", "evidence_source",
+        "visual_change", "subject_motion", "camera_motion", "transition"
+      ],
+      "properties": {
+        "from_frame_id": { "$ref": "#/$defs/FrameId" },
+        "to_frame_id": { "$ref": "#/$defs/FrameId" },
+        "start_ms": { "type": "integer", "minimum": 0 },
+        "end_ms": { "type": "integer", "minimum": 0 },
+        "evidence_source": { "enum": ["frame_descriptions", "ordered_images"] },
+        "visual_change": { "$ref": "#/$defs/Claim" },
+        "subject_motion": { "$ref": "#/$defs/InferenceClaim" },
+        "camera_motion": { "$ref": "#/$defs/InferenceClaim" },
+        "transition": { "$ref": "#/$defs/InferenceClaim" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "evidence_source": { "const": "frame_descriptions" } },
+            "required": ["evidence_source"]
+          },
+          "then": {
+            "properties": { "visual_change": { "$ref": "#/$defs/InferenceClaim" } }
+          }
+        }
+      ]
+    },
+    "TemporalSegment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "start_frame_id", "end_frame_id", "start_ms", "end_ms",
+        "description", "action_progression", "camera_motion", "continuity"
+      ],
+      "properties": {
+        "start_frame_id": { "$ref": "#/$defs/FrameId" },
+        "end_frame_id": { "$ref": "#/$defs/FrameId" },
+        "start_ms": { "type": "integer", "minimum": 0 },
+        "end_ms": { "type": "integer", "minimum": 0 },
+        "description": { "$ref": "#/$defs/Claim" },
+        "action_progression": { "$ref": "#/$defs/InferenceClaim" },
+        "camera_motion": { "$ref": "#/$defs/InferenceClaim" },
+        "continuity": { "$ref": "#/$defs/InferenceClaim" }
+      }
+    },
+    "Summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["theme", "visual_style", "content_structure", "reusable_features"],
+      "properties": {
+        "theme": { "$ref": "#/$defs/InferenceClaim" },
+        "visual_style": { "$ref": "#/$defs/Claim" },
+        "content_structure": { "$ref": "#/$defs/Claim" },
+        "reusable_features": {
+          "type": "array",
+          "maxItems": 12,
+          "items": { "$ref": "#/$defs/Claim" }
+        }
+      }
+    },
+    "SingleFrameOutput": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "kind", "frame"],
+      "properties": {
+        "schema_version": { "const": "1.1" },
+        "kind": { "const": "single_frame" },
+        "frame": { "$ref": "#/$defs/FrameObservation" }
+      }
+    },
+    "SequenceOutput": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema_version", "kind", "frames", "visual_intervals", "temporal_segments"],
+      "properties": {
+        "schema_version": { "const": "1.1" },
+        "kind": { "const": "sequence_analysis" },
+        "frames": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 20,
+          "items": { "$ref": "#/$defs/FrameObservation" }
+        },
+        "visual_intervals": {
+          "type": "array",
+          "maxItems": 19,
+          "items": {
+            "allOf": [
+              { "$ref": "#/$defs/IntervalObservation" },
+              { "properties": { "evidence_source": { "const": "ordered_images" } } }
+            ]
+          }
+        },
+        "temporal_segments": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 20,
+          "items": { "$ref": "#/$defs/TemporalSegment" }
+        }
+      }
+    },
+    "FinalReport": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version", "kind", "intervals", "summary", "source_prompt",
+        "adapted_prompt", "adaptation_notes", "limitations"
+      ],
+      "properties": {
+        "schema_version": { "const": "1.1" },
+        "kind": { "const": "final_report" },
+        "intervals": {
+          "type": "array",
+          "maxItems": 19,
+          "items": { "$ref": "#/$defs/IntervalObservation" }
+        },
+        "summary": { "$ref": "#/$defs/Summary" },
+        "source_prompt": { "type": "string", "minLength": 1, "maxLength": 8000 },
+        "adapted_prompt": { "type": ["string", "null"], "minLength": 1, "maxLength": 8000 },
+        "adaptation_notes": {
+          "type": "array",
+          "maxItems": 20,
+          "items": { "type": "string", "minLength": 1, "maxLength": 500 }
+        },
+        "limitations": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 20,
+          "items": { "type": "string", "minLength": 1, "maxLength": 500 }
+        }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "adapted_prompt": { "type": "null" } }, "required": ["adapted_prompt"] },
+          "then": { "properties": { "adaptation_notes": { "maxItems": 0 } } }
+        }
+      ]
+    }
+  }
+}

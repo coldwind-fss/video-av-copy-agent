@@ -1,0 +1,49 @@
+{
+  "call_id": "261ddfb6-cac7-4274-8c58-8c5f825d5c56",
+  "request_id": "d11f6672-3bd8-4e8a-9f6e-88572828e0b4",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2672,
+    "completion_tokens": 439,
+    "total_tokens": 3111,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "prompt_cache_hit_tokens": 2048,
+    "prompt_cache_miss_tokens": 624
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2316
+    }
+  ],
+  "input_text_chars": 308,
+  "branch": "A",
+  "node": "f013",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "a21f81410edf7d7f5121dea18c39e67d1fad2501db48f82d68efe0de5f6936ee",
+  "image_inputs": [
+    {
+      "frame_id": "f013",
+      "sample_time_ms": 16250,
+      "source_time_ms": null,
+      "timestamp_ms": 16250,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "d157726b33b783ff48b13209c83ad2b36dd4869f3d56b23b821fc5b4451a8b9a",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f013.jpg",
+      "size_bytes": 31028
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 2,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f013\",\"timestamp_ms\":16250,\"subject\":{\"value\":\"一件浅黄绿色无袖立领马甲，正面拉链半开，下摆部分被收拢折叠。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"主体为服装单品，未见人物穿着。\"},\"scene\":{\"value\":\"灰蓝色渐变纯色背景，主体下方有柔和阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"背景无其他可见物体。\"},\"shot_size\":{\"value\":\"服装单品几乎占满画面高度，属近景展示。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"按画面占比推断，非实拍人物景别。\"},\"camera_angle\":{\"value\":\"正面平视角度。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"马甲正面朝向镜头，未见明显俯仰。\"},\"composition\":{\"value\":\"主体居中偏上，下方左侧有白色文字，右下为折叠收拢的下摆。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"lighting\":{\"value\":\"整体柔和均匀，主体上方有轻微高光，下方有柔和投影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\",\"f013\"],\"note\":\"仅描述可见明暗效果。\"},\"color_palette\":{\"value\":\"浅黄绿色主体搭配灰蓝色背景，文字为白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"马甲呈悬挂或悬浮状态，下摆向内折叠收拢，拉链处于半开位置。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"描述当前静态摆放状态。\"},\"visible_text\":{\"value\":\"侧口袋自收纳 轻量便携快速收起\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"画面左下方两行白色中文字幕。\"}}}",
+  "validation_errors": [
+    "frame.lighting.evidence_frame_ids: ['f013', 'f013'] has non-unique elements"
+  ]
+}

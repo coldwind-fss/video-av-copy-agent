@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.1",
+  "kind": "single_frame",
+  "frame": {
+    "frame_id": "f000",
+    "timestamp_ms": 0,
+    "subject": {
+      "value": "一个白色方块",
+      "basis": "observed",
+      "evidence_frame_ids": [
+        "f000"
+      ],
+      "note": ""
+    },
+    "scene": {
+      "value": "纯黑色背景",
+      "basis": "observed",
+      "evidence_frame_ids": [
+        "f000"
+      ],
+      "note": ""
+    },
+    "shot_size": {
+      "value": null,
+      "basis": "unknown",
+      "evidence_frame_ids": [
+        "f000"
+      ],
+      "note": "合成几何图形无法可靠套用实拍人物景别。"
+    },
+    "camera_angle": {
+      "value": null,
+      "basis": "unknown",
+      "evidence_frame_ids": [
+        "f000"
+      ],
+      "note": "二维图形没有足够空间线索判断摄像机角度。"
+    },
+    "composition": {
+      "value": "白色方块位于画面左侧，其余区域大面积留黑。",
+      "basis": "observed",
+      "evidence_frame_ids": [
+        "f000"
+      ],
+      "note": ""
+    },
+    "lighting": {
+      "value": null,
+      "basis": "unknown",
+      "evidence_frame_ids": [
+        "f000"
+      ],
+      "note": "合成色块不提供实际布光依据。"
+    },
+    "color_palette": {
+      "value": "黑白对比",
+      "basis": "observed",
+      "evidence_frame_ids": [
+        "f000"
+      ],
+      "note": ""
+    },
+    "visible_pose": {
+      "value": "方块边缘与画面边缘平行。",
+      "basis": "observed",
+      "evidence_frame_ids": [
+        "f000"
+      ],
+      "note": ""
+    },
+    "visible_text": {
+      "value": "未见可读文字",
+      "basis": "observed",
+      "evidence_frame_ids": [
+        "f000"
+      ],
+      "note": ""
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "date": "2026-09-24",
+  "scope": "从既有视觉 A/B 结果启动文案分析，并将业务主视图与逐帧证据分层展示",
+  "source_comparison": {
+    "comparison_id": "cmp_68d9bbd84ec04cc1aa91525cdd9f8d23",
+    "video_id": "video_225d45ddfe834732aa7bfced75054dd6",
+    "video_filename": "3D.mp4",
+    "status": "completed",
+    "evidence_basis": "A 分支已有 visible_text claim；未读取音频，也未将 OCR 证据声明为口播。"
+  },
+  "derived_content_run": {
+    "analysis_id": "ca_61f77ce688844e169bc6cbae65fe6033",
+    "transcript_id": "tr_68d235319e6542a6900b0d91314d45bf",
+    "status": "partial",
+    "input_mode": "manual",
+    "content_basis": "subtitle",
+    "model": "deepseek-flash",
+    "workflow_version": "content-v0.3",
+    "prompt_version": "content-prompts-v0.1",
+    "schema_version": "content-1.0",
+    "model_call_count": 4,
+    "usage_total_tokens": 34208,
+    "components": {
+      "visual": "completed",
+      "copy_tags": "completed",
+      "hook": "unavailable_without_speech_timestamps"
+    },
+    "report_validation": "passed",
+    "limitations": [
+      "画面文字证据不是音频转写或实际口播。",
+      "时间范围由抽帧时间点近似得到。",
+      "前三秒口播摘录保持 unknown/limited。"
+    ]
+  },
+  "implementation": {
+    "bridge_route": "POST /api/comparisons/{comparison_id}/content-analysis",
+    "history_filter": "GET /api/content-analyses?comparison_id=...",
+    "poc_focus_view": true,
+    "main_outputs": ["text_extraction", "copy_structure", "core_tags", "opening_3_seconds"],
+    "visual_ab_is_secondary_debug_view": true,
+    "summary_first": true,
+    "visual_evidence_collapsed_by_default": true,
+    "comparison_frame_evidence_collapsed_by_default": true,
+    "topic_tags_hidden_in_main_view": true,
+    "review_and_export_hidden_in_main_view": true,
+    "read_only_button_opens_existing_report": true
+  },
+  "verification": {
+    "compileall": "passed",
+    "node_check": "passed",
+    "unittest": {
+      "command": ".venv\\Scripts\\python.exe -m unittest discover -s tests -p 'test_*.py'",
+      "passed": 6
+    },
+    "local_api": "passed",
+    "public_deployment": {
+      "status": "passed",
+      "service": "frame-lab-share.service",
+      "route": "/poc-review-c15a6fdf7ead48fb8505/",
+      "health": 200,
+      "content_history_by_comparison": 1,
+      "content_report": 200,
+      "content_frame": 200,
+      "legacy_visual_frame": 200,
+      "write_route": 403,
+      "model_calls_on_share": 0,
+      "other_apps_untouched": true
+    }
+  },
+  "boundary": "这次验证证明工作流、字段、展示和只读读取链路可运行，不证明 ASR 准确率、口播识别准确率或业务语义质量。"
+}

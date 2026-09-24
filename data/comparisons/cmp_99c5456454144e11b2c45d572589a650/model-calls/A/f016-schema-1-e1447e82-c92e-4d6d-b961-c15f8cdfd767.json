@@ -1,0 +1,46 @@
+{
+  "call_id": "e1447e82-c92e-4d6d-b961-c15f8cdfd767",
+  "request_id": "0948589c-0489-4e9c-bd83-8173cc1f5980",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 445,
+    "total_tokens": 3034,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2339
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f016",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "21b66555fbb6d64f9cd0b2a11433a9a3a2268bdde1f71c75c6804369845eb5de",
+  "image_inputs": [
+    {
+      "frame_id": "f016",
+      "sample_time_ms": 40000,
+      "source_time_ms": null,
+      "timestamp_ms": 40000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "634ec7d70af6deab1d4578ac16b9d80dabb1a432dbdac3b7d613464818c15440",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f016.jpg",
+      "size_bytes": 78400
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f016\",\"timestamp_ms\":40000,\"subject\":{\"value\":\"一名戴蓝色花纹头巾、穿白色长袖上衣和蓝色紧身裤的女性，右手提着一个装有深色衣物的透明塑料袋，左手张开抬起。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"人物位于画面中央，面部朝向镜头。\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木和天空。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"可见绿色草坪、石板路和远处树冠。\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖以上入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"画面下缘截断在腿部。\"},\"camera_angle\":{\"value\":\"平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"人物面部与镜头高度接近。\"},\"composition\":{\"value\":\"人物居中，占据画面主体，背景为草地和树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"人物位于画面中央偏下。\"},\"lighting\":{\"value\":\"自然日光，人物面部和衣物受光均匀，背景天空较亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"可见户外日间光照效果。\"},\"color_palette\":{\"value\":\"以绿色草地、蓝色衣物和白色上衣为主，辅以肤色和深色包装袋。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"整体色彩偏自然明亮。\"},\"visible_pose\":{\"value\":\"人物站立，右手提袋，左手抬起张开，面部朝前。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"静态画面中的姿势。\"},\"visible_text\":{\"value\":\"画面下方有白色描边字幕：“是我们给每位飞比特跑者的底气”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"字幕位于画面底部中央。\"}}}"
+}

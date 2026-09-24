@@ -1,0 +1,46 @@
+{
+  "call_id": "4d02f5bd-7405-4005-bd61-d5d5c7c520b1",
+  "request_id": "e7d55311-f756-4489-9baa-7769e99aac75",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2587,
+    "completion_tokens": 453,
+    "total_tokens": 3040,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "prompt_cache_hit_tokens": 2048,
+    "prompt_cache_miss_tokens": 539
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2608
+    }
+  ],
+  "input_text_chars": 87,
+  "branch": "A",
+  "node": "f000",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "ed9f86b53685f789bb3300b80339a5423dcfd1019ee2709c2cbb0c58b5aa4f87",
+  "image_inputs": [
+    {
+      "frame_id": "f000",
+      "sample_time_ms": 0,
+      "source_time_ms": null,
+      "timestamp_ms": 0,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "7922b1c9bc83825ea21f81564b3f340695651344509440bc72867695d4de9686",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f000.jpg",
+      "size_bytes": 64941
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f000\",\"timestamp_ms\":0,\"subject\":{\"value\":\"一名长发女性，穿白色上衣，双手举着一条深紫色长裤展示\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"人物与裤子占据画面中部\"},\"scene\":{\"value\":\"室内拍摄场景，背景为蓝紫色渐变与模糊的绿色人物影像\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"背景元素模糊，无法确认具体环境\"},\"shot_size\":{\"value\":\"中景，人物上半身及手中裤子入画\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"人物面部朝向镜头\"},\"composition\":{\"value\":\"人物居中，裤子位于画面中下部，四周分布文字与信息卡片\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"lighting\":{\"value\":\"人物面部受光均匀，背景偏亮，整体为柔和正面光\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"不判断具体灯具\"},\"color_palette\":{\"value\":\"蓝紫渐变背景、白色上衣、深紫色裤子，辅以黄色与白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"女性正面站立，双手分别捏住裤腰两侧将其提起，右手指向裤子\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、这是我们测试了无数版、已确认 婴幼儿及儿童服装、安全类别：A类、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由、李色\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"部分小字如左侧卡片内容辨识度较低\"}}}"
+}

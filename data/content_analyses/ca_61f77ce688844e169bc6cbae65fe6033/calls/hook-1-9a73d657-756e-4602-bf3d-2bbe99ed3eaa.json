@@ -1,0 +1,146 @@
+{
+  "record": {
+    "call_id": "9a73d657-756e-4602-bf3d-2bbe99ed3eaa",
+    "request_id": "2066f204-3e45-49cf-acd1-7372aac89f50",
+    "returned_model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5093,
+      "completion_tokens": 672,
+      "total_tokens": 5765,
+      "prompt_tokens_details": {
+        "cached_tokens": 4352
+      },
+      "prompt_cache_hit_tokens": 4352,
+      "prompt_cache_miss_tokens": 741
+    },
+    "transport_attempts": [
+      {
+        "attempt": 1,
+        "http_status": 200,
+        "latency_ms": 2592
+      }
+    ],
+    "input_text_chars": 1570,
+    "node_id": "hook",
+    "analysis_id": "ca_61f77ce688844e169bc6cbae65fe6033",
+    "workflow_version": "content-v0.3",
+    "prompt_version": "content-prompts-v0.1",
+    "taxonomy_version": "content-tags-v0.1",
+    "schema_version": "content-1.0",
+    "prompt_sha256": "6d0896f58ba2855fb76bc525fc9fabbeb881a7a617e85876d01826ef63411c9b",
+    "input_text_sha256": "c0de1254a73bd3405c41ba5f65d39ae4869ee9f1a4a44cd943d11a527848ca95",
+    "schema_attempt": 1
+  },
+  "raw_response": "{\"onscreen_text\":{\"value\":\"FLIPBELT、飞比特、P绒轻量马甲4.0、26FW NEW ARRIVALS、动态温控科技、动态合身 叠穿不压身\",\"basis\":\"observed\",\"evidence\":[{\"type\":\"visual_observation\",\"id\":\"vf000\",\"quote\":\"FLIPBELT\"},{\"type\":\"visual_observation\",\"id\":\"vf000\",\"quote\":\"飞比特\"},{\"type\":\"visual_observation\",\"id\":\"vf000\",\"quote\":\"P绒轻量马甲4.0\"},{\"type\":\"visual_observation\",\"id\":\"vf000\",\"quote\":\"26FW NEW ARRIVALS\"},{\"type\":\"visual_observation\",\"id\":\"vf005\",\"quote\":\"动态温控科技\"},{\"type\":\"visual_observation\",\"id\":\"vf005\",\"quote\":\"动态合身 叠穿不压身\"}],\"note\":\"屏幕文字直接引用自画面观察，未验证其宣称。\"},\"visual_summary\":{\"value\":\"浅绿色无袖马甲在浅紫网格背景中静态展示，立领、前中拉链、左胸品牌标志；后段出现深色烟雾与星形光效背景及下摆文字。\",\"basis\":\"observed\",\"evidence\":[{\"type\":\"visual_observation\",\"id\":\"vf000\",\"quote\":\"浅绿色无袖马甲悬浮展示，立领、前中拉链，左胸有品牌标志。\"},{\"type\":\"visual_observation\",\"id\":\"vf001\",\"quote\":\"同一件浅绿色马甲正面展示，背景为浅紫网格，拉链闭合。\"},{\"type\":\"visual_observation\",\"id\":\"vf005\",\"quote\":\"浅绿色马甲正面特写，背景深色带烟雾与星形光效，下摆处有文字。\"}],\"note\":\"仅依据窗口内稀疏画面观察，无声音信息。\"},\"techniques\":[{\"type\":\"direct_demo\",\"analysis\":{\"value\":\"开头以商品正面静态展示为主，直接呈现马甲外观与屏幕文字信息。\",\"basis\":\"inferred\",\"evidence\":[{\"type\":\"visual_observation\",\"id\":\"vf000\",\"quote\":\"浅绿色无袖马甲悬浮展示，立领、前中拉链，左胸有品牌标志。\"},{\"type\":\"visual_observation\",\"id\":\"vf001\",\"quote\":\"同一件浅绿色马甲正面展示，背景为浅紫网格，拉链闭合。\"}],\"note\":\"依据画面为商品展示，未出现口播或字幕驱动的提问、痛点等结构。\"}}],\"explanation\":{\"value\":\"开头采用商品静态展示配合屏幕文字的表达方式，先呈现品牌、品名与卖点文字，再以特写和光效背景收束。\",\"basis\":\"inferred\",\"evidence\":[{\"type\":\"visual_observation\",\"id\":\"vf000\",\"quote\":\"FLIPBELT\"},{\"type\":\"visual_observation\",\"id\":\"vf000\",\"quote\":\"P绒轻量马甲4.0\"},{\"type\":\"visual_observation\",\"id\":\"vf005\",\"quote\":\"动态温控科技\"},{\"type\":\"visual_observation\",\"id\":\"vf005\",\"quote\":\"动态合身 叠穿不压身\"}],\"note\":\"无口播证据，只能分析画面与屏幕文字；不推断后续内容或效果。\"}}",
+  "normalized_output": {
+    "onscreen_text": {
+      "value": "FLIPBELT、飞比特、P绒轻量马甲4.0、26FW NEW ARRIVALS、动态温控科技、动态合身 叠穿不压身",
+      "basis": "observed",
+      "evidence": [
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "FLIPBELT"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "飞比特"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "P绒轻量马甲4.0"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "26FW NEW ARRIVALS"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf005",
+          "quote": "动态温控科技"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf005",
+          "quote": "动态合身 叠穿不压身"
+        }
+      ],
+      "note": "屏幕文字直接引用自画面观察，未验证其宣称。"
+    },
+    "visual_summary": {
+      "value": "浅绿色无袖马甲在浅紫网格背景中静态展示，立领、前中拉链、左胸品牌标志；后段出现深色烟雾与星形光效背景及下摆文字。",
+      "basis": "observed",
+      "evidence": [
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "浅绿色无袖马甲悬浮展示，立领、前中拉链，左胸有品牌标志。"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf001",
+          "quote": "同一件浅绿色马甲正面展示，背景为浅紫网格，拉链闭合。"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf005",
+          "quote": "浅绿色马甲正面特写，背景深色带烟雾与星形光效，下摆处有文字。"
+        }
+      ],
+      "note": "仅依据窗口内稀疏画面观察，无声音信息。"
+    },
+    "techniques": [
+      {
+        "type": "direct_demo",
+        "analysis": {
+          "value": "开头以商品正面静态展示为主，直接呈现马甲外观与屏幕文字信息。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "visual_observation",
+              "id": "vf000",
+              "quote": "浅绿色无袖马甲悬浮展示，立领、前中拉链，左胸有品牌标志。"
+            },
+            {
+              "type": "visual_observation",
+              "id": "vf001",
+              "quote": "同一件浅绿色马甲正面展示，背景为浅紫网格，拉链闭合。"
+            }
+          ],
+          "note": "依据画面为商品展示，未出现口播或字幕驱动的提问、痛点等结构。"
+        }
+      }
+    ],
+    "explanation": {
+      "value": "开头采用商品静态展示配合屏幕文字的表达方式，先呈现品牌、品名与卖点文字，再以特写和光效背景收束。",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "FLIPBELT"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "P绒轻量马甲4.0"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf005",
+          "quote": "动态温控科技"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf005",
+          "quote": "动态合身 叠穿不压身"
+        }
+      ],
+      "note": "无口播证据，只能分析画面与屏幕文字；不推断后续内容或效果。"
+    }
+  }
+}

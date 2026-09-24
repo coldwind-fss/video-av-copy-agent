@@ -1,0 +1,46 @@
+{
+  "call_id": "dbb6e7a6-9dc7-44e5-91c4-1419a656a783",
+  "request_id": "f512a138-d5de-40fb-9b59-bc89833f6c92",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2670,
+    "completion_tokens": 402,
+    "total_tokens": 3072,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "prompt_cache_hit_tokens": 2048,
+    "prompt_cache_miss_tokens": 622
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2145
+    }
+  ],
+  "input_text_chars": 300,
+  "branch": "A",
+  "node": "f006",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "b060859ded42ada139f582f524cf4f0c9b8ae28d5b6cb92194e85a175b067145",
+  "image_inputs": [
+    {
+      "frame_id": "f006",
+      "sample_time_ms": 7500,
+      "source_time_ms": null,
+      "timestamp_ms": 7500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "3775fb485f9d771f8cb213f41583d28204e8801c99eae075b4570229469ecedf",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f006.jpg",
+      "size_bytes": 44916
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 2,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f006\",\"timestamp_ms\":7500,\"subject\":{\"value\":\"浅黄绿色带横向褶皱纹理的衣物面料，中部有一条竖向拉链\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"画面主体为面料局部，未见完整衣物轮廓。\"},\"scene\":{\"value\":\"面料局部特写，左上角可见一小块灰蓝色背景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"背景大部分被面料占据。\"},\"shot_size\":{\"value\":\"特写\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"画面仅呈现面料与拉链局部。\"},\"camera_angle\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"缺少足够空间线索判断静态拍摄角度。\"},\"composition\":{\"value\":\"拉链竖向贯穿画面中部偏右，面料纹理充满画面，字幕位于左下角\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"lighting\":{\"value\":\"整体明亮均匀，面料褶皱处有柔和阴影\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"仅描述可见明暗效果。\"},\"color_palette\":{\"value\":\"以浅黄绿色为主，左上角有灰蓝色，字幕为白色\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"面料呈自然褶皱状态，拉链闭合竖直排列\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"描述此刻可见的摆放状态。\"},\"visible_text\":{\"value\":\"PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"字幕位于画面左下角，文字清晰可辨。\"}}}"
+}

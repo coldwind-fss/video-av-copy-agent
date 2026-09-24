@@ -1,0 +1,833 @@
+{
+  "schema_version": "content-1.0",
+  "kind": "content_report",
+  "analysis_id": "ca_61f77ce688844e169bc6cbae65fe6033",
+  "video_id": "video_225d45ddfe834732aa7bfced75054dd6",
+  "duration_ms": 20540,
+  "status": "partial",
+  "input_mode": "manual",
+  "scope": "in_scope",
+  "scope_reason": {
+    "value": "素材已进入文案分析。",
+    "basis": "inferred",
+    "evidence": [
+      {
+        "type": "transcript_segment",
+        "id": "t000",
+        "quote": null
+      }
+    ],
+    "note": ""
+  },
+  "metadata": {
+    "scope_hint": "auto",
+    "origin_hint": "unknown"
+  },
+  "transcript": {
+    "schema_version": "content-1.0",
+    "kind": "transcript",
+    "transcript_id": "tr_68d235319e6542a6900b0d91314d45bf",
+    "video_id": "video_225d45ddfe834732aa7bfced75054dd6",
+    "duration_ms": 20540,
+    "source": "manual",
+    "content_basis": "subtitle",
+    "outcome": "text_available",
+    "timing": "sentence",
+    "timestamp_origin": "video_start",
+    "provider": null,
+    "model": null,
+    "language": null,
+    "segments": [
+      {
+        "segment_id": "t000",
+        "text": "左侧可见“FLIPBELT 飞比特”，右侧可见“P绒轻量马甲4.0”与“26FW NEW ARRIVALS”。",
+        "start_ms": 0,
+        "end_ms": 2500,
+        "words": []
+      },
+      {
+        "segment_id": "t001",
+        "text": "动态温控科技；动态合身 叠穿不压身",
+        "start_ms": 2500,
+        "end_ms": 3750,
+        "words": []
+      },
+      {
+        "segment_id": "t002",
+        "text": "画面左下有两行白色中文文字，上行较大为“动态温控科技”，下行较小为“动态合身 叠穿不压身”；右侧有浅色字母标志“fb”。",
+        "start_ms": 3750,
+        "end_ms": 5000,
+        "words": []
+      },
+      {
+        "segment_id": "t003",
+        "text": "画面左下角可见白色文字“动态温控科技”，其下方有较小文字“动态合身 叠穿不压身”。",
+        "start_ms": 5000,
+        "end_ms": 6250,
+        "words": []
+      },
+      {
+        "segment_id": "t004",
+        "text": "PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气",
+        "start_ms": 6250,
+        "end_ms": 8750,
+        "words": []
+      },
+      {
+        "segment_id": "t005",
+        "text": "轻量防风外层面料；建立迎风面的低透风屏障",
+        "start_ms": 8750,
+        "end_ms": 11250,
+        "words": []
+      },
+      {
+        "segment_id": "t006",
+        "text": "双头拉链调温；上下独立开合调控散热",
+        "start_ms": 11250,
+        "end_ms": 13750,
+        "words": []
+      },
+      {
+        "segment_id": "t007",
+        "text": "画面左下角有白色中文字幕“双头拉链调温”和“上下独立开合调控散热”。",
+        "start_ms": 13750,
+        "end_ms": 15000,
+        "words": []
+      },
+      {
+        "segment_id": "t008",
+        "text": "画面左下有白色中文字幕“双头拉链调温”与“上下独立开合调控散热”。",
+        "start_ms": 15000,
+        "end_ms": 16250,
+        "words": []
+      },
+      {
+        "segment_id": "t009",
+        "text": "画面下方有两行白色中文：第一行“侧口袋自收纳”，第二行“轻量便携快速收起”。",
+        "start_ms": 16250,
+        "end_ms": 17500,
+        "words": []
+      },
+      {
+        "segment_id": "t010",
+        "text": "侧口袋自收纳；轻量便携快速收起",
+        "start_ms": 17500,
+        "end_ms": 18750,
+        "words": []
+      },
+      {
+        "segment_id": "t011",
+        "text": "P绒轻量马甲4.0；9月20日 正式上线",
+        "start_ms": 18750,
+        "end_ms": 20540,
+        "words": []
+      }
+    ],
+    "input_sha256": "7defa7d1826ed17b458777d6c4a8061ad3371e0a38438b8c3dd8437c5d9a146c",
+    "derived_from_id": "cmp_68d9bbd84ec04cc1aa91525cdd9f8d23",
+    "is_fixture": false,
+    "reviewed_by_human": false,
+    "warnings": [
+      "该文本由既有视觉分析中的画面文字证据整理，不代表音频转写或实际口播。",
+      "时间范围来自抽帧时间点，不能视为字幕或口播的精确边界。"
+    ]
+  },
+  "visual": {
+    "available": true,
+    "frame_set_id": "cfs_a46d44a3bbc24d67807a11f5623039a9",
+    "observations": [
+      {
+        "observation_id": "vf000",
+        "frame_id": "f000",
+        "timestamp_ms": 0,
+        "description": "浅绿色无袖马甲悬浮展示，立领、前中拉链，左胸有品牌标志。",
+        "onscreen_text": [
+          "FLIPBELT",
+          "飞比特",
+          "P绒轻量马甲4.0",
+          "26FW NEW ARRIVALS"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法确认材质与功能"
+        ]
+      },
+      {
+        "observation_id": "vf001",
+        "frame_id": "f001",
+        "timestamp_ms": 500,
+        "description": "同一件浅绿色马甲正面展示，背景为浅紫网格，拉链闭合。",
+        "onscreen_text": [
+          "FLIPBELT",
+          "飞比特",
+          "P绒轻量马甲4.0",
+          "26FW NEW ARRIVALS"
+        ],
+        "limitations": [
+          "无声音信息",
+          "画面为静态展示"
+        ]
+      },
+      {
+        "observation_id": "vf002",
+        "frame_id": "f002",
+        "timestamp_ms": 1000,
+        "description": "浅绿色马甲正面展示，立领与袖口露出深色内衬，拉链头在下方。",
+        "onscreen_text": [
+          "FLIPBELT",
+          "飞比特",
+          "P绒轻量马甲4.0",
+          "26FW NEW ARRIVALS"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法判断是否真人穿着"
+        ]
+      },
+      {
+        "observation_id": "vf003",
+        "frame_id": "f003",
+        "timestamp_ms": 1500,
+        "description": "浅绿色马甲正面展示，拉链头位于下摆，背景有细微颗粒纹理。",
+        "onscreen_text": [
+          "FLIPBELT",
+          "飞比特",
+          "P绒轻量马甲4.0",
+          "26FW NEW ARRIVALS"
+        ],
+        "limitations": [
+          "无声音信息",
+          "画面为静态展示"
+        ]
+      },
+      {
+        "observation_id": "vf004",
+        "frame_id": "f004",
+        "timestamp_ms": 2000,
+        "description": "浅绿色马甲正面展示，拉链头位于下摆，左胸标志清晰可见。",
+        "onscreen_text": [
+          "FLIPBELT",
+          "飞比特",
+          "P绒轻量马甲4.0",
+          "26FW NEW ARRIVALS"
+        ],
+        "limitations": [
+          "无声音信息",
+          "画面为静态展示"
+        ]
+      },
+      {
+        "observation_id": "vf005",
+        "frame_id": "f005",
+        "timestamp_ms": 2500,
+        "description": "浅绿色马甲正面特写，背景深色带烟雾与星形光效，下摆处有文字。",
+        "onscreen_text": [
+          "动态温控科技",
+          "动态合身 叠穿不压身"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法验证温控科技实际效果"
+        ]
+      },
+      {
+        "observation_id": "vf006",
+        "frame_id": "f006",
+        "timestamp_ms": 5757,
+        "description": "绿色绒面里料微距特写，可见颗粒状纤维纹理。",
+        "onscreen_text": [
+          "PrimaLoft® Evolve 里料",
+          "锁住空气保暖 + 打开通道透气"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法验证保暖透气性能"
+        ]
+      },
+      {
+        "observation_id": "vf007",
+        "frame_id": "f007",
+        "timestamp_ms": 8513,
+        "description": "绿色里料特写，表面呈横向条纹褶皱纹理。",
+        "onscreen_text": [
+          "PrimaLoft® Evolve 里料",
+          "锁住空气保暖 + 打开通道透气"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法验证材质成分"
+        ]
+      },
+      {
+        "observation_id": "vf008",
+        "frame_id": "f008",
+        "timestamp_ms": 11270,
+        "description": "马甲拉链局部特写，双头拉链，下方拉链头带彩色拉绳。",
+        "onscreen_text": [
+          "双头拉链调温",
+          "上下独立开合调控散热"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法验证调温效果"
+        ]
+      },
+      {
+        "observation_id": "vf009",
+        "frame_id": "f009",
+        "timestamp_ms": 14027,
+        "description": "马甲上半身特写，立领、拉链与左胸标志可见，背景深色。",
+        "onscreen_text": [
+          "双头拉链调温",
+          "上下独立开合调控散热"
+        ],
+        "limitations": [
+          "无声音信息",
+          "画面为局部展示"
+        ]
+      },
+      {
+        "observation_id": "vf010",
+        "frame_id": "f010",
+        "timestamp_ms": 16783,
+        "description": "马甲被折叠塞入侧口袋，形成小包状，悬浮展示。",
+        "onscreen_text": [
+          "侧口袋自收纳",
+          "轻量便携快速收起"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法验证收纳后体积与重量"
+        ]
+      },
+      {
+        "observation_id": "vf011",
+        "frame_id": "f011",
+        "timestamp_ms": 19540,
+        "description": "马甲收纳后的小包悬浮展示，背景深色带光束。",
+        "onscreen_text": [
+          "P绒轻量马甲4.0",
+          "9月20日 正式上线"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法确认上线日期准确性"
+        ]
+      }
+    ]
+  },
+  "copy": {
+    "status": "completed",
+    "summary": {
+      "value": "以字幕逐项介绍飞比特P绒轻量马甲4.0的温控、里料、防风、拉链与自收纳卖点，并预告9月20日上线。",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "type": "transcript_segment",
+          "id": "t001",
+          "quote": "动态温控科技；动态合身 叠穿不压身"
+        },
+        {
+          "type": "transcript_segment",
+          "id": "t004",
+          "quote": "PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气"
+        },
+        {
+          "type": "transcript_segment",
+          "id": "t005",
+          "quote": "轻量防风外层面料；建立迎风面的低透风屏障"
+        },
+        {
+          "type": "transcript_segment",
+          "id": "t006",
+          "quote": "双头拉链调温；上下独立开合调控散热"
+        },
+        {
+          "type": "transcript_segment",
+          "id": "t010",
+          "quote": "侧口袋自收纳；轻量便携快速收起"
+        },
+        {
+          "type": "transcript_segment",
+          "id": "t011",
+          "quote": "P绒轻量马甲4.0；9月20日 正式上线"
+        }
+      ],
+      "note": "基于字幕文本归纳，字幕由既有视觉分析整理，不代表音频口播。"
+    },
+    "segments": [
+      {
+        "segment_id": "cs000",
+        "transcript_segment_ids": [
+          "t000"
+        ],
+        "roles": [
+          "product_intro"
+        ],
+        "purpose": {
+          "value": "以画面文字点出品牌与产品名称，作为开场产品引入。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "transcript_segment",
+              "id": "t000",
+              "quote": "左侧可见“FLIPBELT 飞比特”，右侧可见“P绒轻量马甲4.0”与“26FW NEW ARRIVALS”。"
+            }
+          ],
+          "note": "该段为画面文字描述，用于识别品牌与产品。"
+        },
+        "start_ms": 0,
+        "end_ms": 2500
+      },
+      {
+        "segment_id": "cs001",
+        "transcript_segment_ids": [
+          "t001",
+          "t002",
+          "t003"
+        ],
+        "roles": [
+          "selling_point"
+        ],
+        "purpose": {
+          "value": "重复展示“动态温控科技”与“动态合身 叠穿不压身”，强调温控与合身卖点。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "transcript_segment",
+              "id": "t001",
+              "quote": "动态温控科技；动态合身 叠穿不压身"
+            },
+            {
+              "type": "transcript_segment",
+              "id": "t002",
+              "quote": "画面左下有两行白色中文文字，上行较大为“动态温控科技”，下行较小为“动态合身 叠穿不压身”；右侧有浅色字母标志“fb”。"
+            },
+            {
+              "type": "transcript_segment",
+              "id": "t003",
+              "quote": "画面左下角可见白色文字“动态温控科技”，其下方有较小文字“动态合身 叠穿不压身”。"
+            }
+          ],
+          "note": "连续三段围绕同一卖点，合并为同一结构段。"
+        },
+        "start_ms": 2500,
+        "end_ms": 6250
+      },
+      {
+        "segment_id": "cs002",
+        "transcript_segment_ids": [
+          "t004"
+        ],
+        "roles": [
+          "selling_point"
+        ],
+        "purpose": {
+          "value": "介绍PrimaLoft® Evolve里料及其保暖透气特性。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "transcript_segment",
+              "id": "t004",
+              "quote": "PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气"
+            }
+          ],
+          "note": "字幕宣称里料与保暖透气功能，未验证实际效果。"
+        },
+        "start_ms": 6250,
+        "end_ms": 8750
+      },
+      {
+        "segment_id": "cs003",
+        "transcript_segment_ids": [
+          "t005"
+        ],
+        "roles": [
+          "selling_point"
+        ],
+        "purpose": {
+          "value": "说明轻量防风外层面料可建立低透风屏障。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "transcript_segment",
+              "id": "t005",
+              "quote": "轻量防风外层面料；建立迎风面的低透风屏障"
+            }
+          ],
+          "note": "字幕宣称防风性能，未验证实际效果。"
+        },
+        "start_ms": 8750,
+        "end_ms": 11250
+      },
+      {
+        "segment_id": "cs004",
+        "transcript_segment_ids": [
+          "t006",
+          "t007",
+          "t008"
+        ],
+        "roles": [
+          "selling_point"
+        ],
+        "purpose": {
+          "value": "重复展示双头拉链调温与上下独立开合调控散热的卖点。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "transcript_segment",
+              "id": "t006",
+              "quote": "双头拉链调温；上下独立开合调控散热"
+            },
+            {
+              "type": "transcript_segment",
+              "id": "t007",
+              "quote": "画面左下角有白色中文字幕“双头拉链调温”和“上下独立开合调控散热”。"
+            },
+            {
+              "type": "transcript_segment",
+              "id": "t008",
+              "quote": "画面左下有白色中文字幕“双头拉链调温”与“上下独立开合调控散热”。"
+            }
+          ],
+          "note": "连续三段围绕同一拉链卖点，合并为同一结构段。"
+        },
+        "start_ms": 11250,
+        "end_ms": 16250
+      },
+      {
+        "segment_id": "cs005",
+        "transcript_segment_ids": [
+          "t009",
+          "t010"
+        ],
+        "roles": [
+          "selling_point"
+        ],
+        "purpose": {
+          "value": "展示侧口袋自收纳与轻量便携快速收起的卖点。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "transcript_segment",
+              "id": "t009",
+              "quote": "画面下方有两行白色中文：第一行“侧口袋自收纳”，第二行“轻量便携快速收起”。"
+            },
+            {
+              "type": "transcript_segment",
+              "id": "t010",
+              "quote": "侧口袋自收纳；轻量便携快速收起"
+            }
+          ],
+          "note": "两段围绕同一收纳卖点，合并为同一结构段。"
+        },
+        "start_ms": 16250,
+        "end_ms": 18750
+      },
+      {
+        "segment_id": "cs006",
+        "transcript_segment_ids": [
+          "t011"
+        ],
+        "roles": [
+          "offer",
+          "call_to_action"
+        ],
+        "purpose": {
+          "value": "再次点出产品名称并预告9月20日正式上线，形成上线信息收尾。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "transcript_segment",
+              "id": "t011",
+              "quote": "P绒轻量马甲4.0；9月20日 正式上线"
+            }
+          ],
+          "note": "上线日期属于时间信息，未验证准确性。"
+        },
+        "start_ms": 18750,
+        "end_ms": 20540
+      }
+    ],
+    "structure_pattern": "商品介绍 → 卖点 → 卖点 → 卖点 → 卖点 → 卖点 → 福利 + 行动"
+  },
+  "tags": {
+    "format_tags": [
+      {
+        "value": "product_demo",
+        "basis": "observed",
+        "evidence": [
+          {
+            "type": "visual_observation",
+            "id": "vf000",
+            "quote": "浅绿色无袖马甲悬浮展示，立领、前中拉链，左胸有品牌标志。"
+          },
+          {
+            "type": "visual_observation",
+            "id": "vf006",
+            "quote": "绿色绒面里料微距特写，可见颗粒状纤维纹理。"
+          },
+          {
+            "type": "visual_observation",
+            "id": "vf008",
+            "quote": "马甲拉链局部特写，双头拉链，下方拉链头带彩色拉绳。"
+          },
+          {
+            "type": "visual_observation",
+            "id": "vf010",
+            "quote": "马甲被折叠塞入侧口袋，形成小包状，悬浮展示。"
+          }
+        ],
+        "note": "画面以产品局部与功能特写展示为主。"
+      },
+      {
+        "value": "subtitle_driven",
+        "basis": "observed",
+        "evidence": [
+          {
+            "type": "transcript_segment",
+            "id": "t001",
+            "quote": "动态温控科技；动态合身 叠穿不压身"
+          },
+          {
+            "type": "transcript_segment",
+            "id": "t004",
+            "quote": "PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气"
+          },
+          {
+            "type": "transcript_segment",
+            "id": "t011",
+            "quote": "P绒轻量马甲4.0；9月20日 正式上线"
+          }
+        ],
+        "note": "文本来源为字幕整理，内容以画面文字呈现。"
+      }
+    ],
+    "origin": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": [],
+      "note": "metadata.origin_hint 为 unknown，且无其他来源证据可判断是否为切片或原创。"
+    },
+    "topic_tags": [
+      {
+        "value": "轻量马甲",
+        "basis": "observed",
+        "evidence": [
+          {
+            "type": "transcript_segment",
+            "id": "t011",
+            "quote": "P绒轻量马甲4.0；9月20日 正式上线"
+          }
+        ],
+        "note": "产品名称直接出现。"
+      },
+      {
+        "value": "动态温控",
+        "basis": "observed",
+        "evidence": [
+          {
+            "type": "transcript_segment",
+            "id": "t001",
+            "quote": "动态温控科技；动态合身 叠穿不压身"
+          }
+        ],
+        "note": "字幕直接出现该卖点。"
+      },
+      {
+        "value": "PrimaLoft里料",
+        "basis": "observed",
+        "evidence": [
+          {
+            "type": "transcript_segment",
+            "id": "t004",
+            "quote": "PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气"
+          }
+        ],
+        "note": "字幕直接出现里料名称。"
+      },
+      {
+        "value": "防风面料",
+        "basis": "observed",
+        "evidence": [
+          {
+            "type": "transcript_segment",
+            "id": "t005",
+            "quote": "轻量防风外层面料；建立迎风面的低透风屏障"
+          }
+        ],
+        "note": "字幕直接出现防风卖点。"
+      },
+      {
+        "value": "双头拉链",
+        "basis": "observed",
+        "evidence": [
+          {
+            "type": "transcript_segment",
+            "id": "t006",
+            "quote": "双头拉链调温；上下独立开合调控散热"
+          }
+        ],
+        "note": "字幕直接出现拉链卖点。"
+      },
+      {
+        "value": "自收纳",
+        "basis": "observed",
+        "evidence": [
+          {
+            "type": "transcript_segment",
+            "id": "t010",
+            "quote": "侧口袋自收纳；轻量便携快速收起"
+          }
+        ],
+        "note": "字幕直接出现收纳卖点。"
+      }
+    ]
+  },
+  "hook": {
+    "status": "limited",
+    "window_start_ms": 0,
+    "window_end_ms": 3000,
+    "timing_precision": "sentence",
+    "spoken_excerpt": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": [],
+      "note": "没有可校验的前三秒口播时间；字幕和来源未确认文本不作为口播。"
+    },
+    "onscreen_text": {
+      "value": "FLIPBELT、飞比特、P绒轻量马甲4.0、26FW NEW ARRIVALS、动态温控科技、动态合身 叠穿不压身",
+      "basis": "observed",
+      "evidence": [
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "FLIPBELT"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "飞比特"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "P绒轻量马甲4.0"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "26FW NEW ARRIVALS"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf005",
+          "quote": "动态温控科技"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf005",
+          "quote": "动态合身 叠穿不压身"
+        }
+      ],
+      "note": "屏幕文字直接引用自画面观察，未验证其宣称。"
+    },
+    "visual_summary": {
+      "value": "浅绿色无袖马甲在浅紫网格背景中静态展示，立领、前中拉链、左胸品牌标志；后段出现深色烟雾与星形光效背景及下摆文字。",
+      "basis": "observed",
+      "evidence": [
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "浅绿色无袖马甲悬浮展示，立领、前中拉链，左胸有品牌标志。"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf001",
+          "quote": "同一件浅绿色马甲正面展示，背景为浅紫网格，拉链闭合。"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf005",
+          "quote": "浅绿色马甲正面特写，背景深色带烟雾与星形光效，下摆处有文字。"
+        }
+      ],
+      "note": "仅依据窗口内稀疏画面观察，无声音信息。"
+    },
+    "techniques": [
+      {
+        "type": "direct_demo",
+        "analysis": {
+          "value": "开头以商品正面静态展示为主，直接呈现马甲外观与屏幕文字信息。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "visual_observation",
+              "id": "vf000",
+              "quote": "浅绿色无袖马甲悬浮展示，立领、前中拉链，左胸有品牌标志。"
+            },
+            {
+              "type": "visual_observation",
+              "id": "vf001",
+              "quote": "同一件浅绿色马甲正面展示，背景为浅紫网格，拉链闭合。"
+            }
+          ],
+          "note": "依据画面为商品展示，未出现口播或字幕驱动的提问、痛点等结构。"
+        }
+      }
+    ],
+    "explanation": {
+      "value": "开头采用商品静态展示配合屏幕文字的表达方式，先呈现品牌、品名与卖点文字，再以特写和光效背景收束。",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "FLIPBELT"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": "P绒轻量马甲4.0"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf005",
+          "quote": "动态温控科技"
+        },
+        {
+          "type": "visual_observation",
+          "id": "vf005",
+          "quote": "动态合身 叠穿不压身"
+        }
+      ],
+      "note": "无口播证据，只能分析画面与屏幕文字；不推断后续内容或效果。"
+    },
+    "boundary_unresolved": false,
+    "limitations": [
+      "只使用窗口内证据。",
+      "画面为稀疏抽样。",
+      "文本来源不是经过转写的口播。"
+    ]
+  },
+  "limitations": [
+    "文本来自既有视觉结果中的画面文字证据，不代表音频转写或实际口播。",
+    "画面文字的时间范围由抽帧时间点近似得到。"
+  ],
+  "provenance": {
+    "workflow_version": "content-v0.3",
+    "prompt_version": "content-prompts-v0.1",
+    "taxonomy_version": "content-tags-v0.1",
+    "video_sha256": "c8b278c4067ff0ff29ef3a8f85bd4c619cc42d23e604e1537424b922d699e07b",
+    "transcript_sha256": "56ac54edc7b0abcb8fe84040352d185a51bfc445ec2b1d9aab0b389cc91f5da6",
+    "returned_model": "deepseek-flash",
+    "generated_at": "2026-09-24T01:17:06.380071+00:00",
+    "model_call_ids": [
+      "89eb6566-97b9-4426-9333-17410cd53cda",
+      "1dfa02ef-e377-4da6-97b0-8bb1592acebe",
+      "1395833f-af32-4d54-8e48-64eebb1a5e04",
+      "9a73d657-756e-4602-bf3d-2bbe99ed3eaa"
+    ],
+    "is_fixture": false
+  }
+}

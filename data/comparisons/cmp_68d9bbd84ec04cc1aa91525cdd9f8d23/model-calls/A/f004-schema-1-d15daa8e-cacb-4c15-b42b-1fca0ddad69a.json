@@ -1,0 +1,46 @@
+{
+  "call_id": "d15daa8e-cacb-4c15-b42b-1fca0ddad69a",
+  "request_id": "8252c442-6c32-4014-92f0-7158aacc74f7",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2796,
+    "completion_tokens": 508,
+    "total_tokens": 3304,
+    "prompt_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "prompt_cache_hit_tokens": 2176,
+    "prompt_cache_miss_tokens": 620
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2667
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f004",
+  "prompt_version": "poc-v0.2",
+  "schema_version": "1.1",
+  "system_prompt_sha256": "fba558a42cb47a533f8e30e0b7e4a7df8d66d9caf5927800d3a2e1c3c33a0879",
+  "input_text_sha256": "31acd44e13d1c4191680ea44e905099c502ea47d83bbb9b80c8ad700eba67354",
+  "image_inputs": [
+    {
+      "frame_id": "f004",
+      "sample_time_ms": 5000,
+      "source_time_ms": null,
+      "timestamp_ms": 5000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "f231db01d059ec15b5b2903aade85afd6608e1915a2e5afbea574795c26c3e7c",
+      "image_path": "frame_sets/fs_7bee6f212dc343f5bd821bfd6640ba6a/f004.jpg",
+      "size_bytes": 42869
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.1\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f004\",\"timestamp_ms\":5000,\"subject\":{\"value\":\"一件浅色外套的领口与拉链局部，领口内侧为黄绿色绒面，边缘有白色包边，中央可见黑色拉链头与浅色拉链带。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"仅依据画面可见的衣物局部特征描述，未判断品牌或材质成分。\"},\"scene\":{\"value\":\"深色虚化背景，画面主体为衣物局部特写。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"背景细节不可辨。\"},\"shot_size\":{\"value\":\"极特写，画面被衣物领口与拉链局部填满。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"正面平视，镜头正对领口与拉链区域。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"由领口开口与拉链的正面呈现推断，无明确空间参照。\"},\"composition\":{\"value\":\"领口绒面占据画面上半部，拉链位于中轴偏下，字幕位于左下角。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"lighting\":{\"value\":\"光线较柔和，领口绒面与包边受光均匀，背景明显暗于主体。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"仅描述可见明暗效果，不推断灯位或器材。\"},\"color_palette\":{\"value\":\"以浅米白、黄绿色为主，配黑色拉链头与深色背景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"衣物局部静止呈现，领口呈弧形开口，拉链头位于开口下方中央。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"静态画面，不描述前后动作。\"},\"visible_text\":{\"value\":\"画面左下角可见白色文字“动态温控科技”，其下方有较小文字“动态合身 叠穿不压身”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"仅记录可辨认文字，不判断其宣传含义是否属实。\"}}}"
+}

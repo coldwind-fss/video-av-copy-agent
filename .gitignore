@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+*.log
+
+
+# Large media kept locally for regression; omitted from Git sync
+*.mp4
+*.mov
+*.wav

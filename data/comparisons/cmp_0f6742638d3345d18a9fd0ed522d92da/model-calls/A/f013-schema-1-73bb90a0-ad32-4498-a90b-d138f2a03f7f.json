@@ -1,0 +1,46 @@
+{
+  "call_id": "73bb90a0-ad32-4498-a90b-d138f2a03f7f",
+  "request_id": "70b46d3d-2154-4838-9074-ee70011adc99",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 452,
+    "total_tokens": 3041,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2214
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f013",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "4c2674bb448849f2d6201e58233305a46b327106ad8620ccf88c75e76b866522",
+  "image_inputs": [
+    {
+      "frame_id": "f013",
+      "sample_time_ms": 19500,
+      "source_time_ms": null,
+      "timestamp_ms": 19500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "b0386b68fb10177e962fb777423fd25f0bd07dd0f4bbaf5ab64ad445520ddd43",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f013.jpg",
+      "size_bytes": 66489
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f013\",\"timestamp_ms\":19500,\"subject\":{\"value\":\"一名长发女性，穿白色长袖上衣和深灰色长裤，双手分别提着裤腰两侧和一件浅绿色衣物\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"scene\":{\"value\":\"室内直播或展示场景，背景为大幅彩色海报，画面左侧有商品信息卡片\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"shot_size\":{\"value\":\"全身景，人物从头部到脚部基本完整入画\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"正面平视角度\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"composition\":{\"value\":\"人物位于画面中央偏下，背景海报和左侧信息卡片占据上方及左侧区域\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"lighting\":{\"value\":\"人物面部和衣物受光均匀，背景海报色彩明亮\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"color_palette\":{\"value\":\"以蓝色、黄色、白色和灰色为主，背景海报色彩鲜艳\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"人物站立，面朝镜头，双手向两侧展开，分别提着裤腰和一件浅绿色衣物\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、给你们离远点再看一下这个灰色、李鱼、170CM/54KG、试穿尺码 S、官方正品、运费险、七天无理由、已确认 婴儿A类 安全类别：A类\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"部分小字较模糊，仅记录可辨认内容。\"}}}"
+}

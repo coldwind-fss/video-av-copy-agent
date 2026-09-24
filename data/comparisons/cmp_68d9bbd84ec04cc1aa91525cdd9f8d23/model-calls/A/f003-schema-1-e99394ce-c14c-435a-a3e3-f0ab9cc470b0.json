@@ -1,0 +1,46 @@
+{
+  "call_id": "e99394ce-c14c-435a-a3e3-f0ab9cc470b0",
+  "request_id": "db4efc3a-34e2-4295-a57c-ce4160e8b84d",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2796,
+    "completion_tokens": 480,
+    "total_tokens": 3276,
+    "prompt_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "prompt_cache_hit_tokens": 2176,
+    "prompt_cache_miss_tokens": 620
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 3388
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f003",
+  "prompt_version": "poc-v0.2",
+  "schema_version": "1.1",
+  "system_prompt_sha256": "fba558a42cb47a533f8e30e0b7e4a7df8d66d9caf5927800d3a2e1c3c33a0879",
+  "input_text_sha256": "fff4a3cc7030c6014c1b7018556ade61e0a6ca8ab194c2ba8203af504d53457b",
+  "image_inputs": [
+    {
+      "frame_id": "f003",
+      "sample_time_ms": 3750,
+      "source_time_ms": null,
+      "timestamp_ms": 3750,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "23417874c10a2474af49f2ab5ed852f2b6d39fe0f021510da691cb2739b74dd1",
+      "image_path": "frame_sets/fs_7bee6f212dc343f5bd821bfd6640ba6a/f003.jpg",
+      "size_bytes": 32067
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.1\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f003\",\"timestamp_ms\":3750,\"subject\":{\"value\":\"一件浅色立领拉链外套的领口与胸前局部，领内衬为黄绿色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"仅见服装局部，无法确认穿着者或整体款式。\"},\"scene\":{\"value\":\"深色渐变背景，无其他可见环境元素。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"shot_size\":{\"value\":\"服装局部特写，画面仅容纳领口至胸前区域。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"正面平视略偏下的静态角度。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"由领口与拉链的正面呈现推断，无空间参照物可精确判断。\"},\"composition\":{\"value\":\"拉链位于画面中央纵向贯穿，领口居上，文字位于左下，标志位于右下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"lighting\":{\"value\":\"侧上方光照射，领口内衬与面料褶皱处形成明显明暗过渡，背景较暗。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"仅描述可见明暗效果，不推断灯具或灯位。\"},\"color_palette\":{\"value\":\"浅灰白与黄绿色为主，配黑色拉链头，背景为深灰至黑色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"外套呈立领状态，拉链部分拉开，领口内衬外露。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"描述当前静态摆放状态。\"},\"visible_text\":{\"value\":\"画面左下有两行白色中文文字，上行较大为“动态温控科技”，下行较小为“动态合身 叠穿不压身”；右侧有浅色字母标志“fb”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"文字与标志为画面内可见内容。\"}}}"
+}

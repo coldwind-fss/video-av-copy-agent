@@ -1,0 +1,46 @@
+{
+  "call_id": "d3f1c0e7-73f0-4ce6-af85-0f36ec11df03",
+  "request_id": "b249163a-b6ce-4f6b-9cd8-ddcb883c2bb4",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2587,
+    "completion_tokens": 439,
+    "total_tokens": 3026,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 2587
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2475
+    }
+  ],
+  "input_text_chars": 87,
+  "branch": "A",
+  "node": "f000",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "ed9f86b53685f789bb3300b80339a5423dcfd1019ee2709c2cbb0c58b5aa4f87",
+  "image_inputs": [
+    {
+      "frame_id": "f000",
+      "sample_time_ms": 0,
+      "source_time_ms": null,
+      "timestamp_ms": 0,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "ef9b05a46f40149d21e291e13228dbe6e8a8d929136deaa3852d6a6a6191d120",
+      "image_path": "frame_sets/fs_5cd07c0a297a402589766a09aa881bc3/f000.jpg",
+      "size_bytes": 21428
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f000\",\"timestamp_ms\":0,\"subject\":{\"value\":\"一件浅绿色无袖立领马甲，正面拉链闭合，胸前有一个小标志。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"仅描述可见外观，不判断材质成分。\"},\"scene\":{\"value\":\"灰紫色渐变纯色背景，马甲下方有淡淡投影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"背景无其他可见物体。\"},\"shot_size\":{\"value\":\"马甲完整入画，占据画面中部大部分区域。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"以商品为主体的近景呈现。\"},\"camera_angle\":{\"value\":\"正面平视，略微偏侧展示马甲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"静态角度，不涉及运镜。\"},\"composition\":{\"value\":\"马甲居中，左右两侧各有一组文字，整体近似对称。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"lighting\":{\"value\":\"柔和均匀，马甲表面有轻微明暗过渡，下方有投影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"不推断具体灯具或灯位。\"},\"color_palette\":{\"value\":\"浅绿色主体，灰紫色背景，白色文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"马甲呈立体悬空状态，拉链拉合，领口立起。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"描述当前静态摆放状态。\"},\"visible_text\":{\"value\":\"左侧可见“FLIPBELT 飞比特”，右侧可见“P绒轻量马甲4.0”和“26FW NEW ARRIVALS”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"仅记录可辨认文字。\"}}}"
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-09-24",
+  "source_directory": "测试数据集",
+  "samples": [
+    {
+      "filename": "5-43.78.mp4",
+      "video_id": "video_651076bb5f9d4e9a83623a932a63806e",
+      "sha256": "73eb1651a0584a4a45e34e53bd682cb610d00c2ac4e5e3e4c7db0c6127cdf470",
+      "size_bytes": 30935751,
+      "duration_ms": 44510,
+      "width": 1080,
+      "height": 1920,
+      "transcription_job_id": "tj_16ac42c2ab3f48078d33adafe37e002d",
+      "transcript_id": "tr_c9f52ef795df4d7d84418ae5f7512e7b",
+      "asr_status": "completed",
+      "asr_outcome": "text_available",
+      "asr_segments": 2,
+      "asr_words": 133,
+      "analysis_id": "ca_786d428efb4a43b0afec5e28e0928eb7",
+      "analysis_status": "partial",
+      "components": {"visual": "completed", "copy_tags": "completed", "hook": "unavailable"},
+      "hook_status": "limited",
+      "report_contract": "valid",
+      "note": "前三秒口播跨越窗口边界，保留 limited，不补全窗外文本。"
+    },
+    {
+      "filename": "1-47.13%.mp4",
+      "video_id": "video_43397b025b9242619d35988513316ef9",
+      "sha256": "72294aea68fd6b5522ffe10dc88ba4b48c13dff30eefdc7988aed4f4930c9e3d",
+      "size_bytes": 5520709,
+      "duration_ms": 19750,
+      "width": 540,
+      "height": 960,
+      "transcription_job_id": "tj_bbb42536d8664859ba571c7d9371f64e",
+      "transcript_id": "tr_335655247ab64c1db7187d276e7b5796",
+      "asr_status": "completed",
+      "asr_outcome": "text_available",
+      "asr_segments": 1,
+      "asr_words": 58,
+      "analysis_id": "ca_0d5402027fc344168170cd1c5577774b",
+      "analysis_status": "completed",
+      "components": {"visual": "completed", "copy_tags": "completed", "hook": "completed"},
+      "hook_status": "available",
+      "report_contract": "valid"
+    }
+  ],
+  "deployment_readback": {
+    "public_list_input_mode": "asr",
+    "public_asr_report_count_after_regression": 5,
+    "new_reports_http_status": 200
+  },
+  "limitations": [
+    "本记录是工程回归证据，不是业务准确率结论。",
+    "5-43.78.mp4 的 hook limited 由前三秒时间边界规则产生。"
+  ]
+}

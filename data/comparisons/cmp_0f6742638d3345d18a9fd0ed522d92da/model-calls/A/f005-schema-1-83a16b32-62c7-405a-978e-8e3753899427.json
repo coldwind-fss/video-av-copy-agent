@@ -1,0 +1,46 @@
+{
+  "call_id": "83a16b32-62c7-405a-978e-8e3753899427",
+  "request_id": "bc470936-abcc-4b11-b379-067ce0027f91",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 460,
+    "total_tokens": 3049,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2390
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f005",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "0352f96138782eaa6ef12b4ceca8f225756a6aa56da6ec42dfaaf9808b4d53f0",
+  "image_inputs": [
+    {
+      "frame_id": "f005",
+      "sample_time_ms": 7500,
+      "source_time_ms": null,
+      "timestamp_ms": 7500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "bc35b111ea436190719d7feac80f9b37688fcf20f8ed2793ff0e13ef031739a8",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f005.jpg",
+      "size_bytes": 74347
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f005\",\"timestamp_ms\":7500,\"subject\":{\"value\":\"一名长发女性双手举着一条深紫色长裤，裤腰处挂着白色衣架\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"scene\":{\"value\":\"户外背景，可见蓝天、树木与草地，画面为竖屏短视频界面，叠加多处文字与商品信息浮层\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物上半身至腰部以下，手中长裤占据画面中部偏下\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视正面角度\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，长裤竖直置于画面中央偏下，文字与信息浮层分布在顶部、左侧和右侧\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"lighting\":{\"value\":\"人物面部与衣物受光均匀，背景天空明亮，整体为日间自然光效果\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"color_palette\":{\"value\":\"以蓝色天空、绿色植物、深紫色长裤和浅黄绿色上衣为主\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"人物正面站立，双手分别捏住长裤两侧裤腰，长裤自然下垂\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"visible_text\":{\"value\":\"可见“FLIPBELT”“新品首发「轻」装上阵”“26FW 新品首发”“限时上新优惠”“质感上面它是很高级的质感”“已确认 凉感是真的”“0.21”“李佳”“170CM/54KG”“试穿尺码 S”“官方正品”“运费险”“七天无理由”等文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"}}}"
+}

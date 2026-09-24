@@ -1,0 +1,255 @@
+{
+  "call_id": "f779352e-b1d0-42df-8a7f-b00b86614373",
+  "request_id": "2a9a487c-4db0-4312-8ba1-bed09cca5ff1",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 11031,
+    "completion_tokens": 10016,
+    "total_tokens": 21047,
+    "prompt_tokens_details": {
+      "cached_tokens": 2688
+    },
+    "prompt_cache_hit_tokens": 2688,
+    "prompt_cache_miss_tokens": 8343
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 28657
+    }
+  ],
+  "input_text_chars": 933,
+  "branch": "B",
+  "node": "ordered-sequence",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "8027bd0bf595473193a485b804ca2cd3e23aee5d44a2f30144648f37636c98ec",
+  "input_text_sha256": "c0b6b6f547e865bb676b6286c6234dd00f8c7078a4842ef122b6752650262102",
+  "image_inputs": [
+    {
+      "frame_id": "f000",
+      "sample_time_ms": 0,
+      "source_time_ms": null,
+      "timestamp_ms": 0,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "4d8b310bcf1972aa2a8b1a742e35026a3d237711fe14b9532b05a3130b24ca6b",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f000.jpg",
+      "size_bytes": 62442
+    },
+    {
+      "frame_id": "f001",
+      "sample_time_ms": 2500,
+      "source_time_ms": null,
+      "timestamp_ms": 2500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "d8f24a1bd933b316561fd30334f8e54820306cf47f694b7a0507d02f54fbbf45",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f001.jpg",
+      "size_bytes": 72749
+    },
+    {
+      "frame_id": "f002",
+      "sample_time_ms": 5000,
+      "source_time_ms": null,
+      "timestamp_ms": 5000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "1198e742a9d6c907e656bbd3d8b376e3482eee1caaeff99ef46bdf6ae8085e7d",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f002.jpg",
+      "size_bytes": 52750
+    },
+    {
+      "frame_id": "f003",
+      "sample_time_ms": 7500,
+      "source_time_ms": null,
+      "timestamp_ms": 7500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "a7d401425439abb940f7dc4d7b4c4b40f833006ce55a6aeed135363c2ee2ae06",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f003.jpg",
+      "size_bytes": 70992
+    },
+    {
+      "frame_id": "f004",
+      "sample_time_ms": 10000,
+      "source_time_ms": null,
+      "timestamp_ms": 10000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "a066d47ccbcf7e787b703b48029a0ddefecf36628df1cb47fdc15657584f95b8",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f004.jpg",
+      "size_bytes": 48519
+    },
+    {
+      "frame_id": "f005",
+      "sample_time_ms": 12500,
+      "source_time_ms": null,
+      "timestamp_ms": 12500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "1699be606cf06033288028cf803e817472b52cf7ee6607b108731f4afa64691b",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f005.jpg",
+      "size_bytes": 123575
+    },
+    {
+      "frame_id": "f006",
+      "sample_time_ms": 15000,
+      "source_time_ms": null,
+      "timestamp_ms": 15000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "fccb6fdf4cfc6c9dcaee7b72608b46bdd9f7bc1e4882150016d0577ada8d8131",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f006.jpg",
+      "size_bytes": 70503
+    },
+    {
+      "frame_id": "f007",
+      "sample_time_ms": 17500,
+      "source_time_ms": null,
+      "timestamp_ms": 17500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "792d067b5bee184526f0c49ab54caa9346daf6ee4bc6bd7af1cbf33214525f8e",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f007.jpg",
+      "size_bytes": 78586
+    },
+    {
+      "frame_id": "f008",
+      "sample_time_ms": 20000,
+      "source_time_ms": null,
+      "timestamp_ms": 20000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "5cf3c1f1bdbb5065043d1411dc0590f11abcd5c43c2639cb483c678cb1469d06",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f008.jpg",
+      "size_bytes": 48007
+    },
+    {
+      "frame_id": "f009",
+      "sample_time_ms": 22500,
+      "source_time_ms": null,
+      "timestamp_ms": 22500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "89223e7ba26632df6cea6c91d9d73b0a1576a028172d8a8b663fa0aac1456cbc",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f009.jpg",
+      "size_bytes": 65232
+    },
+    {
+      "frame_id": "f010",
+      "sample_time_ms": 25000,
+      "source_time_ms": null,
+      "timestamp_ms": 25000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "f08bb4fc7d92bd9648fd9799251fca339a69988d0cdc80a55aeeac3c7f99c6ef",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f010.jpg",
+      "size_bytes": 55404
+    },
+    {
+      "frame_id": "f011",
+      "sample_time_ms": 27500,
+      "source_time_ms": null,
+      "timestamp_ms": 27500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "218fc3387e3b2366677a9d09b2705febf701df5b675e6065ea6411ce113aa1e4",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f011.jpg",
+      "size_bytes": 129550
+    },
+    {
+      "frame_id": "f012",
+      "sample_time_ms": 30000,
+      "source_time_ms": null,
+      "timestamp_ms": 30000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "7c560dbb3ed60e15eda9f8e0a345585957a7a1f1c7c37dbd8ac3fd7f692b2953",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f012.jpg",
+      "size_bytes": 44609
+    },
+    {
+      "frame_id": "f013",
+      "sample_time_ms": 32500,
+      "source_time_ms": null,
+      "timestamp_ms": 32500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "d230b40476e378e343e79e609369826031109ab72143ad7189aad228799251f3",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f013.jpg",
+      "size_bytes": 59636
+    },
+    {
+      "frame_id": "f014",
+      "sample_time_ms": 35000,
+      "source_time_ms": null,
+      "timestamp_ms": 35000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "2b9b8e68e02fad0f48bf09d32e36accbacabd0b6827d30ca18c8ec1bb027d762",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f014.jpg",
+      "size_bytes": 50247
+    },
+    {
+      "frame_id": "f015",
+      "sample_time_ms": 37500,
+      "source_time_ms": null,
+      "timestamp_ms": 37500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "7c358ff53e6ea90994406a256ee4e393bed03982f92fb7171c960f449774a462",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f015.jpg",
+      "size_bytes": 74367
+    },
+    {
+      "frame_id": "f016",
+      "sample_time_ms": 40000,
+      "source_time_ms": null,
+      "timestamp_ms": 40000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "634ec7d70af6deab1d4578ac16b9d80dabb1a432dbdac3b7d613464818c15440",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f016.jpg",
+      "size_bytes": 78400
+    },
+    {
+      "frame_id": "f017",
+      "sample_time_ms": 42500,
+      "source_time_ms": null,
+      "timestamp_ms": 42500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "2d476328186e3646c8c341c79fead6ad1d3c101940d7455dd8a46ad5e36e2cfc",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f017.jpg",
+      "size_bytes": 70412
+    },
+    {
+      "frame_id": "f018",
+      "sample_time_ms": 45000,
+      "source_time_ms": null,
+      "timestamp_ms": 45000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "a87c695df37e05a91ef50432866ab1715568c58a734268a7763ccf4e362a8a99",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f018.jpg",
+      "size_bytes": 52154
+    },
+    {
+      "frame_id": "f019",
+      "sample_time_ms": 47500,
+      "source_time_ms": null,
+      "timestamp_ms": 47500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "e1433aba57f666d78772e19e02e577a9474efbccdc6a92f83e9851af71cccade",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f019.jpg",
+      "size_bytes": 10584
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"sequence_analysis\",\"frames\":[{\"frame_id\":\"f000\",\"timestamp_ms\":0,\"subject\":{\"value\":\"一位戴蓝色花纹发带、穿白色长袖短款上衣和深蓝色紧身裤的女性，右手举着一个透明包装袋。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，右手举袋位于画面左侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光，人物面部受光均匀。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，右手举袋，左手自然下垂，面带微笑。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"visible_text\":{\"value\":\"未见可读文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"}},{\"frame_id\":\"f001\",\"timestamp_ms\":2500,\"subject\":{\"value\":\"同一位女性，低头看向手中透明包装袋，左手食指指向袋内物品。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，包装袋位于画面左侧，右下角有字幕。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，低头，左手食指指向袋内物品。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"visible_text\":{\"value\":\"今年的吊牌很不一样？\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"}},{\"frame_id\":\"f002\",\"timestamp_ms\":5000,\"subject\":{\"value\":\"一只手拿着多张吊牌，吊牌上有黑色和荧光绿色块。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"scene\":{\"value\":\"深蓝色衣物面料背景，可见拉链和缝线。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"shot_size\":{\"value\":\"特写，仅手部与吊牌。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"俯视或平视近距。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"composition\":{\"value\":\"手与吊牌占据画面中心。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"lighting\":{\"value\":\"室内或近距补光，吊牌表面有反光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"color_palette\":{\"value\":\"黑色、荧光绿、深蓝色为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"手指捏住吊牌边缘。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"visible_text\":{\"value\":\"FLIPBELT、LYCRA、黑标莱卡标识。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"}},{\"frame_id\":\"f003\",\"timestamp_ms\":7500,\"subject\":{\"value\":\"同一位女性，左手举透明包装袋，右手摊开。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，包装袋位于画面左侧，右侧有字幕。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，左手举袋，右手摊开，嘴部微张。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"visible_text\":{\"value\":\"氨纶。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"}},{\"frame_id\":\"f004\",\"timestamp_ms\":10000,\"subject\":{\"value\":\"一只手放在深蓝色紧身裤上，裤腿有FLIPBELT字样。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"scene\":{\"value\":\"户外路面与草地背景，背景虚化。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"shot_size\":{\"value\":\"特写，仅手部与裤腿。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"俯视近距。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"composition\":{\"value\":\"裤腿斜向占据画面，手位于上方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光，裤面有柔和反光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"color_palette\":{\"value\":\"深蓝色裤装、浅色手部、绿色背景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"手掌平放在裤腿上。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"visible_text\":{\"value\":\"FLIPBELT、黑标莱卡是纱线原色制造。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"}},{\"frame_id\":\"f005\",\"timestamp_ms\":12500,\"subject\":{\"value\":\"同一位女性，双臂向上张开，站在道路上。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"scene\":{\"value\":\"户外道路，两侧有树木和草地。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"shot_size\":{\"value\":\"全景，人物全身可见。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，双臂张开，道路向远处延伸。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光，天空较亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色树木、灰色道路、白色上衣、深蓝色裤装。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，双臂向上张开，面带笑容。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"visible_text\":{\"value\":\"大牌高端线才舍得用。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"}},{\"frame_id\":\"f006\",\"timestamp_ms\":15000,\"subject\":{\"value\":\"同一位女性，左手举透明包装袋，右手指向袋子。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，包装袋位于画面左侧，右手指向袋子。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，左手举袋，右手指向袋子，嘴部张开。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"visible_text\":{\"value\":\"还必须拿到。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"}},{\"frame_id\":\"f007\",\"timestamp_ms\":17500,\"subject\":{\"value\":\"同一位女性，左手举透明包装袋，右手食指指向袋子。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，包装袋位于画面左侧，字幕在下方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，左手举袋，右手食指指向袋子。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"visible_text\":{\"value\":\"所以我们敢把并且要把黑标印在吊牌上。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"}},{\"frame_id\":\"f008\",\"timestamp_ms\":20000,\"subject\":{\"value\":\"同一位女性，双手摊开，掌心向上。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，双手摊开在身体两侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，双手摊开，嘴部微张。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"visible_text\":{\"value\":\"而飞比特想要的。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"}},{\"frame_id\":\"f009\",\"timestamp_ms\":22500,\"subject\":{\"value\":\"同一位女性，双手食指指向身体两侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，画面中央有日期图形。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装，中央有红黄图形。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，双手食指指向两侧，面带微笑。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"visible_text\":{\"value\":\"8月7号。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"}},{\"frame_id\":\"f010\",\"timestamp_ms\":25000,\"subject\":{\"value\":\"同一位女性，双手自然下垂，正面站立。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，字幕在下方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，双手自然下垂，嘴部微张。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"visible_text\":{\"value\":\"使用智合智纤®莱卡。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"}},{\"frame_id\":\"f011\",\"timestamp_ms\":27500,\"subject\":{\"value\":\"同一位女性，正在跑步，双臂摆动。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"scene\":{\"value\":\"户外道路，两侧有树木和路灯。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"shot_size\":{\"value\":\"全景，人物全身可见。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中偏左，道路向远处延伸。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光，树荫下有明暗对比。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色树木、灰色道路、白色上衣、深蓝色裤装。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"跑步姿态，双臂弯曲摆动，双腿一前一后。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"visible_text\":{\"value\":\"迈步时跟着你伸展。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"}},{\"frame_id\":\"f012\",\"timestamp_ms\":30000,\"subject\":{\"value\":\"一只手拉扯深蓝色紧身裤的腰部，展示腰臀腿包裹。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"scene\":{\"value\":\"户外背景，有绿植和路面。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"shot_size\":{\"value\":\"特写，仅腰臀腿部分。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视近距。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"composition\":{\"value\":\"裤装占据画面大部分，手在右上方拉扯。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"color_palette\":{\"value\":\"深蓝色裤装、白色上衣、绿色背景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"手拉扯裤腰，展示面料弹性。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"visible_text\":{\"value\":\"腰臀腿连续包裹。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"}},{\"frame_id\":\"f013\",\"timestamp_ms\":32500,\"subject\":{\"value\":\"同一位女性，侧面跑步姿态，双臂摆动。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与道路，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视侧面。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中偏左，侧面朝向画面右侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"跑步姿态，双臂弯曲摆动，身体侧向。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"visible_text\":{\"value\":\"跑多久都不用分心拽裤子。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"}},{\"frame_id\":\"f014\",\"timestamp_ms\":35000,\"subject\":{\"value\":\"同一位女性，正面站立，双手自然下垂。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，字幕在下方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，双手自然下垂，嘴部微张。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"visible_text\":{\"value\":\"未见可读文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"}},{\"frame_id\":\"f015\",\"timestamp_ms\":37500,\"subject\":{\"value\":\"同一位女性，左手举透明包装袋，右手指向袋子。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，包装袋位于画面左侧，字幕在下方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，左手举袋，右手指向袋子。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"visible_text\":{\"value\":\"吊牌上的黑标莱卡。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"}},{\"frame_id\":\"f016\",\"timestamp_ms\":40000,\"subject\":{\"value\":\"同一位女性，左手举透明包装袋，右手摊开。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，包装袋位于画面左侧，字幕在下方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，左手举袋，右手摊开，面带微笑。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"visible_text\":{\"value\":\"是我们给每位飞比特跑者的底气。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"}},{\"frame_id\":\"f017\",\"timestamp_ms\":42500,\"subject\":{\"value\":\"同一位女性，双手食指指向身体两侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，右侧有黄色箭头图形，字幕在下方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装，右侧有黄色箭头。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，双手食指指向两侧，面带微笑。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"visible_text\":{\"value\":\"让面料跟你跑在一起。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"}},{\"frame_id\":\"f018\",\"timestamp_ms\":45000,\"subject\":{\"value\":\"同一位女性，右手食指向上指，面带微笑。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f018\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地与铺装路面，背景有树木。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f018\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f018\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f018\"],\"note\":\"\"},\"composition\":{\"value\":\"人物居中，画面中央有品牌文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f018\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光，画面整体偏暖。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f018\"],\"note\":\"\"},\"color_palette\":{\"value\":\"绿色草地、白色上衣、深蓝色裤装，画面偏暖。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f018\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"站立，右手食指向上指，面带微笑。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f018\"],\"note\":\"\"},\"visible_text\":{\"value\":\"FLIPBELT 飞比特。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f018\"],\"note\":\"\"}},{\"frame_id\":\"f019\",\"timestamp_ms\":47500,\"subject\":{\"value\":\"黑色背景上的白色品牌文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"\"},\"scene\":{\"value\":\"纯黑色背景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"纯文字画面无法套用实拍景别。\"},\"camera_angle\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"纯文字画面无空间线索判断角度。\"},\"composition\":{\"value\":\"文字居中。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"\"},\"lighting\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"纯色背景无布光依据。\"},\"color_palette\":{\"value\":\"黑白对比。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"\"},\"visible_pose\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"画面中无人物或可辨姿态。\"},\"visible_text\":{\"value\":\"FLIPBELT 飞比特。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f019\"],\"note\":\"\"}}],\"visual_intervals\":[{\"from_frame_id\":\"f000\",\"to_frame_id\":\"f001\",\"start_ms\":0,\"end_ms\":2500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"人物从抬头微笑变为低头看向手中包装袋，左手食指指向袋内物品。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"人物可能低头并抬起左手。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"两帧之间的连续动作未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"背景无明显位移，无法区分摄像机运动与主体运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"背景和人物位置基本一致。\"}},{\"from_frame_id\":\"f001\",\"to_frame_id\":\"f002\",\"start_ms\":2500,\"end_ms\":5000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面从人物中景切换到手持吊牌的特写。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"景别变化大，无法确认主体连续动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"景别突变，可能是剪辑或镜头切换。\"},\"transition\":{\"value\":\"疑似镜头切换。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"从人物中景变为吊牌特写，背景完全不同。\"}},{\"from_frame_id\":\"f002\",\"to_frame_id\":\"f003\",\"start_ms\":5000,\"end_ms\":7500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面从吊牌特写切回人物中景，人物左手举袋、右手摊开。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"景别变化大，无法确认主体连续动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"景别突变，可能是剪辑或镜头切换。\"},\"transition\":{\"value\":\"疑似镜头切换。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"从特写切回中景，背景完全不同。\"}},{\"from_frame_id\":\"f003\",\"to_frame_id\":\"f004\",\"start_ms\":7500,\"end_ms\":10000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面从人物中景切换到裤腿特写，一只手放在裤腿上。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"景别变化大，无法确认主体连续动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"景别突变，可能是剪辑或镜头切换。\"},\"transition\":{\"value\":\"疑似镜头切换。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"从中景变为特写，背景完全不同。\"}},{\"from_frame_id\":\"f004\",\"to_frame_id\":\"f005\",\"start_ms\":10000,\"end_ms\":12500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面从裤腿特写切换到人物全身张开双臂站在道路上。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"景别变化大，无法确认主体连续动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"景别突变，可能是剪辑或镜头切换。\"},\"transition\":{\"value\":\"疑似镜头切换。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"从特写变为全景，背景完全不同。\"}},{\"from_frame_id\":\"f005\",\"to_frame_id\":\"f006\",\"start_ms\":12500,\"end_ms\":15000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面从人物全身张开双臂切换到人物中景举袋指向袋子。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"景别变化大，无法确认主体连续动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"景别突变，可能是剪辑或镜头切换。\"},\"transition\":{\"value\":\"疑似镜头切换。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"从全景变为中景，背景完全不同。\"}},{\"from_frame_id\":\"f006\",\"to_frame_id\":\"f007\",\"start_ms\":15000,\"end_ms\":17500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"人物姿势基本一致，右手从指向袋子变为食指指向袋子，字幕变化。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"人物可能保持站立并微调手势。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"两帧之间的连续动作未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"背景无明显位移，无法区分摄像机运动与主体运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"背景和人物位置基本一致。\"}},{\"from_frame_id\":\"f007\",\"to_frame_id\":\"f008\",\"start_ms\":17500,\"end_ms\":20000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"人物从左手举袋、右手指向袋子变为双手摊开。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"人物可能放下袋子并摊开双手。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"两帧之间的连续动作未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"背景无明显位移，无法区分摄像机运动与主体运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"背景和人物位置基本一致。\"}},{\"from_frame_id\":\"f008\",\"to_frame_id\":\"f009\",\"start_ms\":20000,\"end_ms\":22500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"人物从双手摊开变为双手食指指向两侧，画面中央出现日期图形。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"人物可能改变手势并保持站立。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"两帧之间的连续动作未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"背景无明显位移，无法区分摄像机运动与主体运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"背景和人物位置基本一致。\"}},{\"from_frame_id\":\"f009\",\"to_frame_id\":\"f010\",\"start_ms\":22500,\"end_ms\":25000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"人物从双手食指指向两侧变为双手自然下垂，中央日期图形消失。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"人物可能放下双手并恢复自然站姿。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"两帧之间的连续动作未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"背景无明显位移，无法区分摄像机运动与主体运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"背景和人物位置基本一致。\"}},{\"from_frame_id\":\"f010\",\"to_frame_id\":\"f011\",\"start_ms\":25000,\"end_ms\":27500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面从人物正面站立切换到人物在道路上跑步的全景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"景别和场景变化大，无法确认主体连续动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"场景突变，可能是剪辑或镜头切换。\"},\"transition\":{\"value\":\"疑似镜头切换。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"从中景变为全景，背景完全不同。\"}},{\"from_frame_id\":\"f011\",\"to_frame_id\":\"f012\",\"start_ms\":27500,\"end_ms\":30000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面从人物跑步全景切换到腰臀腿特写，手拉扯裤腰。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"景别变化大，无法确认主体连续动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"景别突变，可能是剪辑或镜头切换。\"},\"transition\":{\"value\":\"疑似镜头切换。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"从全景变为特写，背景完全不同。\"}},{\"from_frame_id\":\"f012\",\"to_frame_id\":\"f013\",\"start_ms\":30000,\"end_ms\":32500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面从腰臀腿特写切换到人物侧面跑步中景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"景别变化大，无法确认主体连续动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"景别突变，可能是剪辑或镜头切换。\"},\"transition\":{\"value\":\"疑似镜头切换。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"从特写变为中景，背景完全不同。\"}},{\"from_frame_id\":\"f013\",\"to_frame_id\":\"f014\",\"start_ms\":32500,\"end_ms\":35000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面从人物侧面跑步中景切换到人物正面站立中景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"姿势和视角变化大，无法确认主体连续动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"视角突变，可能是剪辑或镜头切换。\"},\"transition\":{\"value\":\"疑似镜头切换。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"从侧面跑步变为正面站立，背景不同。\"}},{\"from_frame_id\":\"f014\",\"to_frame_id\":\"f015\",\"start_ms\":35000,\"end_ms\":37500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"人物从双手自然下垂变为左手举袋、右手指向袋子。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"人物可能举起包装袋并抬起右手。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"两帧之间的连续动作未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"背景无明显位移，无法区分摄像机运动与主体运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"背景和人物位置基本一致。\"}},{\"from_frame_id\":\"f015\",\"to_frame_id\":\"f016\",\"start_ms\":37500,\"end_ms\":40000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"人物从左手举袋、右手指向袋子变为左手举袋、右手摊开。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"人物可能改变右手手势。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"两帧之间的连续动作未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"背景无明显位移，无法区分摄像机运动与主体运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"背景和人物位置基本一致。\"}},{\"from_frame_id\":\"f016\",\"to_frame_id\":\"f017\",\"start_ms\":40000,\"end_ms\":42500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"人物从左手举袋、右手摊开变为双手食指指向两侧，右侧出现黄色箭头。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\",\"f017\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"人物可能放下袋子并改变手势。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f016\",\"f017\"],\"note\":\"两帧之间的连续动作未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f016\",\"f017\"],\"note\":\"背景无明显位移，无法区分摄像机运动与主体运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f016\",\"f017\"],\"note\":\"背景和人物位置基本一致。\"}},{\"from_frame_id\":\"f017\",\"to_frame_id\":\"f018\",\"start_ms\":42500,\"end_ms\":45000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"人物从双手食指指向两侧变为右手食指向上指，画面中央出现品牌文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\",\"f018\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"人物可能改变手势并保持站立。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f017\",\"f018\"],\"note\":\"两帧之间的连续动作未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f017\",\"f018\"],\"note\":\"背景无明显位移，无法区分摄像机运动与主体运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f017\",\"f018\"],\"note\":\"背景和人物位置基本一致。\"}},{\"from_frame_id\":\"f018\",\"to_frame_id\":\"f019\",\"start_ms\":45000,\"end_ms\":47500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面从人物中景切换到纯黑背景上的品牌文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f018\",\"f019\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f018\",\"f019\"],\"note\":\"画面内容完全不同，无法确认主体连续动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f018\",\"f019\"],\"note\":\"画面突变，可能是剪辑或镜头切换。\"},\"transition\":{\"value\":\"疑似镜头切换。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f018\",\"f019\"],\"note\":\"从人物中景变为纯文字画面，背景完全不同。\"}}]}"
+}

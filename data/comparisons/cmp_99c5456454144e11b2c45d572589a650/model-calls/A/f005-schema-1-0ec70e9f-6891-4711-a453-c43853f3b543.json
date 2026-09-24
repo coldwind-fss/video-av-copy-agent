@@ -1,0 +1,46 @@
+{
+  "call_id": "0ec70e9f-6891-4711-a453-c43853f3b543",
+  "request_id": "e879588c-5eb4-409d-a7d6-35d76465217d",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 486,
+    "total_tokens": 3075,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2765
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f005",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "203bae9c82406378b0b7d781f76d64149cb59fb8d1595683b1dfac3ad92b925d",
+  "image_inputs": [
+    {
+      "frame_id": "f005",
+      "sample_time_ms": 12500,
+      "source_time_ms": null,
+      "timestamp_ms": 12500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "1699be606cf06033288028cf803e817472b52cf7ee6607b108731f4afa64691b",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f005.jpg",
+      "size_bytes": 123575
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f005\",\"timestamp_ms\":12500,\"subject\":{\"value\":\"一名女子，头戴蓝色花纹发带，身穿白色长袖上衣、蓝色紧身裤和白色运动鞋，腰间系一件深色外套。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"依据画面中人物可见的衣着与配饰。\"},\"scene\":{\"value\":\"户外柏油路面，路面有黄色虚线标线，两侧为草地和绿树，远处有路灯杆。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"依据画面背景可见的道路、植被与设施。\"},\"shot_size\":{\"value\":\"全身景，人物从头部到脚部完整入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"人物全身均在画面内。\"},\"camera_angle\":{\"value\":\"平视角度，镜头大致与人物胸部至腰部高度齐平。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"依据人物身体比例与地平线位置推断，非精确测量。\"},\"composition\":{\"value\":\"人物位于画面中央，双臂向上张开，占据画面中部主要区域，道路向画面右后方延伸。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"依据人物位置与道路走向可见。\"},\"lighting\":{\"value\":\"白天自然光，人物面部和身体受光均匀，地面有柔和阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"依据画面整体亮度与阴影可见。\"},\"color_palette\":{\"value\":\"以绿色、蓝色和白色为主，路面为灰黑色，字幕为白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"依据画面主要色块可见。\"},\"visible_pose\":{\"value\":\"人物站立，双臂向上张开呈V形，头部微仰，面带笑容，双脚分开站立。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"描述当前画面中的静态姿势。\"},\"visible_text\":{\"value\":\"大牌高端线才舍得用\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"画面下方有白色中文字幕，可辨认。\"}}}"
+}

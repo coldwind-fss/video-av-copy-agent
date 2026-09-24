@@ -1,0 +1,46 @@
+{
+  "call_id": "3c12ec79-93ca-495b-8266-48981f58e2c5",
+  "request_id": "9df75714-0263-40e4-8a9f-0dab49e923b1",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 434,
+    "total_tokens": 3023,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2072
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f016",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "af4db9e0e34164209b3b45a750462258acf447ffecb29f04c12bc9375a3e6e86",
+  "image_inputs": [
+    {
+      "frame_id": "f016",
+      "sample_time_ms": 20000,
+      "source_time_ms": null,
+      "timestamp_ms": 20000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "c72617fdfeedf40788568d107111e44edbf87bbd07b51f00e166e3483c365f5e",
+      "image_path": "frame_sets/fs_5cd07c0a297a402589766a09aa881bc3/f016.jpg",
+      "size_bytes": 27767
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f016\",\"timestamp_ms\":20000,\"subject\":{\"value\":\"一个浅黄绿色的小型收纳袋，带拉链，拉链头挂有彩色小饰件\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"仅描述可见外观，不判断材质成分或品牌。\"},\"scene\":{\"value\":\"灰蓝色渐变背景，左上角有斜向光束，底部有雾状纹理\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"shot_size\":{\"value\":\"主体在画面中占比较小，周围留有大面积背景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"按主体占比描述，不套用实拍人物景别。\"},\"camera_angle\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"单张静态图缺少足够空间线索判断拍摄角度。\"},\"composition\":{\"value\":\"主体位于画面中部偏左，文字居中排列在主体下方\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"lighting\":{\"value\":\"左上角有斜向光束，背景整体呈明暗渐变，主体受光均匀\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"仅描述可见光效，不推断灯位与器材。\"},\"color_palette\":{\"value\":\"以灰蓝色为主，主体为浅黄绿色，文字为白色\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"收纳袋呈倾斜摆放，拉链位于上缘，拉链头垂在右侧\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"描述此刻静态摆放状态。\"},\"visible_text\":{\"value\":\"P绒轻量马甲4.0；9月20日 正式上线\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"仅记录可辨认文字。\"}}}"
+}

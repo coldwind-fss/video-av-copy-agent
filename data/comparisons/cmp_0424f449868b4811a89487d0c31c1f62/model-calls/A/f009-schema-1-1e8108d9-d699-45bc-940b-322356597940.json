@@ -1,0 +1,46 @@
+{
+  "call_id": "1e8108d9-d699-45bc-940b-322356597940",
+  "request_id": "37b36b07-2e30-4551-81a0-f154bbf8ec65",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 434,
+    "total_tokens": 3023,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2326
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f009",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "8cca2623031846462c133f13307a9ddafaee1232c158f49644620482ecfa3be4",
+  "image_inputs": [
+    {
+      "frame_id": "f009",
+      "sample_time_ms": 11250,
+      "source_time_ms": null,
+      "timestamp_ms": 11250,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "9aa11092cdaf418b909a7a76643e237d30ace8a23bf93ee12c490078783e49ab",
+      "image_path": "frame_sets/fs_5cd07c0a297a402589766a09aa881bc3/f009.jpg",
+      "size_bytes": 32123
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f009\",\"timestamp_ms\":11250,\"subject\":{\"value\":\"浅绿色织物上的拉链，带黑色拉头与浅色编织拉绳\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"织物表面有褶皱，拉链齿与拉头可见。\"},\"scene\":{\"value\":\"浅绿色织物表面近景，背景为深色虚化区域\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"画面下方可见深色模糊背景。\"},\"shot_size\":{\"value\":\"特写，拉链与拉头占据画面中部\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"织物纹理与拉链齿清晰可辨。\"},\"camera_angle\":{\"value\":\"正面略俯视，拉链纵向贯穿画面\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"由拉链纵向走向与织物透视推断，无明确空间参照。\"},\"composition\":{\"value\":\"拉链位于画面中央纵向延伸，拉头与拉绳位于中下部，左下角有文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"lighting\":{\"value\":\"柔和均匀光，织物有轻微高光与阴影褶皱\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"未见明显硬阴影或强方向光。\"},\"color_palette\":{\"value\":\"浅绿、深绿、黑色、米白为主\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"文字为白色。\"},\"visible_pose\":{\"value\":\"拉链闭合状态，拉头位于画面中下部，拉绳自然下垂\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"仅描述当前静态状态。\"},\"visible_text\":{\"value\":\"双头拉链调温；上下独立开合调控散热\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"白色字幕位于画面左下角。\"}}}"
+}

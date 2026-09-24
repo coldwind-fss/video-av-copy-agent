@@ -1,0 +1,222 @@
+{
+  "call_id": "cadae878-8e21-42e3-9032-f0892b28152e",
+  "request_id": "0d367d82-9156-4c9d-9179-171feebb1f88",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9813,
+    "completion_tokens": 10756,
+    "total_tokens": 20569,
+    "prompt_tokens_details": {
+      "cached_tokens": 2688
+    },
+    "prompt_cache_hit_tokens": 2688,
+    "prompt_cache_miss_tokens": 7125
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 30311
+    }
+  ],
+  "input_text_chars": 807,
+  "branch": "B",
+  "node": "ordered-sequence",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "8027bd0bf595473193a485b804ca2cd3e23aee5d44a2f30144648f37636c98ec",
+  "input_text_sha256": "e42c43474ce27fb4e06a2a06b66c9b8314066f705f75af13baecaff15d43e00a",
+  "image_inputs": [
+    {
+      "frame_id": "f000",
+      "sample_time_ms": 0,
+      "source_time_ms": null,
+      "timestamp_ms": 0,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "7922b1c9bc83825ea21f81564b3f340695651344509440bc72867695d4de9686",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f000.jpg",
+      "size_bytes": 64941
+    },
+    {
+      "frame_id": "f001",
+      "sample_time_ms": 1500,
+      "source_time_ms": null,
+      "timestamp_ms": 1500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "b7956357aef1519f3ce48ca2430f15bc5e1067586c37fa76ea2fd30116309925",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f001.jpg",
+      "size_bytes": 66028
+    },
+    {
+      "frame_id": "f002",
+      "sample_time_ms": 3000,
+      "source_time_ms": null,
+      "timestamp_ms": 3000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "ff7cf12cbf5b0980cb86f4c2e5ce0639cf0b4821e78cd117df9ee9b9245e33da",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f002.jpg",
+      "size_bytes": 68215
+    },
+    {
+      "frame_id": "f003",
+      "sample_time_ms": 4500,
+      "source_time_ms": null,
+      "timestamp_ms": 4500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "7c34e6e52915b0d47d95c6f464b3228f828c16789a340b277c532da4ef3d9261",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f003.jpg",
+      "size_bytes": 70879
+    },
+    {
+      "frame_id": "f004",
+      "sample_time_ms": 6000,
+      "source_time_ms": null,
+      "timestamp_ms": 6000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "eef9162bae8c302532dbf24bb48075a3a0abab1eb996a0213c25f2870598f236",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f004.jpg",
+      "size_bytes": 68012
+    },
+    {
+      "frame_id": "f005",
+      "sample_time_ms": 7500,
+      "source_time_ms": null,
+      "timestamp_ms": 7500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "bc35b111ea436190719d7feac80f9b37688fcf20f8ed2793ff0e13ef031739a8",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f005.jpg",
+      "size_bytes": 74347
+    },
+    {
+      "frame_id": "f006",
+      "sample_time_ms": 9000,
+      "source_time_ms": null,
+      "timestamp_ms": 9000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "e7a778fb9666607a557af3ba4078b54477cee3c0f5963c85dc2a14218553f32c",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f006.jpg",
+      "size_bytes": 66320
+    },
+    {
+      "frame_id": "f007",
+      "sample_time_ms": 10500,
+      "source_time_ms": null,
+      "timestamp_ms": 10500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "1fe9de9c81b5b8facea6490af60b839252c55d98bf861f6ecd62beb51fec2dbf",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f007.jpg",
+      "size_bytes": 62398
+    },
+    {
+      "frame_id": "f008",
+      "sample_time_ms": 12000,
+      "source_time_ms": null,
+      "timestamp_ms": 12000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "a7331d2e8f406671585ca0d063a954a1729b5c76b1422ad0823bdf2f1440de71",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f008.jpg",
+      "size_bytes": 69885
+    },
+    {
+      "frame_id": "f009",
+      "sample_time_ms": 13500,
+      "source_time_ms": null,
+      "timestamp_ms": 13500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "daf60b55d21051568371c1b6722a96999b2978f2652c00db80ea898bff7e9213",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f009.jpg",
+      "size_bytes": 70424
+    },
+    {
+      "frame_id": "f010",
+      "sample_time_ms": 15000,
+      "source_time_ms": null,
+      "timestamp_ms": 15000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "052d3f35c3d6232a6f215e02bc337c04c66376191b7145d74ce11a738fda42ca",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f010.jpg",
+      "size_bytes": 71326
+    },
+    {
+      "frame_id": "f011",
+      "sample_time_ms": 16500,
+      "source_time_ms": null,
+      "timestamp_ms": 16500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "bf2b1548790aada515102e8c6412675d6222ed4723e571d4b2c5ec6081668526",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f011.jpg",
+      "size_bytes": 73651
+    },
+    {
+      "frame_id": "f012",
+      "sample_time_ms": 18000,
+      "source_time_ms": null,
+      "timestamp_ms": 18000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "30545e2ebbf97f127c5ba57002b1509840d2fb36c772979533175409a67147be",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f012.jpg",
+      "size_bytes": 73150
+    },
+    {
+      "frame_id": "f013",
+      "sample_time_ms": 19500,
+      "source_time_ms": null,
+      "timestamp_ms": 19500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "b0386b68fb10177e962fb777423fd25f0bd07dd0f4bbaf5ab64ad445520ddd43",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f013.jpg",
+      "size_bytes": 66489
+    },
+    {
+      "frame_id": "f014",
+      "sample_time_ms": 21000,
+      "source_time_ms": null,
+      "timestamp_ms": 21000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "f73c6506f66acdde66012b3362062112c8f598cd83ed581e432d1cb404872cd6",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f014.jpg",
+      "size_bytes": 71158
+    },
+    {
+      "frame_id": "f015",
+      "sample_time_ms": 22500,
+      "source_time_ms": null,
+      "timestamp_ms": 22500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "8861f3e8ecb8abd5b7fcda7f2c5b4af781483487797cfa3e9d1de815813f4144",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f015.jpg",
+      "size_bytes": 69932
+    },
+    {
+      "frame_id": "f016",
+      "sample_time_ms": 24000,
+      "source_time_ms": null,
+      "timestamp_ms": 24000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "6662fd27135fadf61c3aada0f044d285d9b2ab5e42b96b350e270d0bcbd36d1b",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f016.jpg",
+      "size_bytes": 9574
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"sequence_analysis\",\"frames\":[{\"frame_id\":\"f000\",\"timestamp_ms\":0,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，手指指向裤子。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"右手食指指向裤子。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、这是我们测试了无数版、已确认 抗勾丝是真的、安全类别：A类、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f001\",\"timestamp_ms\":1500,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，左手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"左手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、就最终确定的一个颜色、已确认 抗勾丝是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f002\",\"timestamp_ms\":3000,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，右手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"右手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、如果说不好看、已确认 抗勾丝是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f003\",\"timestamp_ms\":4500,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，左手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"左手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、我不会把它当做一个主推款、已确认 抗勾丝是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f004\",\"timestamp_ms\":6000,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，右手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"右手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、这个颜色整体的质感、已确认 凉感是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f005\",\"timestamp_ms\":7500,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，左手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"左手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、质感上面它是很高级的质感、已确认 凉感是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f006\",\"timestamp_ms\":9000,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，右手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"右手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、带一点点微微的雾霾紫色、已确认 透气是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f007\",\"timestamp_ms\":10500,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，左手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"左手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、像这样的颜色、已确认 透气是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f008\",\"timestamp_ms\":12000,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，右手抬起。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"右手在画面右侧抬起。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、哪怕说是你的皮肤肤色黄点、已确认 吸湿排汗是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f009\",\"timestamp_ms\":13500,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，左手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"左手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、哪怕说是你的皮肤肤色黑一点、已确认 吸湿排汗是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f010\",\"timestamp_ms\":15000,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，右手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"右手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、是不是穿它是不是、已确认 分区压是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f011\",\"timestamp_ms\":16500,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，左手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"左手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、同样的显白高级有质感、已确认 分区压是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f012\",\"timestamp_ms\":18000,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，右手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"右手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、这个就是我们的灰色、已确认 分区压是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f013\",\"timestamp_ms\":19500,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，左手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"左手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、给你们离远点再看一下这个灰色、已确认 抗勾丝是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f014\",\"timestamp_ms\":21000,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，右手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"右手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、待会想看这个灰色上身效果、已确认 抗勾丝是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f015\",\"timestamp_ms\":22500,\"subject\":{\"value\":\"一位长发女性主播，手持深紫色长裤，画面左侧有产品信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"主播面部和手持裤子清晰可见。\"},\"scene\":{\"value\":\"室内直播场景，背景为蓝色渐变和模糊人物影像。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"背景有蓝色和绿色元素。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"画面包含主播上半身和手持裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"主播面部正对镜头。\"},\"composition\":{\"value\":\"主播位于画面中央，裤子占据画面下半部分，左侧有信息浮层。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"信息浮层包含文字和图片。\"},\"lighting\":{\"value\":\"均匀明亮，无明显阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"主播面部和裤子受光均匀。\"},\"color_palette\":{\"value\":\"蓝色、紫色、白色、黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"背景蓝色，裤子紫色，主播白色上衣，左侧浮层黄色。\"},\"visible_pose\":{\"value\":\"主播双手持裤腰，左手手指微曲。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"左手在裤腰处。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、的朋友也可以在直播间发、已确认 抗勾丝是真的、李鱼、170CM/54KG、试穿尺码：S、官方正品、运费险、七天无理由。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"部分文字较小，但可辨认。\"}},{\"frame_id\":\"f016\",\"timestamp_ms\":24000,\"subject\":{\"value\":\"黑色背景上的白色文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"画面仅包含文字。\"},\"scene\":{\"value\":\"纯黑色背景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"无其他元素。\"},\"shot_size\":{\"value\":\"特写\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"画面仅包含文字。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"文字正对镜头。\"},\"composition\":{\"value\":\"文字居中。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"文字位于画面中央。\"},\"lighting\":{\"value\":\"无光源，文字自发光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"黑色背景，白色文字。\"},\"color_palette\":{\"value\":\"黑色、白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"黑白对比。\"},\"visible_pose\":{\"value\":\"无人物。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"画面无人物。\"},\"visible_text\":{\"value\":\"FLIPBELT、飞比特。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"文字清晰可辨。\"}}],\"visual_intervals\":[{\"from_frame_id\":\"f000\",\"to_frame_id\":\"f001\",\"start_ms\":0,\"end_ms\":1500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"字幕从“这是我们测试了无数版”变为“就最终确定的一个颜色”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f001\",\"to_frame_id\":\"f002\",\"start_ms\":1500,\"end_ms\":3000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"字幕从“就最终确定的一个颜色”变为“如果说不好看”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f002\",\"to_frame_id\":\"f003\",\"start_ms\":3000,\"end_ms\":4500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"字幕从“如果说不好看”变为“我不会把它当做一个主推款”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f003\",\"to_frame_id\":\"f004\",\"start_ms\":4500,\"end_ms\":6000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"字幕从“我不会把它当做一个主推款”变为“这个颜色整体的质感”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f004\",\"to_frame_id\":\"f005\",\"start_ms\":6000,\"end_ms\":7500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"字幕从“这个颜色整体的质感”变为“质感上面它是很高级的质感”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f005\",\"to_frame_id\":\"f006\",\"start_ms\":7500,\"end_ms\":9000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"字幕从“质感上面它是很高级的质感”变为“带一点点微微的雾霾紫色”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f006\",\"to_frame_id\":\"f007\",\"start_ms\":9000,\"end_ms\":10500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"字幕从“带一点点微微的雾霾紫色”变为“像这样的颜色”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f007\",\"to_frame_id\":\"f008\",\"start_ms\":10500,\"end_ms\":12000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"字幕从“像这样的颜色”变为“哪怕说是你的皮肤肤色黄点”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f008\",\"to_frame_id\":\"f009\",\"start_ms\":12000,\"end_ms\":13500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"字幕从“哪怕说是你的皮肤肤色黄点”变为“哪怕说是你的皮肤肤色黑一点”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f009\",\"to_frame_id\":\"f010\",\"start_ms\":13500,\"end_ms\":15000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"字幕从“哪怕说是你的皮肤肤色黑一点”变为“是不是穿它是不是”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f010\",\"to_frame_id\":\"f011\",\"start_ms\":15000,\"end_ms\":16500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"字幕从“是不是穿它是不是”变为“同样的显白高级有质感”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f011\",\"to_frame_id\":\"f012\",\"start_ms\":16500,\"end_ms\":18000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"字幕从“同样的显白高级有质感”变为“这个就是我们的灰色”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f012\",\"to_frame_id\":\"f013\",\"start_ms\":18000,\"end_ms\":19500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"字幕从“这个就是我们的灰色”变为“给你们离远点再看一下这个灰色”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f013\",\"to_frame_id\":\"f014\",\"start_ms\":19500,\"end_ms\":21000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"字幕从“给你们离远点再看一下这个灰色”变为“待会想看这个灰色上身效果”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f014\",\"to_frame_id\":\"f015\",\"start_ms\":21000,\"end_ms\":22500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"主播姿势和字幕文字发生变化，背景和构图基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"字幕从“待会想看这个灰色上身效果”变为“的朋友也可以在直播间发”。\"},\"subject_motion\":{\"value\":\"主播可能继续讲解，手部姿势微调。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"两帧间动作变化细微。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"画面构图稳定，无法判断摄像机是否运动。\"},\"transition\":{\"value\":\"疑似连续镜头。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"背景和构图一致，无剪辑迹象。\"}},{\"from_frame_id\":\"f015\",\"to_frame_id\":\"f016\",\"start_ms\":22500,\"end_ms\":24000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面从直播场景变为纯黑背景上的品牌文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"f015为直播画面，f016为品牌标识画面。\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"画面内容发生根本变化，无法判断主体运动。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"画面内容发生根本变化，无法判断摄像机运动。\"},\"transition\":{\"value\":\"疑似镜头切换或片尾。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"画面从直播场景变为品牌标识，可能为剪辑或片尾。\"}}]}"
+}

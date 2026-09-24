@@ -1,0 +1,53 @@
+{
+  "call_id": "7a4c2e40-c48b-4d36-907f-f195e69a1a31",
+  "request_id": "706d46d4-de46-46c2-ab3f-8036eab8a31c",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2796,
+    "completion_tokens": 448,
+    "total_tokens": 3244,
+    "prompt_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "prompt_cache_hit_tokens": 2176,
+    "prompt_cache_miss_tokens": 620
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2701
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f010",
+  "prompt_version": "poc-v0.2",
+  "schema_version": "1.1",
+  "system_prompt_sha256": "fba558a42cb47a533f8e30e0b7e4a7df8d66d9caf5927800d3a2e1c3c33a0879",
+  "input_text_sha256": "9d2e454274634cdd30a201648bae73a808de7b51d58566478eb5a3ca247ff599",
+  "image_inputs": [
+    {
+      "frame_id": "f010",
+      "sample_time_ms": 12500,
+      "source_time_ms": null,
+      "timestamp_ms": 12500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "7d0e9ccfdb1e18e5bdb188547a455d0ebda677b6689325cf52c1616e65267f49",
+      "image_path": "frame_sets/fs_7bee6f212dc343f5bd821bfd6640ba6a/f010.jpg",
+      "size_bytes": 28169
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.1\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f010\",\"timestamp_ms\":12500,\"subject\":{\"value\":\"浅绿色织物上的绿色拉链，拉链带与两侧布面可见。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"仅描述可见织物与拉链，不判断具体商品品类。\"},\"scene\":{\"value\":\"浅绿色织物表面特写，无其他环境元素。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"shot_size\":{\"value\":\"极近景，画面被织物与拉链局部填满。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"依据画面中拉链与布面占比判断。\"},\"camera_angle\":{\"value\":\"正面近距平视，拉链纵向贯穿画面。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"静态画面，无运动信息。\"},\"composition\":{\"value\":\"拉链位于画面中央偏左，纵向贯穿上下；两侧为浅绿色布面，左下角有白色文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"lighting\":{\"value\":\"拉链中部有明亮高光，布面明暗过渡柔和，整体均匀偏亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"仅描述可见光效，不推断灯位或器材。\"},\"color_palette\":{\"value\":\"以浅绿色为主，拉链带为较饱和的绿色，文字为白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"拉链呈纵向闭合状态，布面平整，局部有轻微褶皱。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\",\"f010\"],\"note\":\"仅描述当前静态摆放。\"},\"visible_text\":{\"value\":\"双头拉链调温；上下独立开合调控散热\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"画面左下角白色字幕，可辨认。\"}}}",
+  "application_normalizations": [
+    {
+      "path": "$.frame.visible_pose.evidence_frame_ids",
+      "action": "deduplicated_evidence_frame_ids",
+      "removed_count": 1
+    }
+  ]
+}

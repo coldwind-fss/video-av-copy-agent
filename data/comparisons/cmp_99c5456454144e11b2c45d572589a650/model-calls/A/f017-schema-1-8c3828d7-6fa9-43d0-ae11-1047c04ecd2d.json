@@ -1,0 +1,46 @@
+{
+  "call_id": "8c3828d7-6fa9-43d0-ae11-1047c04ecd2d",
+  "request_id": "8ef943bc-c2d7-477c-a1be-21f9310970df",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 429,
+    "total_tokens": 3018,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2577
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f017",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "16b55ea11c389c8bc52be36790daa6d22dbde2be3d46ab5a13adb3b1ef8e66c0",
+  "image_inputs": [
+    {
+      "frame_id": "f017",
+      "sample_time_ms": 42500,
+      "source_time_ms": null,
+      "timestamp_ms": 42500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "2d476328186e3646c8c341c79fead6ad1d3c101940d7455dd8a46ad5e36e2cfc",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f017.jpg",
+      "size_bytes": 70412
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f017\",\"timestamp_ms\":42500,\"subject\":{\"value\":\"一名戴蓝色花纹头巾、穿白色长袖短款上衣和深蓝色紧身裤的女性，腰间系深蓝色腰包，颈前挂有黑色小设备。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"仅描述可见外观，不推断身份。\"},\"scene\":{\"value\":\"户外草地与树木背景，前景为铺装路面。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"静态画面，无运动信息。\"},\"composition\":{\"value\":\"人物居中，身体占据画面中部，上方留出天空与树冠，下方为路面。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"lighting\":{\"value\":\"整体明亮，人物面部与上衣受光均匀，背景草地偏亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"不推断具体灯具或灯位。\"},\"color_palette\":{\"value\":\"以绿色草地、白色上衣、深蓝色裤装为主，头巾为蓝绿色花纹。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"人物站立，双手在腰腹前，右手食指指向左侧，左手食指指向右侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"仅描述当前帧可见姿势。\"},\"visible_text\":{\"value\":\"画面下方有白色中文字幕“让面料跟你跑在一起”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f017\"],\"note\":\"字幕清晰可辨。\"}}}"
+}

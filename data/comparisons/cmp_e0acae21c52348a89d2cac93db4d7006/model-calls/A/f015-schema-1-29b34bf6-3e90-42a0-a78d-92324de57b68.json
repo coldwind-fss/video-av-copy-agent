@@ -1,0 +1,46 @@
+{
+  "call_id": "29b34bf6-3e90-42a0-a78d-92324de57b68",
+  "request_id": "bceded0b-ca6c-473e-8b5f-eaa9efd6f04a",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2576,
+    "completion_tokens": 464,
+    "total_tokens": 3040,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 656
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2756
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f015",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "3cba5d33d5965d2e3e0d631370289fd18368d30442ffcebb350fb4197da072ff",
+  "image_inputs": [
+    {
+      "frame_id": "f015",
+      "sample_time_ms": 18750,
+      "source_time_ms": null,
+      "timestamp_ms": 18750,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "335d53882c588df4560806bde59800dc7c82eed20106a055ba8d45ac6dea00ce",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f015.jpg",
+      "size_bytes": 25346
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f015\",\"timestamp_ms\":18750,\"subject\":{\"value\":\"一件浅黄绿色、表面有横向绗缝线的无袖马甲，呈折叠或鼓起状态悬于画面中下部。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"仅描述可见外形与颜色，不判断材质成分或品牌。\"},\"scene\":{\"value\":\"灰蓝色渐变背景，上方较暗、下方较亮，底部有柔和阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"背景无其他可辨物体。\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"画面为商品展示图，缺少可参照的人物或场景尺度，无法可靠判定景别。\"},\"camera_angle\":{\"value\":\"正面平视，略偏俯视。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"由马甲开口朝向与底部阴影位置推测，非精确测量。\"},\"composition\":{\"value\":\"主体位于画面中下部偏右，文字居中叠加于主体上方，画面上半部大面积留空。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"lighting\":{\"value\":\"左上方有斜向亮光带，主体受光较亮，底部有柔和投影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"仅描述可见光效，不推断灯位或器材。\"},\"color_palette\":{\"value\":\"灰蓝色背景与浅黄绿色主体形成冷暖对比，文字为白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"马甲呈折叠鼓起状悬空，未见人物穿着。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"仅描述当前静态摆放状态。\"},\"visible_text\":{\"value\":\"P绒轻量马甲4.0；9月20日 正式上线\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"文字清晰可辨。\"}}}"
+}

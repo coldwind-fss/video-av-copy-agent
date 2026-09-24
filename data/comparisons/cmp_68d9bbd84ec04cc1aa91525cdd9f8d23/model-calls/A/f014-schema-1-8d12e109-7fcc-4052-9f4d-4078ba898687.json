@@ -1,0 +1,46 @@
+{
+  "call_id": "8d12e109-7fcc-4052-9f4d-4078ba898687",
+  "request_id": "f68530e8-a03d-45a7-8c7f-6618561ed17d",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2796,
+    "completion_tokens": 429,
+    "total_tokens": 3225,
+    "prompt_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "prompt_cache_hit_tokens": 2176,
+    "prompt_cache_miss_tokens": 620
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2473
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f014",
+  "prompt_version": "poc-v0.2",
+  "schema_version": "1.1",
+  "system_prompt_sha256": "fba558a42cb47a533f8e30e0b7e4a7df8d66d9caf5927800d3a2e1c3c33a0879",
+  "input_text_sha256": "da15b51dc972c86160f3d0f46de7651e6ec8b43494617d610f477244f7a018e0",
+  "image_inputs": [
+    {
+      "frame_id": "f014",
+      "sample_time_ms": 17500,
+      "source_time_ms": null,
+      "timestamp_ms": 17500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "8220689e7a650296a4a2498db1d29010f2522958380ebb0fc68a7ef4db6b8578",
+      "image_path": "frame_sets/fs_7bee6f212dc343f5bd821bfd6640ba6a/f014.jpg",
+      "size_bytes": 21444
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.1\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f014\",\"timestamp_ms\":17500,\"subject\":{\"value\":\"一件浅黄绿色轻薄外套，被收拢塞入其自身口袋中，呈悬空团块状。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"可见拉链、拉链头与收口结构。\"},\"scene\":{\"value\":\"灰蓝色渐变纯色背景，无其他环境元素。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中近景，主体占画面中部较小区域。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"依据主体在画面中的占比估计。\"},\"camera_angle\":{\"value\":\"正面平视，略偏俯视。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"主体悬空，缺少明确地平线参照。\"},\"composition\":{\"value\":\"主体位于画面中央偏下，上方大面积留白，左下角有字幕。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"lighting\":{\"value\":\"左上方有柔和光带，主体下方有淡阴影，整体为柔和散射光。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"不推断具体灯具或灯位。\"},\"color_palette\":{\"value\":\"灰蓝色背景与浅黄绿色主体形成对比，字幕为白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"外套被折叠收拢成团，拉链部分外露，整体悬于空中。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"仅描述此刻静态形态。\"},\"visible_text\":{\"value\":\"侧口袋自收纳；轻量便携快速收起\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"位于画面左下角的两行白色字幕。\"}}}"
+}

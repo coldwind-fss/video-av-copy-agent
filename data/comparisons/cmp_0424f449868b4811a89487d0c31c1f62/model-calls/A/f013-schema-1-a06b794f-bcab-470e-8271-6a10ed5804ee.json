@@ -1,0 +1,46 @@
+{
+  "call_id": "a06b794f-bcab-470e-8271-6a10ed5804ee",
+  "request_id": "4327cd05-b318-4726-92b2-486a5e424f1d",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 466,
+    "total_tokens": 3055,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2216
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f013",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "ed1fc5bc6309521923451fc2caa7c9efcd509059e4af7a599e0322e056707eed",
+  "image_inputs": [
+    {
+      "frame_id": "f013",
+      "sample_time_ms": 16250,
+      "source_time_ms": null,
+      "timestamp_ms": 16250,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "d157726b33b783ff48b13209c83ad2b36dd4869f3d56b23b821fc5b4451a8b9a",
+      "image_path": "frame_sets/fs_5cd07c0a297a402589766a09aa881bc3/f013.jpg",
+      "size_bytes": 31028
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f013\",\"timestamp_ms\":16250,\"subject\":{\"value\":\"一件浅黄绿色无袖立领马甲，被收拢折叠后塞入自身下摆形成的收纳袋中，胸前有拉链和一个小写字母标志。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"仅描述可见外观，不判断品牌、材质或功能。\"},\"scene\":{\"value\":\"灰蓝色渐变纯色背景，无其他环境元素。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"shot_size\":{\"value\":\"商品占据画面中部大部分区域，属于近景商品展示。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"按商品在画面中的占比推断，非实拍人物景别。\"},\"camera_angle\":{\"value\":\"正面平视，略偏俯视。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"由可见衣领与下摆的透视关系推断。\"},\"composition\":{\"value\":\"主体居中偏上，下方留出文字区域，背景大面积留白。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"lighting\":{\"value\":\"柔和均匀的顶光效果，主体边缘有轻微高光，背景上部较亮、下部较暗。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"仅描述可见明暗分布，不推断灯位或器材。\"},\"color_palette\":{\"value\":\"浅黄绿色主体搭配灰蓝色背景，文字为白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"马甲呈折叠收拢状态，下摆翻折成袋状包裹主体，拉链头垂在下方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"描述此刻静态摆放状态。\"},\"visible_text\":{\"value\":\"侧口袋自收纳 轻量便携快速收起\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"画面下方两行白色中文字幕。\"}}}"
+}

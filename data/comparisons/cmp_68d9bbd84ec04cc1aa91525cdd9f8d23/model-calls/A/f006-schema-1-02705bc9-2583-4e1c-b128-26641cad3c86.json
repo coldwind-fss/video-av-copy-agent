@@ -1,0 +1,46 @@
+{
+  "call_id": "02705bc9-2583-4e1c-b128-26641cad3c86",
+  "request_id": "c0322527-a911-4f3a-b5d3-23ca6d6dde3e",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2796,
+    "completion_tokens": 426,
+    "total_tokens": 3222,
+    "prompt_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "prompt_cache_hit_tokens": 2176,
+    "prompt_cache_miss_tokens": 620
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2500
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f006",
+  "prompt_version": "poc-v0.2",
+  "schema_version": "1.1",
+  "system_prompt_sha256": "fba558a42cb47a533f8e30e0b7e4a7df8d66d9caf5927800d3a2e1c3c33a0879",
+  "input_text_sha256": "63b3ea205e1eeddc87e8e3a2b005aa562d28ab60f336ccd5348d0d728d86bd71",
+  "image_inputs": [
+    {
+      "frame_id": "f006",
+      "sample_time_ms": 7500,
+      "source_time_ms": null,
+      "timestamp_ms": 7500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "3775fb485f9d771f8cb213f41583d28204e8801c99eae075b4570229469ecedf",
+      "image_path": "frame_sets/fs_7bee6f212dc343f5bd821bfd6640ba6a/f006.jpg",
+      "size_bytes": 44916
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.1\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f006\",\"timestamp_ms\":7500,\"subject\":{\"value\":\"浅黄绿色带横向褶皱纹理的织物表面，中部有一条纵向拉链或包边结构。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"仅见织物局部，无法确认整体品类。\"},\"scene\":{\"value\":\"画面几乎被该织物填满，左上角露出少量灰蓝色背景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"shot_size\":{\"value\":\"织物局部特写，纹理与拉链结构占据画面主体。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"按可见取景范围描述。\"},\"camera_angle\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"缺少可判断拍摄角度的空间参照。\"},\"composition\":{\"value\":\"纵向拉链结构偏画面右侧，织物纹理铺满其余区域，文字位于左下角。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"lighting\":{\"value\":\"整体明亮均匀，褶皱处有柔和阴影，未见明显强反差。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"仅描述可见明暗效果。\"},\"color_palette\":{\"value\":\"以浅黄绿色为主，左上角有少量灰蓝色，文字为白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"织物呈自然铺展状态，褶皱纹理横向排列，拉链结构纵向延伸。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"描述当前静态摆放。\"},\"visible_text\":{\"value\":\"PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"画面左下角白色文字，可辨认。\"}}}"
+}

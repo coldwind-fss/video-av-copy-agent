@@ -1,0 +1,326 @@
+{
+  "schema_version": "content-1.0",
+  "kind": "content_report",
+  "analysis_id": "ca_fixture_untimed",
+  "video_id": "video_fixture",
+  "duration_ms": 10000,
+  "status": "partial",
+  "input_mode": "fixture",
+  "scope": "in_scope",
+  "scope_reason": {
+    "value": "示例含商品相关文案，适合进行结构分析。",
+    "basis": "inferred",
+    "evidence": [
+      {
+        "type": "transcript_segment",
+        "id": "t001",
+        "quote": null
+      }
+    ],
+    "note": ""
+  },
+  "metadata": {
+    "scope_hint": "auto",
+    "origin_hint": "unknown"
+  },
+  "transcript": {
+    "schema_version": "content-1.0",
+    "kind": "transcript",
+    "transcript_id": "tr_fixture_untimed",
+    "video_id": "video_fixture",
+    "duration_ms": 10000,
+    "source": "fixture",
+    "content_basis": "speech",
+    "outcome": "text_available",
+    "timing": "none",
+    "timestamp_origin": "video_start",
+    "provider": null,
+    "model": null,
+    "language": "zh",
+    "segments": [
+      {
+        "segment_id": "t000",
+        "text": "跑步时口袋总是晃？",
+        "start_ms": null,
+        "end_ms": null,
+        "words": []
+      },
+      {
+        "segment_id": "t001",
+        "text": "这款腰包可以贴身收纳。",
+        "start_ms": null,
+        "end_ms": null,
+        "words": []
+      },
+      {
+        "segment_id": "t002",
+        "text": "今天下单有优惠，点开看看。",
+        "start_ms": null,
+        "end_ms": null,
+        "words": []
+      }
+    ],
+    "input_sha256": null,
+    "derived_from_id": null,
+    "is_fixture": true,
+    "reviewed_by_human": false,
+    "warnings": [
+      "合成文本，仅说明契约格式，未经实际 ASR 或模型调用。"
+    ]
+  },
+  "visual": {
+    "available": true,
+    "frame_set_id": "fs_fixture",
+    "observations": [
+      {
+        "observation_id": "vf000",
+        "frame_id": "f000",
+        "timestamp_ms": 0,
+        "description": "一位人物手持腰包面对镜头。",
+        "onscreen_text": [
+          "跑步时口袋晃？"
+        ],
+        "limitations": [
+          "合成视觉证据，仅用于格式示例。"
+        ]
+      },
+      {
+        "observation_id": "vf001",
+        "frame_id": "f001",
+        "timestamp_ms": 4000,
+        "description": "画面展示贴身佩戴的腰包。",
+        "onscreen_text": [],
+        "limitations": []
+      }
+    ]
+  },
+  "copy": {
+    "status": "completed",
+    "summary": {
+      "value": "通过跑步收纳痛点引出腰包，并以优惠引导查看。",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "type": "transcript_segment",
+          "id": "t000",
+          "quote": null
+        },
+        {
+          "type": "transcript_segment",
+          "id": "t001",
+          "quote": null
+        },
+        {
+          "type": "transcript_segment",
+          "id": "t002",
+          "quote": null
+        }
+      ],
+      "note": ""
+    },
+    "segments": [
+      {
+        "segment_id": "c001",
+        "transcript_segment_ids": [
+          "t000"
+        ],
+        "roles": [
+          "pain_point"
+        ],
+        "start_ms": null,
+        "end_ms": null,
+        "purpose": {
+          "value": "用跑步时的收纳困扰提出痛点。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "transcript_segment",
+              "id": "t000",
+              "quote": "跑步时口袋总是晃？"
+            }
+          ],
+          "note": ""
+        }
+      },
+      {
+        "segment_id": "c002",
+        "transcript_segment_ids": [
+          "t001"
+        ],
+        "roles": [
+          "product_intro",
+          "selling_point"
+        ],
+        "start_ms": null,
+        "end_ms": null,
+        "purpose": {
+          "value": "介绍腰包，并表达贴身收纳卖点。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "transcript_segment",
+              "id": "t001",
+              "quote": "这款腰包可以贴身收纳。"
+            }
+          ],
+          "note": "这里记录视频表达，不验证商品性能。"
+        }
+      },
+      {
+        "segment_id": "c003",
+        "transcript_segment_ids": [
+          "t002"
+        ],
+        "roles": [
+          "offer",
+          "call_to_action"
+        ],
+        "start_ms": null,
+        "end_ms": null,
+        "purpose": {
+          "value": "以优惠配合点击指引。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "transcript_segment",
+              "id": "t002",
+              "quote": "今天下单有优惠，点开看看。"
+            }
+          ],
+          "note": "没有具体优惠金额，不能补写。"
+        }
+      }
+    ],
+    "structure_pattern": "痛点 → 产品介绍 / 卖点 → 福利 / 行动引导"
+  },
+  "tags": {
+    "format_tags": [
+      {
+        "value": "talking_head",
+        "basis": "inferred",
+        "evidence": [
+          {
+            "type": "visual_observation",
+            "id": "vf000",
+            "quote": null
+          },
+          {
+            "type": "transcript_segment",
+            "id": "t000",
+            "quote": null
+          }
+        ],
+        "note": "根据人物正面展示与输入文本作形式判断。"
+      }
+    ],
+    "origin": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": [],
+      "note": "没有素材来源信息，无法确定是否由长视频剪出。"
+    },
+    "topic_tags": [
+      {
+        "value": "跑步收纳",
+        "basis": "inferred",
+        "evidence": [
+          {
+            "type": "transcript_segment",
+            "id": "t000",
+            "quote": null
+          },
+          {
+            "type": "transcript_segment",
+            "id": "t001",
+            "quote": null
+          }
+        ],
+        "note": ""
+      }
+    ]
+  },
+  "hook": {
+    "status": "limited",
+    "window_start_ms": 0,
+    "window_end_ms": 3000,
+    "timing_precision": "none",
+    "spoken_excerpt": {
+      "value": null,
+      "basis": "unknown",
+      "evidence": [],
+      "note": "文本未提供时间戳，不能判断哪些口播位于前三秒。"
+    },
+    "onscreen_text": {
+      "value": "跑步时口袋晃？",
+      "basis": "observed",
+      "evidence": [
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": null
+        }
+      ],
+      "note": ""
+    },
+    "visual_summary": {
+      "value": "人物手持腰包面对镜头。",
+      "basis": "observed",
+      "evidence": [
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": null
+        }
+      ],
+      "note": ""
+    },
+    "techniques": [
+      {
+        "type": "question",
+        "analysis": {
+          "value": "画面中的提问文字引入问题。",
+          "basis": "inferred",
+          "evidence": [
+            {
+              "type": "visual_observation",
+              "id": "vf000",
+              "quote": null
+            }
+          ],
+          "note": "只依据屏幕文字，不推断口播。"
+        }
+      }
+    ],
+    "explanation": {
+      "value": "开头以人物持物画面和问题文字呈现。",
+      "basis": "inferred",
+      "evidence": [
+        {
+          "type": "visual_observation",
+          "id": "vf000",
+          "quote": null
+        }
+      ],
+      "note": "口播时间未知。"
+    },
+    "boundary_unresolved": true,
+    "limitations": [
+      "离散采样不能证明覆盖了全部画面变化。",
+      "无口播时间信息，只分析带时间的视觉证据。"
+    ]
+  },
+  "limitations": [
+    "全部内容均为合成示例，不代表模型运行或真实素材结论。"
+  ],
+  "provenance": {
+    "workflow_version": "content-v0.3",
+    "prompt_version": "content-prompts-v0.1",
+    "taxonomy_version": "content-tags-v0.1",
+    "video_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+    "transcript_sha256": null,
+    "returned_model": null,
+    "generated_at": "2026-09-23T00:00:00Z",
+    "model_call_ids": [],
+    "is_fixture": true
+  }
+}

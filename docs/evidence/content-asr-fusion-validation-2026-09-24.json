@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-24",
+  "workflow": {
+    "version": "content-v0.3",
+    "input_mode": "asr",
+    "analysis_model": "deepseek-flash",
+    "nodes": ["visual", "copy_tags", "hook"]
+  },
+  "samples": [
+    {
+      "name": "口播.mp4",
+      "video_id": "video_41cab5fb16bc40539ac240278815afc2",
+      "transcription_job_id": "tj_4921780cdd8f423f925523a98f9432bb",
+      "transcript_id": "tr_ed633f209b2944ab9eb0bac41e2d91e0",
+      "analysis_id": "ca_cc4556eb2c8d4ae292fd4f257fbf4fd0",
+      "status": "completed",
+      "components": {"visual": "completed", "copy_tags": "completed", "hook": "completed"},
+      "hook_status": "available",
+      "visual_observations": 20,
+      "input_mode": "asr"
+    },
+    {
+      "name": "切片.mp4",
+      "video_id": "video_02c821c048a14a5c9e0de5b01dcd3448",
+      "transcription_job_id": "tj_28c609999c2b44b6b81feea28d8763c8",
+      "transcript_id": "tr_ad9fa80db33e432fb896f8b6835c1e21",
+      "analysis_id": "ca_0262b33587fc47429b4ba83b2ec03017",
+      "status": "partial",
+      "components": {"visual": "completed", "copy_tags": "completed", "hook": "unavailable"},
+      "hook_status": "limited",
+      "visual_observations": 14,
+      "input_mode": "asr",
+      "note": "前三秒口播证据跨越窗口边界，按契约保留 limited。"
+    },
+    {
+      "name": "3D.mp4",
+      "video_id": "video_225d45ddfe834732aa7bfced75054dd6",
+      "transcription_job_id": "tj_f159c78ce022406f946480f60889cfd0",
+      "transcript_id": "tr_9edceec219504b48864df12bfe7786fd",
+      "analysis_id": "ca_73cfee9f24064030aeb350117f02913e",
+      "status": "partial",
+      "components": {"visual": "completed", "copy_tags": "completed", "hook": "unavailable"},
+      "hook_status": "limited",
+      "visual_observations": 12,
+      "input_mode": "asr",
+      "note": "ASR 返回 no_speech；视觉与文案节点保留，前三秒不伪造口播。"
+    }
+  ],
+  "fix_applied": {
+    "issue": "模型将 origin_hint 证据写成 metadata_origin_hint，导致最终报告契约失败。",
+    "resolution": "服务端将已提供的元数据证据别名规范化为 origin_hint，并在 model call 记录 application_normalizations。",
+    "retry_analysis_id": "ca_cc4556eb2c8d4ae292fd4f257fbf4fd0"
+  },
+  "public_readback": {
+    "all_three_reports_http": 200,
+    "all_three_input_mode": "asr"
+  },
+  "limitations": [
+    "本记录验证工程链路与契约，不代表业务语义准确率。",
+    "3D / 无语音素材的 hook 保持 limited，不能据此推断存在口播。",
+    "业务仍需复核转写关键品牌词、文案结构标签和画面证据。"
+  ]
+}

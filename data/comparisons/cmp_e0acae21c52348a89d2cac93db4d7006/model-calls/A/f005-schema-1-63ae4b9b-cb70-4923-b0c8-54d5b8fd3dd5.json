@@ -1,0 +1,49 @@
+{
+  "call_id": "63ae4b9b-cb70-4923-b0c8-54d5b8fd3dd5",
+  "request_id": "11d2ab84-c4fa-48fd-ba18-73a5cf3ae421",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2576,
+    "completion_tokens": 425,
+    "total_tokens": 3001,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 656
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2223
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f005",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "e3aedafeb935b94b8a66494bbcccec20a545952604f7b5b84538dd58e52d9d59",
+  "image_inputs": [
+    {
+      "frame_id": "f005",
+      "sample_time_ms": 6250,
+      "source_time_ms": null,
+      "timestamp_ms": 6250,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "ef29fbd6e360db4c04757ec51ba2fbe37b12a94eb92b85e507cbe207f0df31ae",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f005.jpg",
+      "size_bytes": 55171
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f005\",\"timestamp_ms\":6250,\"subject\":{\"value\":\"浅绿色颗粒状织物表面，带白色斜向条纹\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"画面主体为织物纹理特写。\"},\"scene\":{\"value\":\"织物表面微距特写，背景为模糊的深色区域\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"背景虚化，仅见深色模糊轮廓。\"},\"shot_size\":{\"value\":\"极特写，织物纹理充满画面\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"画面几乎全被织物表面占据。\"},\"camera_angle\":{\"value\":\"俯视或斜向俯视织物表面\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"由织物纹理的透视方向推测，非精确测量。\"},\"composition\":{\"value\":\"织物纹理斜向铺满画面，文字位于左下角\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"文字叠加在织物图像上。\"},\"lighting\":{\"value\":\"柔和均匀照明，织物颗粒有细微高光\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\",\"f005\"],\"note\":\"可见颗粒表面反光，未显示明显阴影。\"},\"color_palette\":{\"value\":\"浅绿色为主，白色条纹，深色背景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"整体色调偏绿。\"},\"visible_pose\":{\"value\":\"织物平铺或自然垂放，纹理呈斜向排列\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"静态画面，无动作信息。\"},\"visible_text\":{\"value\":\"PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"文字清晰可辨，位于画面左下角。\"}}}",
+  "validation_errors": [
+    "frame.lighting.evidence_frame_ids: ['f005', 'f005'] has non-unique elements"
+  ]
+}

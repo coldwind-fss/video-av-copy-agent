@@ -1,0 +1,46 @@
+{
+  "call_id": "e0b4da9f-1806-4a13-81b7-efda5283995e",
+  "request_id": "61069231-8e99-49f3-b313-acd65f69d63b",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2576,
+    "completion_tokens": 448,
+    "total_tokens": 3024,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 656
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2352
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f012",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "417a3472067521579fc7c78a72dfde17ae55e55ec530d626fcf7fbbe4c29979c",
+  "image_inputs": [
+    {
+      "frame_id": "f012",
+      "sample_time_ms": 15000,
+      "source_time_ms": null,
+      "timestamp_ms": 15000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "4a3c529b7f3827fe428cd40cafbea27a7a0e51c0da6cea90d6c1eb037ca2c5d1",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f012.jpg",
+      "size_bytes": 29989
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f012\",\"timestamp_ms\":15000,\"subject\":{\"value\":\"一件浅黄绿色立领拉链外套，胸前有浅色图形标志\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"仅描述可见衣物外观，不判断品牌或材质。\"},\"scene\":{\"value\":\"深色纯色背景，无其他可见环境元素\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"背景为暗色，主体占据画面大部分。\"},\"shot_size\":{\"value\":\"近景，画面聚焦外套领口、拉链与胸前区域\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"衣物局部充满画面，未见完整人物或全身。\"},\"camera_angle\":{\"value\":\"正面略偏侧，视线基本平对衣物正面\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"领口与拉链正面可见，左右略有透视差异。\"},\"composition\":{\"value\":\"拉链自画面上方延伸至下方偏左，标志位于右侧中部，字幕位于左下角\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"lighting\":{\"value\":\"主体受光均匀明亮，背景暗，形成明显明暗对比\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"仅描述可见明暗效果，不推断灯位或器材。\"},\"color_palette\":{\"value\":\"浅黄绿色主体、黑色背景、白色字幕、黑色拉链头\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"外套呈穿着或立体撑起状态，立领竖起，拉链部分闭合\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"仅描述当前静态摆放状态。\"},\"visible_text\":{\"value\":\"双头拉链调温；上下独立开合调控散热\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"字幕为白色中文，位于画面左下角。\"}}}"
+}

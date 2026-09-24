@@ -1,0 +1,46 @@
+{
+  "call_id": "dbf2b4be-1bcb-4bea-8505-e171b95c743d",
+  "request_id": "ba741456-0efa-418c-9cff-2529115547d7",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2576,
+    "completion_tokens": 444,
+    "total_tokens": 3020,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 656
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2440
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f004",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "31acd44e13d1c4191680ea44e905099c502ea47d83bbb9b80c8ad700eba67354",
+  "image_inputs": [
+    {
+      "frame_id": "f004",
+      "sample_time_ms": 5000,
+      "source_time_ms": null,
+      "timestamp_ms": 5000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "f231db01d059ec15b5b2903aade85afd6608e1915a2e5afbea574795c26c3e7c",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f004.jpg",
+      "size_bytes": 42869
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f004\",\"timestamp_ms\":5000,\"subject\":{\"value\":\"一件浅色外套的领口与拉链局部，领口内侧为黄绿色绒面，边缘有白色包边。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"画面为服装局部特写，未见完整人物。\"},\"scene\":{\"value\":\"深色虚化背景，主体服装占据画面大部分区域。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"背景无具体环境细节可辨。\"},\"shot_size\":{\"value\":\"服装领口与拉链的极近特写。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"画面仅容纳领口和拉链局部。\"},\"camera_angle\":{\"value\":\"正面平视，略微俯视领口内侧。\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"由领口开口与拉链朝向推断，非精确测量。\"},\"composition\":{\"value\":\"领口横向占据画面中部，拉链位于下方中央，文字位于左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"lighting\":{\"value\":\"柔和均匀照明，绒面纹理清晰，背景较暗。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"仅描述可见明暗效果，不推断灯位。\"},\"color_palette\":{\"value\":\"浅米白、黄绿色、黑色拉链与深灰背景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"领口呈自然张开状态，拉链头位于画面下方中央。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"描述静态摆放状态。\"},\"visible_text\":{\"value\":\"动态温控科技；动态合身 叠穿不压身\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"画面左下角白色字幕，可辨认。\"}}}"
+}

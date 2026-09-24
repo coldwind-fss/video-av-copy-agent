@@ -1,0 +1,128 @@
+{
+  "record_type": "implementation_acceptance",
+  "workflow_version": "content-v0.3",
+  "recorded_at": "2026-09-23",
+  "overall_status": "engineering_and_public_readonly_deployment_accepted_real_asr_and_business_quality_pending",
+  "local_engineering": {
+    "test_command": ".venv\\Scripts\\python.exe -m unittest discover -s tests -v",
+    "tests_passed": 5,
+    "test_names": [
+      "test_asr_unavailable_and_silent_track_detection",
+      "test_audio_track_waits_for_provider_without_fabricating_text",
+      "test_import_analysis_history_review_and_exports",
+      "test_import_validation_and_opening_sampling",
+      "test_read_only_mode_blocks_all_new_writes"
+    ],
+    "python_compileall": "passed",
+    "javascript_syntax_check": "passed",
+    "coverage": [
+      "silent video reports no_audio without invoking ASR",
+      "video with a synthetic audio stream reports waiting_provider when no provider is configured",
+      "audio probing and mono 16 kHz WAV extraction work with bundled FFmpeg fallback",
+      "SRT API import, untimed text, word-timed JSON validation, and overlap rejection",
+      "isolated visual/copy/tag/opening analysis with a deterministic test model",
+      "schema validation, visual evidence quote checking, history filter, review, JSON and Markdown export",
+      "read-only API rejects uploads, transcription, imports, analysis, and reviews with HTTP 403",
+      "server-owned copy time and structure fields are discarded and recorded before backend derivation"
+    ],
+    "fixture_data": "Generated locally in temporary directories; existing project data was not used or modified by tests."
+  },
+  "live_model_smoke": {
+    "status": "passed_on_synthetic_input",
+    "model_id": "deepseek-flash",
+    "input": "A locally generated 3-second blue card video and a short synthetic SRT explicitly marked unverified; no business video or business transcript was sent.",
+    "report_status": "partial",
+    "visual_observations": 6,
+    "copy_status": "completed",
+    "hook_status": "limited",
+    "model_nodes": [
+      "visual",
+      "copy_tags",
+      "hook"
+    ],
+    "logged_call_count": 4,
+    "schema_validation": "passed",
+    "workflow_errors": [],
+    "interpretation": "The limited hook state is expected because the synthetic text is not asserted to be speech. This validates request wiring and output contracts, not ASR or business semantics."
+  },
+  "browser_review": {
+    "local_url": "http://127.0.0.1:8765/",
+    "workflow_tabs": "visible and switchable",
+    "capability_state": "ASR not configured; analysis model configured",
+    "console_errors_or_warnings": 0,
+    "visual_review": "content input, capability panel, and history render at desktop viewport"
+  },
+  "real_asr": {
+    "status": "not_run",
+    "reason": "No ASR provider credentials or model were available.",
+    "deployment_behavior": "Audio-bearing videos wait for provider configuration; no transcript is fabricated."
+  },
+  "business_semantic_quality": {
+    "status": "not_run",
+    "reason": "No business-labeled speech transcript set or reviewer scores were supplied."
+  },
+  "public_readonly_deployment": {
+    "status": "passed",
+    "release": "content-v0.3.0",
+    "public_url": "http://121.41.164.222/poc-review-c15a6fdf7ead48fb8505/",
+    "service": "frame-lab-share.service active; Uvicorn bound to 127.0.0.1:18767",
+    "staging": "remote Python compileall and staged app import passed before replacement",
+    "health_http": 200,
+    "capabilities": {
+      "read_only": true,
+      "asr_status": "not_connected",
+      "analysis_model_configured": false
+    },
+    "readonly_ui_flag": true,
+    "public_get_routes": {
+      "/": 200,
+      "/api/health": 200,
+      "/api/capabilities": 200,
+      "/static/app.js": 200,
+      "/static/style.css": 200,
+      "/api/comparisons": 200,
+      "/api/content-analyses": 200
+    },
+    "write_guards": {
+      "public_content_analysis_post": 403,
+      "loopback_application_content_analysis_post": 403,
+      "public_sampled_write_routes": {
+        "POST /api/videos": 403,
+        "POST /api/comparisons": 403,
+        "POST /api/transcriptions": 403,
+        "POST /api/transcripts/import": 403,
+        "POST /api/content-analyses": 403,
+        "PUT /api/comparisons/{id}/review": 403,
+        "PUT /api/content-analyses/{id}/review": 403
+      }
+    },
+    "historical_compatibility": {
+      "comparison_count": 6,
+      "comparison_detail_http": 200,
+      "markdown_export_http": 200,
+      "video_metadata_http": 200,
+      "video_range_http": 206,
+      "range_bytes_read": 1
+    },
+    "content_analysis_history_count": 0,
+    "other_services": {
+      "nginx_config_test": "passed",
+      "default_root_http": 200,
+      "nginx_config_modified": false
+    },
+    "backup": {
+      "archive": "/opt/frame-lab-share/backups/frame-lab-before-content-v03-20260923T180900.tar.gz",
+      "old_app_directory": "/opt/frame-lab-share/backups/app-before-content-v03-20260923T180900",
+      "rollback_exercised": false
+    },
+    "preserved_paths": [
+      "/opt/frame-lab-share/data",
+      "/opt/frame-lab-share/.venv"
+    ],
+    "secrets": "No local .env or model/ASR credentials were included in the release package or configured on the share service.",
+    "acceptance_limits": [
+      "The share instance is read-only, has no model credential, and has no content-analysis history yet.",
+      "A fresh dependency-environment installation and an actual rollback drill were not run."
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "3c8737e5-87cb-4b78-81f9-ad9738dbc591",
+  "request_id": "ae3bf48c-308a-4174-b499-1ad971ad85d6",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 533,
+    "total_tokens": 3122,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 3148
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f001",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "877ffda508e1b3276364f95f6bf7afd1d8c6d1135ba27549de6dc7cf33392fd4",
+  "image_inputs": [
+    {
+      "frame_id": "f001",
+      "sample_time_ms": 1500,
+      "source_time_ms": null,
+      "timestamp_ms": 1500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "b7956357aef1519f3ce48ca2430f15bc5e1067586c37fa76ea2fd30116309925",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f001.jpg",
+      "size_bytes": 66028
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f001\",\"timestamp_ms\":1500,\"subject\":{\"value\":\"一名长发女性双手举着一条深紫色长裤，裤腰处挂着白色衣架\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"人物面部与手中裤子均清晰可见。\"},\"scene\":{\"value\":\"室内直播或商品展示场景，背景为模糊的彩色画面与叠加的促销文字贴片\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"背景元素虚化，前景为人物与商品。\"},\"shot_size\":{\"value\":\"中景，人物上半身至腰部以下及手中裤子完整入画\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"画面包含人物头部到手持商品的下摆。\"},\"camera_angle\":{\"value\":\"平视正面角度\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"人物面部正对镜头，无明显俯仰。\"},\"composition\":{\"value\":\"人物居中，手持裤子位于画面中央偏下，四周分布文字贴片与信息卡片\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"主体居中，文字信息环绕四周。\"},\"lighting\":{\"value\":\"人物面部与裤子受光均匀，背景较亮，整体为明亮柔和的正面照明效果\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"仅描述可见明暗分布，不推断灯具。\"},\"color_palette\":{\"value\":\"以深紫色裤子、白色上衣、浅绿色外套为主，背景含蓝、黄、红等彩色元素\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"画面色彩丰富，主体服装颜色突出。\"},\"visible_pose\":{\"value\":\"女性正面站立，双手分别捏住裤腰两侧，将裤子竖直展开于身前\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"仅描述当前静态姿势。\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、就最终确定的一个颜色、李<、170CM/54KG、试穿尺码 S、官方正品、运费险、七天无理由、已确认 抗勾丝是真的、超薄 冰丝\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"部分小字如左侧卡片内文字较模糊，仅记录可辨认内容。\"}}}"
+}

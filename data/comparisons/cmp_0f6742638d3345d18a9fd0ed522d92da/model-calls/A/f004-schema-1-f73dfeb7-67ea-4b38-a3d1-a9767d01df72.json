@@ -1,0 +1,46 @@
+{
+  "call_id": "f73dfeb7-67ea-4b38-a3d1-a9767d01df72",
+  "request_id": "22b28693-8dfd-48e1-8ae5-3d7c3ee355af",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 540,
+    "total_tokens": 3129,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 3647
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f004",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "e90f7e8f7fe8721e162811821067056ac60e73f328230b59ad850287a28299db",
+  "image_inputs": [
+    {
+      "frame_id": "f004",
+      "sample_time_ms": 6000,
+      "source_time_ms": null,
+      "timestamp_ms": 6000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "eef9162bae8c302532dbf24bb48075a3a0abab1eb996a0213c25f2870598f236",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f004.jpg",
+      "size_bytes": 68012
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f004\",\"timestamp_ms\":6000,\"subject\":{\"value\":\"一名长发女性双手举着一条深灰色长裤，裤腰挂在白色衣架上。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"人物面部与手部可见，裤子占据画面中部。\"},\"scene\":{\"value\":\"室内纯色背景，以蓝色为主，人物身后有浅色墙面或布景。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"背景无明确环境细节，仅见色块与文字贴片。\"},\"shot_size\":{\"value\":\"中景，人物上半身至腰部及手中长裤完整入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"画面下缘截断至裤腿中段。\"},\"camera_angle\":{\"value\":\"平视正面角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"人物面部正对镜头，无明显俯仰。\"},\"composition\":{\"value\":\"人物居中，长裤竖直占据画面中央，左右两侧分布文字贴片与信息框。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"顶部与底部均有叠加文字。\"},\"lighting\":{\"value\":\"人物面部与手部受光均匀，背景较亮，整体为平光效果。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"未见明显阴影或强方向性光源。\"},\"color_palette\":{\"value\":\"蓝色背景、深灰色长裤、白色衣架与浅色文字，人物肤色与黑色长发形成对比。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"整体偏冷色调。\"},\"visible_pose\":{\"value\":\"人物正面站立，双手分别握住长裤两侧裤腰位置，长裤自然下垂。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"仅描述当前静态姿势。\"},\"visible_text\":{\"value\":\"可见文字包括“FLIPBELT”“新品首发「轻」装上阵”“26FW 新品首发”“限时 上新优惠”“这个颜色整体的质感”，以及左侧信息框中的“已确认 凉感是真”“0.2”“李色”“170CM/54KG”“过臀尺码 S”“官方正品”“运费险”“七天无理由”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"部分小字较模糊，仅记录可辨认内容。\"}}}"
+}

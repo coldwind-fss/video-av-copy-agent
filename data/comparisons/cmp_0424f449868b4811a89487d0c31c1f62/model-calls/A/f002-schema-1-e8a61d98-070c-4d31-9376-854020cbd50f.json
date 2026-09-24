@@ -1,0 +1,46 @@
+{
+  "call_id": "e8a61d98-070c-4d31-9376-854020cbd50f",
+  "request_id": "9a9a8d29-0d10-4c22-8a98-ae3cf59b7857",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 426,
+    "total_tokens": 3015,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 2589
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2356
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f002",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "3b5627be8a0a6772d1cf9132bcaf9fb9e43fa5ac609e1053d3e2ae0dea7bd8b2",
+  "image_inputs": [
+    {
+      "frame_id": "f002",
+      "sample_time_ms": 2500,
+      "source_time_ms": null,
+      "timestamp_ms": 2500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "eaa2b7a5c353361a28350f36baf1f7626d45a2bb5343ffe7f33a6f674b63ff3a",
+      "image_path": "frame_sets/fs_5cd07c0a297a402589766a09aa881bc3/f002.jpg",
+      "size_bytes": 30185
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f002\",\"timestamp_ms\":2500,\"subject\":{\"value\":\"一件浅色无袖立领马甲，正面拉链闭合，左胸有小型标志\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"仅描述可见外观，不判断品牌或材质。\"},\"scene\":{\"value\":\"深色背景，马甲下方有白色雾气状效果，右侧有模糊的星形光斑\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"画面为服装展示，缺少可参照的人物或场景尺度，无法可靠判断景别。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"马甲正面朝向镜头，领口与下摆基本水平。\"},\"composition\":{\"value\":\"马甲居中占据画面主体，上下留出背景空间，文字位于左下角。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"lighting\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"可见明暗与雾气效果，但无法据此判断具体灯位或器材。\"},\"color_palette\":{\"value\":\"浅灰白与黄绿色为主，背景为深灰黑色，雾气呈白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"马甲以正面直立状态展示，拉链拉至领口。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"描述当前静态摆放状态。\"},\"visible_text\":{\"value\":\"动态温控科技；动态合身 叠穿不压身\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"文字位于画面左下角，清晰可读。\"}}}"
+}

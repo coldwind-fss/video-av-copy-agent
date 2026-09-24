@@ -1,0 +1,46 @@
+{
+  "call_id": "eb195c05-0c00-4bf8-993b-f825c2a6fe4e",
+  "request_id": "ef856b95-71aa-48ad-891b-a5e773a50f2a",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 452,
+    "total_tokens": 3041,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2562
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f008",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "6a2291232d21a49cd67deac382b9009a8e194a394d7784930f8e0ede68b826ba",
+  "image_inputs": [
+    {
+      "frame_id": "f008",
+      "sample_time_ms": 12000,
+      "source_time_ms": null,
+      "timestamp_ms": 12000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "a7331d2e8f406671585ca0d063a954a1729b5c76b1422ad0823bdf2f1440de71",
+      "image_path": "frame_sets/fs_08ad74f8131241a8982d1f224ef3dc45/f008.jpg",
+      "size_bytes": 69885
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f008\",\"timestamp_ms\":12000,\"subject\":{\"value\":\"一名长发女性，身穿浅黄色上衣，双手举着一条深灰色长裤\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"人物与裤子占据画面中部。\"},\"scene\":{\"value\":\"室内背景，可见模糊的粉色与黄色区域，画面叠加了商品信息与字幕\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"背景细节不清晰。\"},\"shot_size\":{\"value\":\"中景\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"可见人物上半身及手中裤子。\"},\"camera_angle\":{\"value\":\"平视\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"人物面部正对镜头，无明显俯仰。\"},\"composition\":{\"value\":\"人物居中，裤子位于画面中央偏下，文字信息分布在顶部、左侧和底部。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"lighting\":{\"value\":\"人物面部和裤子受光均匀，背景较亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"无法判断具体灯位。\"},\"color_palette\":{\"value\":\"浅黄、深灰、粉色、白色为主。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"女性正面站立，右手抬起靠近脸侧，左手提着裤架，裤子垂在身前。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"visible_text\":{\"value\":\"FLIPBELT、新品首发「轻」装上阵、26FW 新品首发、限时上新优惠、哪怕说你的皮肤肤色黄点、李鱼、170CM/54KG、试穿尺码 S、官方正品、运费险、七天无理由、已测吸湿排汗、显瘦。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"部分小字可能不完整。\"}}}"
+}

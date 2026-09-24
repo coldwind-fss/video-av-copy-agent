@@ -1,0 +1,46 @@
+{
+  "call_id": "45b2686a-0eef-4cae-90f4-5fcf27b48e24",
+  "request_id": "695227b0-0d94-4e95-b937-ceddab4f01c8",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2672,
+    "completion_tokens": 471,
+    "total_tokens": 3143,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "prompt_cache_hit_tokens": 2048,
+    "prompt_cache_miss_tokens": 624
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2530
+    }
+  ],
+  "input_text_chars": 308,
+  "branch": "A",
+  "node": "f010",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "25f3d80305ef179d420ee1c711e555f937cf226e42d55676d58ffd2f46b29fd3",
+  "image_inputs": [
+    {
+      "frame_id": "f010",
+      "sample_time_ms": 12500,
+      "source_time_ms": null,
+      "timestamp_ms": 12500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "7d0e9ccfdb1e18e5bdb188547a455d0ebda677b6689325cf52c1616e65267f49",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f010.jpg",
+      "size_bytes": 28169
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 2,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f010\",\"timestamp_ms\":12500,\"subject\":{\"value\":\"浅绿色织物上的纵向拉链，拉链带与两侧布面可见。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"画面主体为拉链及其两侧织物，未显示完整商品形态。\"},\"scene\":{\"value\":\"浅绿色织物表面，可见横向缝线与布面褶皱。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"背景即织物本身，无其他环境元素。\"},\"shot_size\":{\"value\":\"特写，拉链与织物局部充满画面。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"画面仅呈现拉链及邻近布面，无人物或整体轮廓。\"},\"camera_angle\":{\"value\":\"正面近距平视，拉链纵向居中。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"拉链带基本垂直，未见明显俯仰透视。\"},\"composition\":{\"value\":\"拉链纵向贯穿画面中央，左右织物大致对称分布。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"拉链位于画面中轴，两侧布面面积相近。\"},\"lighting\":{\"value\":\"拉链带中央有纵向高光，布面明暗过渡柔和。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"高光位置与布面阴影为可见效果，不推断灯位。\"},\"color_palette\":{\"value\":\"以浅绿色为主，拉链带偏黄绿色，高光处近白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"整体为低饱和绿色调。\"},\"visible_pose\":{\"value\":\"拉链呈纵向闭合状态，布面有自然褶皱。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"仅描述当前静态摆放，不推断开合动作。\"},\"visible_text\":{\"value\":\"双头拉链调温；上下独立开合调控散热\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"画面左下角白色字幕，文字可辨认。\"}}}"
+}

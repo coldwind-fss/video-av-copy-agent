@@ -1,0 +1,194 @@
+{
+  "record": {
+    "call_id": "89eb6566-97b9-4426-9333-17410cd53cda",
+    "request_id": "5d89afae-2e9b-49c5-bba4-fa3198e05c8f",
+    "returned_model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 9406,
+      "completion_tokens": 937,
+      "total_tokens": 10343,
+      "prompt_tokens_details": {
+        "cached_tokens": 4224
+      },
+      "prompt_cache_hit_tokens": 4224,
+      "prompt_cache_miss_tokens": 5182
+    },
+    "transport_attempts": [
+      {
+        "attempt": 1,
+        "http_status": 200,
+        "latency_ms": 4146
+      }
+    ],
+    "input_text_chars": 886,
+    "node_id": "visual",
+    "analysis_id": "ca_61f77ce688844e169bc6cbae65fe6033",
+    "workflow_version": "content-v0.3",
+    "prompt_version": "content-prompts-v0.1",
+    "taxonomy_version": "content-tags-v0.1",
+    "schema_version": "content-1.0",
+    "prompt_sha256": "1dea59e7a0a60607042258384f5567da442a30c60e8159b32c1f07932e338b3f",
+    "input_text_sha256": "9566fefffba0885d26a42281865342e3783aba039c8277f6e7d8fc6415417b5c",
+    "schema_attempt": 1
+  },
+  "raw_response": "{\"observations\": [{\"frame_id\": \"f000\", \"description\": \"浅绿色无袖马甲悬浮展示，立领、前中拉链，左胸有品牌标志。\", \"onscreen_text\": [\"FLIPBELT\", \"飞比特\", \"P绒轻量马甲4.0\", \"26FW NEW ARRIVALS\"], \"limitations\": [\"无声音信息\", \"无法确认材质与功能\"]}, {\"frame_id\": \"f001\", \"description\": \"同一件浅绿色马甲正面展示，背景为浅紫网格，拉链闭合。\", \"onscreen_text\": [\"FLIPBELT\", \"飞比特\", \"P绒轻量马甲4.0\", \"26FW NEW ARRIVALS\"], \"limitations\": [\"无声音信息\", \"画面为静态展示\"]}, {\"frame_id\": \"f002\", \"description\": \"浅绿色马甲正面展示，立领与袖口露出深色内衬，拉链头在下方。\", \"onscreen_text\": [\"FLIPBELT\", \"飞比特\", \"P绒轻量马甲4.0\", \"26FW NEW ARRIVALS\"], \"limitations\": [\"无声音信息\", \"无法判断是否真人穿着\"]}, {\"frame_id\": \"f003\", \"description\": \"浅绿色马甲正面展示，拉链头位于下摆，背景有细微颗粒纹理。\", \"onscreen_text\": [\"FLIPBELT\", \"飞比特\", \"P绒轻量马甲4.0\", \"26FW NEW ARRIVALS\"], \"limitations\": [\"无声音信息\", \"画面为静态展示\"]}, {\"frame_id\": \"f004\", \"description\": \"浅绿色马甲正面展示，拉链头位于下摆，左胸标志清晰可见。\", \"onscreen_text\": [\"FLIPBELT\", \"飞比特\", \"P绒轻量马甲4.0\", \"26FW NEW ARRIVALS\"], \"limitations\": [\"无声音信息\", \"画面为静态展示\"]}, {\"frame_id\": \"f005\", \"description\": \"浅绿色马甲正面特写，背景深色带烟雾与星形光效，下摆处有文字。\", \"onscreen_text\": [\"动态温控科技\", \"动态合身 叠穿不压身\"], \"limitations\": [\"无声音信息\", \"无法验证温控科技实际效果\"]}, {\"frame_id\": \"f006\", \"description\": \"绿色绒面里料微距特写，可见颗粒状纤维纹理。\", \"onscreen_text\": [\"PrimaLoft® Evolve 里料\", \"锁住空气保暖 + 打开通道透气\"], \"limitations\": [\"无声音信息\", \"无法验证保暖透气性能\"]}, {\"frame_id\": \"f007\", \"description\": \"绿色里料特写，表面呈横向条纹褶皱纹理。\", \"onscreen_text\": [\"PrimaLoft® Evolve 里料\", \"锁住空气保暖 + 打开通道透气\"], \"limitations\": [\"无声音信息\", \"无法验证材质成分\"]}, {\"frame_id\": \"f008\", \"description\": \"马甲拉链局部特写，双头拉链，下方拉链头带彩色拉绳。\", \"onscreen_text\": [\"双头拉链调温\", \"上下独立开合调控散热\"], \"limitations\": [\"无声音信息\", \"无法验证调温效果\"]}, {\"frame_id\": \"f009\", \"description\": \"马甲上半身特写，立领、拉链与左胸标志可见，背景深色。\", \"onscreen_text\": [\"双头拉链调温\", \"上下独立开合调控散热\"], \"limitations\": [\"无声音信息\", \"画面为局部展示\"]}, {\"frame_id\": \"f010\", \"description\": \"马甲被折叠塞入侧口袋，形成小包状，悬浮展示。\", \"onscreen_text\": [\"侧口袋自收纳\", \"轻量便携快速收起\"], \"limitations\": [\"无声音信息\", \"无法验证收纳后体积与重量\"]}, {\"frame_id\": \"f011\", \"description\": \"马甲收纳后的小包悬浮展示，背景深色带光束。\", \"onscreen_text\": [\"P绒轻量马甲4.0\", \"9月20日 正式上线\"], \"limitations\": [\"无声音信息\", \"无法确认上线日期准确性\"]}]}",
+  "normalized_output": {
+    "observations": [
+      {
+        "frame_id": "f000",
+        "description": "浅绿色无袖马甲悬浮展示，立领、前中拉链，左胸有品牌标志。",
+        "onscreen_text": [
+          "FLIPBELT",
+          "飞比特",
+          "P绒轻量马甲4.0",
+          "26FW NEW ARRIVALS"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法确认材质与功能"
+        ]
+      },
+      {
+        "frame_id": "f001",
+        "description": "同一件浅绿色马甲正面展示，背景为浅紫网格，拉链闭合。",
+        "onscreen_text": [
+          "FLIPBELT",
+          "飞比特",
+          "P绒轻量马甲4.0",
+          "26FW NEW ARRIVALS"
+        ],
+        "limitations": [
+          "无声音信息",
+          "画面为静态展示"
+        ]
+      },
+      {
+        "frame_id": "f002",
+        "description": "浅绿色马甲正面展示，立领与袖口露出深色内衬，拉链头在下方。",
+        "onscreen_text": [
+          "FLIPBELT",
+          "飞比特",
+          "P绒轻量马甲4.0",
+          "26FW NEW ARRIVALS"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法判断是否真人穿着"
+        ]
+      },
+      {
+        "frame_id": "f003",
+        "description": "浅绿色马甲正面展示，拉链头位于下摆，背景有细微颗粒纹理。",
+        "onscreen_text": [
+          "FLIPBELT",
+          "飞比特",
+          "P绒轻量马甲4.0",
+          "26FW NEW ARRIVALS"
+        ],
+        "limitations": [
+          "无声音信息",
+          "画面为静态展示"
+        ]
+      },
+      {
+        "frame_id": "f004",
+        "description": "浅绿色马甲正面展示，拉链头位于下摆，左胸标志清晰可见。",
+        "onscreen_text": [
+          "FLIPBELT",
+          "飞比特",
+          "P绒轻量马甲4.0",
+          "26FW NEW ARRIVALS"
+        ],
+        "limitations": [
+          "无声音信息",
+          "画面为静态展示"
+        ]
+      },
+      {
+        "frame_id": "f005",
+        "description": "浅绿色马甲正面特写，背景深色带烟雾与星形光效，下摆处有文字。",
+        "onscreen_text": [
+          "动态温控科技",
+          "动态合身 叠穿不压身"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法验证温控科技实际效果"
+        ]
+      },
+      {
+        "frame_id": "f006",
+        "description": "绿色绒面里料微距特写，可见颗粒状纤维纹理。",
+        "onscreen_text": [
+          "PrimaLoft® Evolve 里料",
+          "锁住空气保暖 + 打开通道透气"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法验证保暖透气性能"
+        ]
+      },
+      {
+        "frame_id": "f007",
+        "description": "绿色里料特写，表面呈横向条纹褶皱纹理。",
+        "onscreen_text": [
+          "PrimaLoft® Evolve 里料",
+          "锁住空气保暖 + 打开通道透气"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法验证材质成分"
+        ]
+      },
+      {
+        "frame_id": "f008",
+        "description": "马甲拉链局部特写，双头拉链，下方拉链头带彩色拉绳。",
+        "onscreen_text": [
+          "双头拉链调温",
+          "上下独立开合调控散热"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法验证调温效果"
+        ]
+      },
+      {
+        "frame_id": "f009",
+        "description": "马甲上半身特写，立领、拉链与左胸标志可见，背景深色。",
+        "onscreen_text": [
+          "双头拉链调温",
+          "上下独立开合调控散热"
+        ],
+        "limitations": [
+          "无声音信息",
+          "画面为局部展示"
+        ]
+      },
+      {
+        "frame_id": "f010",
+        "description": "马甲被折叠塞入侧口袋，形成小包状，悬浮展示。",
+        "onscreen_text": [
+          "侧口袋自收纳",
+          "轻量便携快速收起"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法验证收纳后体积与重量"
+        ]
+      },
+      {
+        "frame_id": "f011",
+        "description": "马甲收纳后的小包悬浮展示，背景深色带光束。",
+        "onscreen_text": [
+          "P绒轻量马甲4.0",
+          "9月20日 正式上线"
+        ],
+        "limitations": [
+          "无声音信息",
+          "无法确认上线日期准确性"
+        ]
+      }
+    ]
+  }
+}

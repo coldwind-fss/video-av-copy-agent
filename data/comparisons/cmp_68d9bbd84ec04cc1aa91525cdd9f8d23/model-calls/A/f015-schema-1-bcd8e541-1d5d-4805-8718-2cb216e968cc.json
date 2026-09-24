@@ -1,0 +1,46 @@
+{
+  "call_id": "bcd8e541-1d5d-4805-8718-2cb216e968cc",
+  "request_id": "7827d41a-4b87-471e-8b7a-969119d10845",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2796,
+    "completion_tokens": 442,
+    "total_tokens": 3238,
+    "prompt_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "prompt_cache_hit_tokens": 2176,
+    "prompt_cache_miss_tokens": 620
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2498
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f015",
+  "prompt_version": "poc-v0.2",
+  "schema_version": "1.1",
+  "system_prompt_sha256": "fba558a42cb47a533f8e30e0b7e4a7df8d66d9caf5927800d3a2e1c3c33a0879",
+  "input_text_sha256": "3cba5d33d5965d2e3e0d631370289fd18368d30442ffcebb350fb4197da072ff",
+  "image_inputs": [
+    {
+      "frame_id": "f015",
+      "sample_time_ms": 18750,
+      "source_time_ms": null,
+      "timestamp_ms": 18750,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "335d53882c588df4560806bde59800dc7c82eed20106a055ba8d45ac6dea00ce",
+      "image_path": "frame_sets/fs_7bee6f212dc343f5bd821bfd6640ba6a/f015.jpg",
+      "size_bytes": 25346
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.1\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f015\",\"timestamp_ms\":18750,\"subject\":{\"value\":\"一件浅黄绿色、呈折叠或鼓起状的织物制品，带有一条深色拉链或织带细节。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"仅描述可见外观，不判断具体品类或材质。\"},\"scene\":{\"value\":\"灰蓝色渐变背景，上方有斜向亮光带，下方有柔和阴影。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"画面为静物式构图，缺少可参照的人物或环境尺度，无法可靠判断景别。\"},\"camera_angle\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"背景为均匀渐变，缺少透视与地平线线索，无法判断拍摄角度。\"},\"composition\":{\"value\":\"主体位于画面中下部偏右，文字叠加在主体左侧，上方大面积留空。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"lighting\":{\"value\":\"左上方有斜向亮光带，主体下方有柔和投影，整体呈冷灰蓝色调。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"仅描述可见光效，不推断灯位或器材。\"},\"color_palette\":{\"value\":\"灰蓝色背景与浅黄绿色主体形成冷暖对比，文字为白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"主体呈倾斜折叠状，静置于画面中下部。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"描述当前静态摆放状态。\"},\"visible_text\":{\"value\":\"P绒轻量马甲4.0；9月20日 正式上线\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"文字清晰可辨。\"}}}"
+}

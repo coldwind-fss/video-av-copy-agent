@@ -1,0 +1,118 @@
+{
+  "date": "2026-09-23",
+  "purpose": "本机工作台功能完整性和模型输出契约核查；不是业务质量评分",
+  "model": "deepseek-flash",
+  "test_videos": [
+    "3D.mp4",
+    "口播.mp4",
+    "切片.mp4"
+  ],
+  "limits": {
+    "upload_mb": 100,
+    "duration_seconds": 60,
+    "max_frames": 20
+  },
+  "checks": [
+    "all branches completed",
+    "A per-frame outputs match manifest and pass analysis.schema.json",
+    "B per-frame outputs and adjacent interval outputs pass analysis.schema.json",
+    "A frame requests each contain one image; B sequence request contains all frame hashes in manifest order",
+    "A/B use the same shared FrameSet",
+    "normal logical call counts A=N+1 and B=2",
+    "reports include required summary, intervals, source prompt and limitations",
+    "JSON/Markdown exports, review persistence, history, frame image and video byte-range endpoints"
+  ],
+  "results": [
+    {
+      "comparison_id": "cmp_0424f449868b4811a89487d0c31c1f62",
+      "status": "completed",
+      "video": "3D.mp4",
+      "duration_ms": 20540,
+      "sample_interval_ms": 1250,
+      "frame_count": 17,
+      "A_frames": 17,
+      "B_frames": 17,
+      "B_intervals": 16,
+      "A_calls": 18,
+      "B_calls": 2,
+      "A_dedup_actions": 1,
+      "total_tokens": 101042,
+      "json_export": 200,
+      "markdown_export": 200,
+      "frame_image": 200,
+      "video_content": 206,
+      "schema_and_evidence_checks": "passed",
+      "A_interval_count": 16,
+      "source_prompt_chars_A": 306,
+      "source_prompt_chars_B": 295,
+      "comparison_wall_ms": 70779,
+      "decode_ms": 878
+    },
+    {
+      "comparison_id": "cmp_99c5456454144e11b2c45d572589a650",
+      "status": "completed",
+      "video": "口播.mp4",
+      "duration_ms": 47800,
+      "sample_interval_ms": 2500,
+      "frame_count": 20,
+      "A_frames": 20,
+      "B_frames": 20,
+      "B_intervals": 19,
+      "A_calls": 21,
+      "B_calls": 2,
+      "A_dedup_actions": 2,
+      "total_tokens": 116405,
+      "json_export": 200,
+      "markdown_export": 200,
+      "frame_image": 200,
+      "video_content": 206,
+      "schema_and_evidence_checks": "passed",
+      "A_interval_count": 19,
+      "source_prompt_chars_A": 258,
+      "source_prompt_chars_B": 284,
+      "comparison_wall_ms": 80447,
+      "decode_ms": 2829
+    },
+    {
+      "comparison_id": "cmp_0f6742638d3345d18a9fd0ed522d92da",
+      "status": "completed",
+      "video": "切片.mp4",
+      "duration_ms": 25010,
+      "sample_interval_ms": 1500,
+      "frame_count": 17,
+      "A_frames": 17,
+      "B_frames": 17,
+      "B_intervals": 16,
+      "A_calls": 18,
+      "B_calls": 2,
+      "A_dedup_actions": 0,
+      "total_tokens": 106493,
+      "json_export": 200,
+      "markdown_export": 200,
+      "frame_image": 200,
+      "video_content": 206,
+      "schema_and_evidence_checks": "passed",
+      "A_interval_count": 16,
+      "source_prompt_chars_A": 218,
+      "source_prompt_chars_B": 155,
+      "comparison_wall_ms": 76615,
+      "decode_ms": 2270
+    }
+  ],
+  "diagnostics": [
+    {
+      "comparison_id": "cmp_503c84ec1d26407abb88644a43006e28",
+      "finding": "first 3D run expected 17 extracted frames but FFmpeg fps round=near emitted 16; fixed sampling rounding to up and reran"
+    },
+    {
+      "comparison_id": "cmp_e0acae21c52348a89d2cac93db4d7006",
+      "finding": "first completed 3D model run exposed duplicate identical IDs in evidence_frame_ids for two frames; added deterministic de-duplication with raw response preserved and normalization actions recorded; final successful rerun passed"
+    }
+  ],
+  "review_api_check": {
+    "saved": true,
+    "preference": "insufficient",
+    "note": "Functional verification only; no business score was entered"
+  },
+  "business_accuracy": "not judged; no ground-truth annotations provided"
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "6173bcf1-ef01-42fd-b6e7-970fce14783f",
+  "request_id": "24af1d1b-5621-4d41-ad00-d1d7faaa9169",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 427,
+    "total_tokens": 3016,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2687
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f012",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "6b89a2d8926728d20c656744582684de461c1cbf158bc3b86389cb6617af63a3",
+  "image_inputs": [
+    {
+      "frame_id": "f012",
+      "sample_time_ms": 30000,
+      "source_time_ms": null,
+      "timestamp_ms": 30000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "7c560dbb3ed60e15eda9f8e0a345585957a7a1f1c7c37dbd8ac3fd7f692b2953",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f012.jpg",
+      "size_bytes": 44609
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f012\",\"timestamp_ms\":30000,\"subject\":{\"value\":\"穿着蓝色紧身运动裤的人体腰臀腿部位，画面右侧可见一只手正拉扯白色上衣下摆，露出白色长袜与黑色图案\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"仅见局部身体与衣物，未见完整人物面部。\"},\"scene\":{\"value\":\"户外，背景为虚化的绿色植物与浅色地面\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"背景虚化，具体地点无法确认。\"},\"shot_size\":{\"value\":\"局部特写，画面以腰臀腿部位为主\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"侧后方视角，略低于被摄部位水平\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"由身体轮廓与背景关系推测，非精确测量。\"},\"composition\":{\"value\":\"主体占据画面大部分区域，蓝色裤装呈对角线走向，字幕位于画面下方中部\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"lighting\":{\"value\":\"自然光，光线较均匀，裤装表面有柔和明暗过渡\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"不判断具体光源位置与器材。\"},\"color_palette\":{\"value\":\"以蓝色为主，搭配白色衣物、绿色背景与浅色地面\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"身体呈侧向姿态，腿部弯曲，一只手向上拉扯上衣下摆\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"仅描述此刻可见姿态。\"},\"visible_text\":{\"value\":\"腰臀腿连续包裹\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"画面下方中文字幕，清晰可辨。\"}}}"
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "07d3a120-5140-4763-8442-6b5faa86313c",
+  "request_id": "42fbcea2-5f20-427e-b4f3-6e84b4b79d92",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 421,
+    "total_tokens": 3010,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2067
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f010",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "ece32d9339f6b885d1b8ed2874711b08730d4a7d92d653c17940e212cf0e833f",
+  "image_inputs": [
+    {
+      "frame_id": "f010",
+      "sample_time_ms": 25000,
+      "source_time_ms": null,
+      "timestamp_ms": 25000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "f08bb4fc7d92bd9648fd9799251fca339a69988d0cdc80a55aeeac3c7f99c6ef",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f010.jpg",
+      "size_bytes": 55404
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f010\",\"timestamp_ms\":25000,\"subject\":{\"value\":\"一名站立在户外的女性，戴蓝色花纹头巾，穿白色长袖短款上衣和深蓝色紧身裤，颈前挂有一个黑色小夹状物件。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"仅描述可见外观，不推断身份。\"},\"scene\":{\"value\":\"户外草地，背景有树木和天空，前景为石板铺地。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖上方入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"正面平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"静态画面，不涉及运镜。\"},\"composition\":{\"value\":\"人物居中，占据画面主体，背景草地和树木形成自然景深。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"lighting\":{\"value\":\"自然光，人物面部和身体受光均匀，背景天空较亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"不推断具体灯位或器材。\"},\"color_palette\":{\"value\":\"以绿色草地、白色上衣、深蓝色裤子和蓝色头巾为主，字幕为黄色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"人物正面站立，双臂自然下垂，双手位于身体两侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"仅描述当前静态姿势。\"},\"visible_text\":{\"value\":\"使用智合智纤®莱卡\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"画面下方黄色字幕，文字可辨认。\"}}}"
+}

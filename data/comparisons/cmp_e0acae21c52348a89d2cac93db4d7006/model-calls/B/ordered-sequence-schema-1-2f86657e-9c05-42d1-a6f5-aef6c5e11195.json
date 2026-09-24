@@ -1,0 +1,222 @@
+{
+  "call_id": "2f86657e-9c05-42d1-a6f5-aef6c5e11195",
+  "request_id": "5919ba57-3b59-49e2-ab11-df97018edcd6",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 9800,
+    "completion_tokens": 9030,
+    "total_tokens": 18830,
+    "prompt_tokens_details": {
+      "cached_tokens": 1408
+    },
+    "prompt_cache_hit_tokens": 1408,
+    "prompt_cache_miss_tokens": 8392
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 28242
+    }
+  ],
+  "input_text_chars": 806,
+  "branch": "B",
+  "node": "ordered-sequence",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "fa1511b2716ff45e4c17a2bee2ce05cc3be7fbceae403a4706f3fd04e1ea2c81",
+  "input_text_sha256": "75082f83c2c488727324b3a26895b60d9ce14de6fd0378ae7c6c5e9d0b66f77a",
+  "image_inputs": [
+    {
+      "frame_id": "f000",
+      "sample_time_ms": 0,
+      "source_time_ms": null,
+      "timestamp_ms": 0,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "ef9b05a46f40149d21e291e13228dbe6e8a8d929136deaa3852d6a6a6191d120",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f000.jpg",
+      "size_bytes": 21428
+    },
+    {
+      "frame_id": "f001",
+      "sample_time_ms": 1250,
+      "source_time_ms": null,
+      "timestamp_ms": 1250,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "e2c4e88cec95e7205c3af2ef42dfde05cf60bc0913df1c84cd16bfa2c7c466e3",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f001.jpg",
+      "size_bytes": 32956
+    },
+    {
+      "frame_id": "f002",
+      "sample_time_ms": 2500,
+      "source_time_ms": null,
+      "timestamp_ms": 2500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "eaa2b7a5c353361a28350f36baf1f7626d45a2bb5343ffe7f33a6f674b63ff3a",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f002.jpg",
+      "size_bytes": 30185
+    },
+    {
+      "frame_id": "f003",
+      "sample_time_ms": 3750,
+      "source_time_ms": null,
+      "timestamp_ms": 3750,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "23417874c10a2474af49f2ab5ed852f2b6d39fe0f021510da691cb2739b74dd1",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f003.jpg",
+      "size_bytes": 32067
+    },
+    {
+      "frame_id": "f004",
+      "sample_time_ms": 5000,
+      "source_time_ms": null,
+      "timestamp_ms": 5000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "f231db01d059ec15b5b2903aade85afd6608e1915a2e5afbea574795c26c3e7c",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f004.jpg",
+      "size_bytes": 42869
+    },
+    {
+      "frame_id": "f005",
+      "sample_time_ms": 6250,
+      "source_time_ms": null,
+      "timestamp_ms": 6250,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "ef29fbd6e360db4c04757ec51ba2fbe37b12a94eb92b85e507cbe207f0df31ae",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f005.jpg",
+      "size_bytes": 55171
+    },
+    {
+      "frame_id": "f006",
+      "sample_time_ms": 7500,
+      "source_time_ms": null,
+      "timestamp_ms": 7500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "3775fb485f9d771f8cb213f41583d28204e8801c99eae075b4570229469ecedf",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f006.jpg",
+      "size_bytes": 44916
+    },
+    {
+      "frame_id": "f007",
+      "sample_time_ms": 8750,
+      "source_time_ms": null,
+      "timestamp_ms": 8750,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "94c4b0a04569616f98c5f2f607bbed04433f8ebdd8fcfbe689eb55843c8fdf6c",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f007.jpg",
+      "size_bytes": 12926
+    },
+    {
+      "frame_id": "f008",
+      "sample_time_ms": 10000,
+      "source_time_ms": null,
+      "timestamp_ms": 10000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "b67c05ba67a507732b2fa278cc81e685a90190f6029b6ca3d7f928e1467fab81",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f008.jpg",
+      "size_bytes": 28860
+    },
+    {
+      "frame_id": "f009",
+      "sample_time_ms": 11250,
+      "source_time_ms": null,
+      "timestamp_ms": 11250,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "9aa11092cdaf418b909a7a76643e237d30ace8a23bf93ee12c490078783e49ab",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f009.jpg",
+      "size_bytes": 32123
+    },
+    {
+      "frame_id": "f010",
+      "sample_time_ms": 12500,
+      "source_time_ms": null,
+      "timestamp_ms": 12500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "7d0e9ccfdb1e18e5bdb188547a455d0ebda677b6689325cf52c1616e65267f49",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f010.jpg",
+      "size_bytes": 28169
+    },
+    {
+      "frame_id": "f011",
+      "sample_time_ms": 13750,
+      "source_time_ms": null,
+      "timestamp_ms": 13750,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "3b1352552bcb353820ee574410eb1c34a43b2151198af1fcc0a110270bcc3688",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f011.jpg",
+      "size_bytes": 31345
+    },
+    {
+      "frame_id": "f012",
+      "sample_time_ms": 15000,
+      "source_time_ms": null,
+      "timestamp_ms": 15000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "4a3c529b7f3827fe428cd40cafbea27a7a0e51c0da6cea90d6c1eb037ca2c5d1",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f012.jpg",
+      "size_bytes": 29989
+    },
+    {
+      "frame_id": "f013",
+      "sample_time_ms": 16250,
+      "source_time_ms": null,
+      "timestamp_ms": 16250,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "d157726b33b783ff48b13209c83ad2b36dd4869f3d56b23b821fc5b4451a8b9a",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f013.jpg",
+      "size_bytes": 31028
+    },
+    {
+      "frame_id": "f014",
+      "sample_time_ms": 17500,
+      "source_time_ms": null,
+      "timestamp_ms": 17500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "8220689e7a650296a4a2498db1d29010f2522958380ebb0fc68a7ef4db6b8578",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f014.jpg",
+      "size_bytes": 21444
+    },
+    {
+      "frame_id": "f015",
+      "sample_time_ms": 18750,
+      "source_time_ms": null,
+      "timestamp_ms": 18750,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "335d53882c588df4560806bde59800dc7c82eed20106a055ba8d45ac6dea00ce",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f015.jpg",
+      "size_bytes": 25346
+    },
+    {
+      "frame_id": "f016",
+      "sample_time_ms": 20000,
+      "source_time_ms": null,
+      "timestamp_ms": 20000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "c72617fdfeedf40788568d107111e44edbf87bbd07b51f00e166e3483c365f5e",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f016.jpg",
+      "size_bytes": 27767
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"sequence_analysis\",\"frames\":[{\"frame_id\":\"f000\",\"timestamp_ms\":0,\"subject\":{\"value\":\"一件浅黄绿色无袖立领马甲，正面朝向镜头，胸前有浅色小标志\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"服装为唯一主体。\"},\"scene\":{\"value\":\"灰紫色渐变背景，底部有柔和阴影\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"背景无其他物体。\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"无人物参照，难以套用实拍人物景别。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"马甲正面完整呈现，无明显俯仰。\"},\"composition\":{\"value\":\"马甲居中，左右两侧各有一组文字，底部留白。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"lighting\":{\"value\":\"柔和均匀的棚拍光，主体有轻微立体阴影\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿主体、灰紫背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"马甲呈立体悬挂状态，拉链闭合，领口立起。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"\"},\"visible_text\":{\"value\":\"FLIPBELT 飞比特；P绒轻量马甲4.0；26FW NEW ARRIVALS\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f001\",\"timestamp_ms\":1250,\"subject\":{\"value\":\"同一件浅黄绿色无袖立领马甲，正面朝向镜头\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"与前一帧主体一致。\"},\"scene\":{\"value\":\"浅紫色网格背景，右侧有细密光点\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"背景由灰紫渐变换为浅紫网格。\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"composition\":{\"value\":\"马甲居中，左右两侧文字位置与前一帧相近。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"lighting\":{\"value\":\"明亮均匀的棚拍光\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿主体、浅紫背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"马甲立体悬挂，拉链闭合，领口立起。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"visible_text\":{\"value\":\"FLIPBELT 飞比特；P绒轻量马甲4.0；26FW NEW ARRIVALS\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f002\",\"timestamp_ms\":2500,\"subject\":{\"value\":\"浅黄绿色马甲的上半部分，领口与拉链区域\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"画面裁切至马甲上半身。\"},\"scene\":{\"value\":\"深色背景，底部有白色雾气与星形光斑\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"背景较暗。\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"composition\":{\"value\":\"马甲上半身占据画面中央，底部叠加文字。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"lighting\":{\"value\":\"暗背景下的侧向轮廓光，主体边缘较亮\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿主体、深灰背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"马甲正面，拉链闭合，领口立起。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"\"},\"visible_text\":{\"value\":\"动态温控科技；动态合身 叠穿不压身\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f003\",\"timestamp_ms\":3750,\"subject\":{\"value\":\"马甲领口、拉链头与胸前标志的局部特写\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"画面裁切至领口与拉链区域。\"},\"scene\":{\"value\":\"深色背景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"composition\":{\"value\":\"领口与拉链居中偏左，标志位于右侧，文字在左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"lighting\":{\"value\":\"侧向光，领口内衬纹理被照亮\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿外层、黄绿内衬、深灰背景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"领口立起，拉链头位于领口下方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"\"},\"visible_text\":{\"value\":\"动态温控科技；动态合身 叠穿不压身\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f004\",\"timestamp_ms\":5000,\"subject\":{\"value\":\"马甲领口内衬的极近特写，可见绒面纹理与拉链头\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"画面裁切至领口内衬。\"},\"scene\":{\"value\":\"深色背景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"composition\":{\"value\":\"领口内衬横贯画面中部，拉链头位于下方中央，文字在左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"lighting\":{\"value\":\"侧向光突出内衬绒面颗粒感\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"color_palette\":{\"value\":\"黄绿内衬、浅黄绿外层、深灰背景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"领口内衬翻起，拉链头位于领口下方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"\"},\"visible_text\":{\"value\":\"动态温控科技；动态合身 叠穿不压身\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f005\",\"timestamp_ms\":6250,\"subject\":{\"value\":\"黄绿色绒面里料的极近特写，可见颗粒状纹理\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"画面几乎被面料纹理填满。\"},\"scene\":{\"value\":\"深色背景，仅边缘可见\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"俯视或斜向贴近面料\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"纹理呈斜向排列。\"},\"composition\":{\"value\":\"面料纹理斜向铺满画面，文字位于左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"lighting\":{\"value\":\"侧向光突出绒面颗粒与阴影\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"color_palette\":{\"value\":\"黄绿色面料、深灰背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"面料呈斜向铺展状态。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"\"},\"visible_text\":{\"value\":\"PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f006\",\"timestamp_ms\":7500,\"subject\":{\"value\":\"黄绿色绒面里料的近景，可见拉链边与横向纹理\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"画面为面料局部。\"},\"scene\":{\"value\":\"浅灰背景，仅左侧边缘可见\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"斜向贴近面料\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"composition\":{\"value\":\"拉链边位于画面右侧，面料纹理占据大部分，文字在左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"lighting\":{\"value\":\"柔和侧光，纹理起伏明显\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"color_palette\":{\"value\":\"黄绿色面料、浅灰背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"面料呈斜向铺展，拉链边纵向延伸。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"\"},\"visible_text\":{\"value\":\"PrimaLoft® Evolve 里料；锁住空气保暖 + 打开通道透气\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f007\",\"timestamp_ms\":8750,\"subject\":{\"value\":\"浅灰色外层面料占据画面大部分，右下角露出黄绿色面料边缘\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"主体为面料局部。\"},\"scene\":{\"value\":\"浅灰色背景，与面料颜色接近\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"composition\":{\"value\":\"浅灰面料占据画面主体，右下角有黄绿色边缘，文字在左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"lighting\":{\"value\":\"柔和均匀光，面料表面有轻微褶皱阴影\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅灰、黄绿、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"面料呈自然垂坠状态。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"visible_text\":{\"value\":\"轻量防风外层面料；建立迎风面的低透风屏障\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f008\",\"timestamp_ms\":10000,\"subject\":{\"value\":\"马甲肩部与领口局部，可见拉链头与内衬\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"画面裁切至肩部区域。\"},\"scene\":{\"value\":\"浅灰背景，左侧有白色气流状线条\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"composition\":{\"value\":\"马甲肩部位于画面右侧，左侧留白并有气流线条，文字在左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"lighting\":{\"value\":\"柔和侧光，面料有轻微高光\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿、浅灰、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"肩部与领口呈立体状态，拉链头位于领口下方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"visible_text\":{\"value\":\"轻量防风外层面料；建立迎风面的低透风屏障\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f009\",\"timestamp_ms\":11250,\"subject\":{\"value\":\"马甲拉链下端的局部特写，可见拉链头与拉绳\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"画面裁切至拉链下端。\"},\"scene\":{\"value\":\"浅灰背景，底部有深色区域\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"composition\":{\"value\":\"拉链纵向居中，拉链头位于画面下方，文字在左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"lighting\":{\"value\":\"侧向光，拉链齿有高光\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿面料、黄绿拉链、深灰背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"拉链闭合，拉链头位于下端。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"visible_text\":{\"value\":\"双头拉链调温；上下独立开合调控散热\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f010\",\"timestamp_ms\":12500,\"subject\":{\"value\":\"马甲拉链中段的极近特写，可见拉链齿与两侧面料\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"画面裁切至拉链中段。\"},\"scene\":{\"value\":\"浅黄绿面料背景，无其他物体\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"composition\":{\"value\":\"拉链纵向居中，两侧面料对称，文字在左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"lighting\":{\"value\":\"侧向光，拉链齿有高光\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿、黄绿拉链、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"拉链闭合，纵向延伸。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"\"},\"visible_text\":{\"value\":\"双头拉链调温；上下独立开合调控散热\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f011\",\"timestamp_ms\":13750,\"subject\":{\"value\":\"马甲正面中上部，可见领口、拉链与胸前标志\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"画面裁切至马甲上半身。\"},\"scene\":{\"value\":\"深色背景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"composition\":{\"value\":\"马甲占据画面中央偏右，文字在左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"lighting\":{\"value\":\"侧向光，面料有立体褶皱阴影\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿、深灰背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"马甲正面，拉链闭合，领口立起。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"visible_text\":{\"value\":\"双头拉链调温；上下独立开合调控散热\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f012\",\"timestamp_ms\":15000,\"subject\":{\"value\":\"马甲领口与胸前标志的局部特写\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"画面裁切至领口与标志区域。\"},\"scene\":{\"value\":\"深色背景\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"composition\":{\"value\":\"领口位于上方，标志位于右侧，拉链纵向延伸，文字在左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"lighting\":{\"value\":\"侧向光，领口与拉链有高光\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿、深灰背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"领口立起，拉链闭合。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"\"},\"visible_text\":{\"value\":\"双头拉链调温；上下独立开合调控散热\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f013\",\"timestamp_ms\":16250,\"subject\":{\"value\":\"马甲被折叠收拢，下半部分塞入侧口袋，呈收纳状态\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"主体形态由展开变为折叠。\"},\"scene\":{\"value\":\"灰蓝色渐变背景，有斜向光束\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"composition\":{\"value\":\"马甲居中，上半部分展开，下半部分收拢，文字在左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"lighting\":{\"value\":\"斜向光束从左上照入，主体有柔和阴影\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿、灰蓝背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"马甲上半部分立起，下半部分折叠塞入侧口袋。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"\"},\"visible_text\":{\"value\":\"侧口袋自收纳；轻量便携快速收起\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f014\",\"timestamp_ms\":17500,\"subject\":{\"value\":\"马甲被进一步收拢，大部分已塞入口袋，仅露出领口与拉链\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"收纳程度较前一帧更高。\"},\"scene\":{\"value\":\"灰蓝色渐变背景，有斜向光束\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"composition\":{\"value\":\"收纳中的马甲位于画面中央偏下，文字在左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"lighting\":{\"value\":\"斜向光束从左上照入\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿、灰蓝背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"马甲大部分收入口袋，领口与拉链头露出。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"\"},\"visible_text\":{\"value\":\"侧口袋自收纳；轻量便携快速收起\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f015\",\"timestamp_ms\":18750,\"subject\":{\"value\":\"一个浅黄绿色收纳袋，由马甲侧口袋翻转而成\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"主体已完全收纳为袋状。\"},\"scene\":{\"value\":\"灰蓝色渐变背景，有斜向光束\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"composition\":{\"value\":\"收纳袋位于画面中央偏下，文字居中叠加。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"lighting\":{\"value\":\"斜向光束从左上照入\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿、灰蓝背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"收纳袋呈倾斜放置状态，拉链头露出。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"\"},\"visible_text\":{\"value\":\"P绒轻量马甲4.0；9月20日 正式上线\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\"],\"note\":\"文字可辨认。\"}},{\"frame_id\":\"f016\",\"timestamp_ms\":20000,\"subject\":{\"value\":\"同一浅黄绿色收纳袋，正面朝向镜头，拉链头位于右侧\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"主体与前一帧一致。\"},\"scene\":{\"value\":\"灰蓝色渐变背景，有斜向光束\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"无人物参照。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"composition\":{\"value\":\"收纳袋居中，文字居中叠加在下方。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"lighting\":{\"value\":\"斜向光束从左上照入\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"color_palette\":{\"value\":\"浅黄绿、灰蓝背景、白色文字\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"收纳袋正面朝向镜头，拉链头位于右侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"visible_text\":{\"value\":\"P绒轻量马甲4.0；9月20日 正式上线\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"文字可辨认。\"}}],\"visual_intervals\":[{\"from_frame_id\":\"f000\",\"to_frame_id\":\"f001\",\"start_ms\":0,\"end_ms\":1250,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"背景由灰紫渐变换为浅紫网格，马甲位置与形态基本一致。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"两帧间主体形态无明显变化，无法判断动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"背景变化可能来自布景切换或后期，无法区分摄像机运动。\"},\"transition\":{\"value\":\"疑似镜头切换或背景替换\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f000\",\"f001\"],\"note\":\"背景由渐变变为网格，主体位置基本不变。\"}},{\"from_frame_id\":\"f001\",\"to_frame_id\":\"f002\",\"start_ms\":1250,\"end_ms\":2500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由马甲全身变为上半身特写，背景由浅紫网格变为深色雾气。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"主体形态未变，无法判断动作。\"},\"camera_motion\":{\"value\":\"疑似镜头推进或切换至近景\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"画面占比增大，但无法排除剪辑或后期裁切。\"},\"transition\":{\"value\":\"疑似镜头切换\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f001\",\"f002\"],\"note\":\"景别与背景同时变化。\"}},{\"from_frame_id\":\"f002\",\"to_frame_id\":\"f003\",\"start_ms\":2500,\"end_ms\":3750,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由马甲上半身变为领口与拉链的局部特写，背景由雾气变为深色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"主体形态未变，无法判断动作。\"},\"camera_motion\":{\"value\":\"疑似镜头推进至领口局部\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"画面占比增大，但无法排除剪辑。\"},\"transition\":{\"value\":\"疑似镜头切换\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f002\",\"f003\"],\"note\":\"景别与背景同时变化。\"}},{\"from_frame_id\":\"f003\",\"to_frame_id\":\"f004\",\"start_ms\":3750,\"end_ms\":5000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由领口与拉链特写变为领口内衬的极近特写，内衬绒面纹理更清晰。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"主体形态未变，无法判断动作。\"},\"camera_motion\":{\"value\":\"疑似镜头继续推进至领口内衬\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"画面占比增大，但无法排除剪辑。\"},\"transition\":{\"value\":\"疑似镜头切换或连续推进\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f003\",\"f004\"],\"note\":\"景别变化明显，无法确认是否连续。\"}},{\"from_frame_id\":\"f004\",\"to_frame_id\":\"f005\",\"start_ms\":5000,\"end_ms\":6250,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由领口内衬特写变为绒面里料的极近特写，纹理方向由横向变为斜向。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"面料静态，无法判断动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"纹理方向变化可能来自镜头移动或面料摆放变化，无法区分。\"},\"transition\":{\"value\":\"疑似镜头切换\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f004\",\"f005\"],\"note\":\"取景区域与纹理方向同时变化。\"}},{\"from_frame_id\":\"f005\",\"to_frame_id\":\"f006\",\"start_ms\":6250,\"end_ms\":7500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由斜向绒面纹理变为可见拉链边的横向绒面纹理，背景由深色变为浅灰。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"面料静态，无法判断动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"取景与背景同时变化，无法区分摄像机运动与剪辑。\"},\"transition\":{\"value\":\"疑似镜头切换\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f005\",\"f006\"],\"note\":\"背景与取景区域同时变化。\"}},{\"from_frame_id\":\"f006\",\"to_frame_id\":\"f007\",\"start_ms\":7500,\"end_ms\":8750,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由黄绿色绒面里料变为浅灰色外层面料，右下角露出黄绿色边缘。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"面料静态，无法判断动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"主体材质与颜色变化，无法判断摄像机运动。\"},\"transition\":{\"value\":\"疑似镜头切换\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f006\",\"f007\"],\"note\":\"主体由里料变为外层面料。\"}},{\"from_frame_id\":\"f007\",\"to_frame_id\":\"f008\",\"start_ms\":8750,\"end_ms\":10000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由浅灰外层面料变为马甲肩部与领口局部，左侧出现白色气流线条。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"主体形态未变，无法判断动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"取景区域变化明显，无法区分摄像机运动与剪辑。\"},\"transition\":{\"value\":\"疑似镜头切换\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f007\",\"f008\"],\"note\":\"取景区域与背景元素同时变化。\"}},{\"from_frame_id\":\"f008\",\"to_frame_id\":\"f009\",\"start_ms\":10000,\"end_ms\":11250,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由肩部与领口局部变为拉链下端特写，可见拉链头与拉绳。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"主体形态未变，无法判断动作。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"取景区域变化明显，无法区分摄像机运动与剪辑。\"},\"transition\":{\"value\":\"疑似镜头切换\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f008\",\"f009\"],\"note\":\"取景区域变化明显。\"}},{\"from_frame_id\":\"f009\",\"to_frame_id\":\"f010\",\"start_ms\":11250,\"end_ms\":12500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由拉链下端特写变为拉链中段极近特写，背景由深色变为浅黄绿面料。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"主体形态未变，无法判断动作。\"},\"camera_motion\":{\"value\":\"疑似镜头沿拉链上移或切换至中段\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"取景区域沿拉链方向变化，但无法排除剪辑。\"},\"transition\":{\"value\":\"疑似镜头切换或连续上移\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f009\",\"f010\"],\"note\":\"取景区域变化明显，无法确认是否连续。\"}},{\"from_frame_id\":\"f010\",\"to_frame_id\":\"f011\",\"start_ms\":12500,\"end_ms\":13750,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由拉链中段极近特写变为马甲正面中上部，背景由浅黄绿面料变为深色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"主体形态未变，无法判断动作。\"},\"camera_motion\":{\"value\":\"疑似镜头拉远或切换至中景\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"画面占比减小，但无法排除剪辑。\"},\"transition\":{\"value\":\"疑似镜头切换\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f010\",\"f011\"],\"note\":\"景别与背景同时变化。\"}},{\"from_frame_id\":\"f011\",\"to_frame_id\":\"f012\",\"start_ms\":13750,\"end_ms\":15000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由马甲正面中上部变为领口与胸前标志的局部特写，取景范围缩小。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"\"},\"subject_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"主体形态未变，无法判断动作。\"},\"camera_motion\":{\"value\":\"疑似镜头推进至领口与标志区域\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"画面占比增大，但无法排除剪辑。\"},\"transition\":{\"value\":\"疑似镜头切换或连续推进\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f011\",\"f012\"],\"note\":\"景别变化明显，无法确认是否连续。\"}},{\"from_frame_id\":\"f012\",\"to_frame_id\":\"f013\",\"start_ms\":15000,\"end_ms\":16250,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由领口与标志特写变为马甲折叠收纳状态，背景由深色变为灰蓝渐变并出现光束。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"马甲可能被折叠并塞入侧口袋\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"两帧之间折叠过程未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"主体形态与背景同时变化，无法区分摄像机运动与剪辑。\"},\"transition\":{\"value\":\"疑似镜头切换\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f012\",\"f013\"],\"note\":\"主体形态与背景同时变化。\"}},{\"from_frame_id\":\"f013\",\"to_frame_id\":\"f014\",\"start_ms\":16250,\"end_ms\":17500,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"马甲由部分收拢变为大部分塞入口袋，仅露出领口与拉链头，画面占比减小。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"马甲可能继续被收入口袋\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"两帧之间的连续收纳过程未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"主体形态变化可能由收纳动作或剪辑造成，无法区分。\"},\"transition\":{\"value\":\"疑似连续镜头\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f013\",\"f014\"],\"note\":\"背景与光束一致，主体形态连续变化。\"}},{\"from_frame_id\":\"f014\",\"to_frame_id\":\"f015\",\"start_ms\":17500,\"end_ms\":18750,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"画面由收纳中的马甲变为完全收纳后的浅黄绿色收纳袋，文字由侧口袋自收纳变为P绒轻量马甲4.0。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"马甲可能已完成收纳为袋状\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"两帧之间的完成过程未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"主体形态与文字同时变化，无法区分摄像机运动与剪辑。\"},\"transition\":{\"value\":\"疑似镜头切换\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f014\",\"f015\"],\"note\":\"主体形态与叠加文字同时变化。\"}},{\"from_frame_id\":\"f015\",\"to_frame_id\":\"f016\",\"start_ms\":18750,\"end_ms\":20000,\"evidence_source\":\"ordered_images\",\"visual_change\":{\"value\":\"收纳袋由倾斜放置变为正面朝向镜头，拉链头位置由下方变为右侧，文字内容不变。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"\"},\"subject_motion\":{\"value\":\"收纳袋可能发生旋转\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"两帧之间的连续旋转过程未被观察。\"},\"camera_motion\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"主体朝向变化可能由物体旋转或摄像机运动造成，无法区分。\"},\"transition\":{\"value\":\"疑似连续镜头\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f015\",\"f016\"],\"note\":\"背景与文字一致，主体朝向连续变化。\"}}]}"
+}

@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#dbe2ec">
+  <meta name="app-base-path" content="__APP_BASE_PATH__">
+  <title>视频文案分析 · POC 工作台</title>
+  <link rel="stylesheet" href="__APP_BASE_PATH__/static/style.css?v=content-v0.3.3">
+  <meta name="app-read-only" content="__APP_READ_ONLY__">
+</head>
+<body class="poc-app">
+  <header class="topbar">
+    <a class="brand" href="__APP_BASE_PATH__/" aria-label="返回工作台">
+      <span class="brand-mark">F</span>
+      <span>FRAME<span class="brand-light">LAB</span></span>
+    </a>
+    <div class="topbar-right"><span class="local-pill"><i></i><span id="deployment-label">本机 POC</span></span><span class="topbar-sep"></span><span id="model-badge">模型配置读取中</span></div>
+  </header>
+
+  <main class="shell">
+    <section class="intro">
+      <div class="eyebrow"><span class="eyebrow-line"></span> CONTENT ANALYSIS · POC</div>
+      <h1>验证视频文案工作流<br><span>是否稳定、准确、可理解。</span></h1>
+      <p class="intro-copy">本页只验证文本提炼、文案结构、标签分类和前三秒分析。逐帧图像与 A/B 结果放在依据区，需要时再展开。</p>
+      <div class="method-chips"><span><b>01</b> 文本提炼</span><span><b>02</b> 文案结构</span><span><b>03</b> 标签分类</span><span><b>04</b> 前三秒</span></div>
+    </section>
+
+    <nav class="workflow-tabs" aria-label="分析工作流">
+      <button type="button" class="workflow-tab" data-workflow="visual">视觉 A/B（调试）</button>
+      <button type="button" class="workflow-tab active" data-workflow="content">文案分析实验</button>
+    </nav>
+
+    <div id="visual-workflow" class="hidden">
+    <section class="history-bar hidden" id="history-bar"><div class="history-label"><span>最近任务</span><button id="refresh-history" type="button">刷新</button></div><div id="history-list" class="history-list"></div></section>
+
+    <section class="setup-grid" aria-label="创建分析任务">
+      <article class="panel upload-panel">
+        <div class="section-head" id="upload-section-head"><div><span class="step-no">01</span><h2>上传参考视频</h2></div><span class="subtle">MP4 / MOV · 最长 60 秒</span></div>
+        <p class="read-only-note hidden" id="read-only-note">只读演示：可以查看已完成的任务与原视频，不开放上传、运行分析或保存评审。</p>
+        <label class="dropzone" id="dropzone" for="video-file">
+          <input id="video-file" type="file" accept="video/mp4,video/quicktime,.mp4,.mov">
+          <span class="upload-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0L7 9m5-5 5 5M5 14v5h14v-5"/></svg></span>
+          <strong id="upload-title">拖入视频，或点击选择</strong>
+          <span id="upload-copy">建议 5–15 秒，文件上限 100 MiB</span>
+          <span class="upload-state" id="upload-state"></span>
+        </label>
+        <div class="video-meta hidden" id="video-meta"></div>
+        <div class="video-preview hidden" id="video-preview-wrap"><video id="video-preview" controls playsinline preload="metadata"></video></div>
+
+        <div class="brief-title"><span class="step-no">02</span><div><h2>新主题改编 <em>可选</em></h2><p>只影响改编提示词，不改变对参考视频的识别。</p></div></div>
+        <div class="brief-grid">
+          <label>品牌名称<input id="brand-name" type="text" placeholder="例如：北境户外"></label>
+          <label>产品名称<input id="product-name" type="text" placeholder="例如：轻量防风外套"></label>
+          <label class="wide">目标主题<input id="target-theme" type="text" placeholder="例如：雨后城市通勤，轻松自在"></label>
+          <label class="wide">已确认卖点 <span class="input-hint">一行一条</span><textarea id="selling-points" rows="2" placeholder="例如：可收纳进随身小包&#10;通过内部实验室防泼水测试"></textarea></label>
+          <label class="wide">替换要求<textarea id="replace-instructions" rows="2" placeholder="哪些主体、情节或画面元素需要替换？"></textarea></label>
+        </div>
+        <div class="submit-row"><div class="sampling-note"><span class="pulse-dot"></span><div><b>共用抽帧</b><span id="sampling-description">短视频每秒 1 帧 · 最多 20 帧</span></div></div><button id="run-button" class="primary-button" disabled><span>运行两种方案</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg></button></div>
+        <div class="notice hidden" id="notice" role="status"></div>
+      </article>
+
+      <aside class="side-column">
+        <article class="panel side-card">
+          <div class="side-title"><span class="step-no">A</span><div><h3>单帧独立分析</h3><p>一张图，一次独立判断</p></div></div>
+          <div class="flow-stack"><span>每帧分别识别静态特征</span><i>↓</i><span>文字结果按时间排序</span><i>↓</i><span>同模板汇总全片</span></div>
+          <div class="flow-foot"><b>N + 1</b><span>次模型调用</span></div>
+        </article>
+        <article class="panel side-card side-card-b">
+          <div class="side-title"><span class="step-no">B</span><div><h3>有序多帧联合分析</h3><p>按时间顺序观察画面变化</p></div></div>
+          <div class="flow-stack"><span>同一请求输入全部抽帧</span><i>↓</i><span>连续片段归纳 + 抽帧证据</span><i>↓</i><span>同模板汇总全片</span></div>
+          <div class="flow-foot"><b>2</b><span>次模型调用</span></div>
+        </article>
+        <div class="scope-note"><span class="scope-icon">i</span><p>本轮模型只分析画面图片，不接收音轨。运镜、动作和转场来自稀疏抽帧推断，不是精确测量。</p></div>
+      </aside>
+    </section>
+
+    <section class="results hidden" id="results">
+      <div class="results-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> COMPARISON · <span id="comparison-short">—</span></div><h2>分析结果 <span class="live-status" id="overall-status">等待开始</span></h2></div><div class="export-actions hidden" id="export-actions"><button class="ghost-button hidden" id="run-content-from-comparison">基于此结果分析文案</button><button class="ghost-button" id="export-md">下载 Markdown</button><button class="ghost-button" id="export-json">下载 JSON</button></div></div>
+      <div class="progress-panel panel" id="progress-panel"><div class="progress-title"><span class="spinner" id="spinner"></span><b id="progress-label">等待处理</b><span id="progress-detail">任务准备中</span></div><div class="progress-track"><span id="progress-bar"></span></div><div class="branch-progress"><div><b>A</b><span id="branch-a-status">等待</span></div><div><b>B</b><span id="branch-b-status">等待</span></div><span class="progress-footnote">B 为单次联合请求，不显示虚假的逐帧进度</span></div></div>
+
+      <div class="method-switch panel hidden" id="method-switch" role="tablist" aria-label="选择分析方案">
+        <button type="button" class="method-tab active" role="tab" aria-selected="true" aria-controls="frames-panel" data-method="A"><b>A</b><span>单帧独立分析<small id="tab-a-status">等待</small></span></button>
+        <button type="button" class="method-tab" role="tab" aria-selected="false" aria-controls="frames-panel" data-method="B" tabindex="-1"><b>B</b><span>有序多帧分析<small id="tab-b-status">等待</small></span></button>
+        <span class="method-caption">同一组抽帧 · 切换只查看对应方案结果</span>
+      </div>
+      <div class="result-meta panel hidden" id="result-meta"></div>
+      <section class="panel reports-panel hidden" id="reports-panel"><div class="section-head"><div><span class="step-no">05</span><h2>全片总结与提示词</h2></div><span class="subtle" id="report-method"></span></div><div id="report-results" class="report-grid"></div></section>
+      <details class="analysis-details hidden" id="evidence-details"><summary><span><span class="step-no">03</span>查看逐帧与时序证据</span><span id="evidence-summary" class="subtle">默认收起，按需展开</span></summary><div class="evidence-details-body"><section class="panel frames-panel hidden" id="frames-panel"><div class="section-head"><div><span class="step-no">03</span><h2 id="frame-title">逐帧分析</h2></div><span class="subtle" id="frame-method">点击帧时间定位原视频</span></div><div id="frame-results" class="frame-results"></div></section><section class="panel intervals-panel hidden" id="intervals-panel"><div class="section-head"><div><span class="step-no">04</span><h2>相邻画面变化</h2></div><span class="subtle" id="interval-method"></span></div><div id="interval-results"></div></section></div></details>
+      <section class="panel review-panel hidden" id="review-panel"><div class="section-head"><div><span class="step-no">06</span><h2>业务评审记录</h2></div><span class="subtle">仅作人工备注，不覆盖模型原始结果</span></div><div class="review-grid" id="review-scores"></div><div class="review-bottom"><label>偏好<select id="review-preference"><option value="">未选择</option><option value="A">A 更适合</option><option value="B">B 更适合</option><option value="equal">各有优势 / 相当</option><option value="neither">两者都不可用</option><option value="insufficient">证据不足</option></select></label><label class="reviewer-field">评审人<input id="reviewer" type="text" placeholder="可留空"></label><label class="review-note">证据备注<textarea id="evidence-note" rows="2" placeholder="记录具体帧、时间点以及判断理由"></textarea></label><button class="secondary-button" id="save-review">保存评审</button><span class="save-status" id="save-status"></span></div></section>
+    </section>
+    </div>
+
+    <section id="content-workflow" class="content-workflow">
+      <div class="section-head content-heading"><div><span class="step-no">POC</span><div><h2>文案分析实验</h2><p class="subtle">只看四项核心输出；详细证据按需展开</p></div></div><span class="content-capability" id="content-capability">正在读取模型能力</span></div>
+      <div class="poc-stage-strip" aria-label="文案分析工作流阶段"><span id="stage-text">01 文本提炼</span><span id="stage-structure">02 文案结构</span><span id="stage-tags">03 标签分类</span><span id="stage-hook">04 前三秒</span></div>
+      <div class="read-only-note hidden" id="content-read-only-note">只读分享：可以查看历史报告；上传、导入、转写、分析和评价只在本机工作台开放。</div>
+      <div class="content-layout">
+        <article class="panel content-input-panel">
+          <label class="content-label" for="content-video-file">1. 选择视频 <span id="content-video-status" class="subtle">MP4 / MOV · 最长 60 秒</span></label>
+          <input id="content-video-file" type="file" accept="video/mp4,video/quicktime,.mp4,.mov">
+          <div class="video-meta hidden" id="content-video-meta"></div>
+          <div class="video-preview hidden" id="content-video-wrap"><video id="content-video-preview" controls playsinline preload="metadata"></video></div>
+          <div class="content-action-row"><button type="button" class="ghost-button" id="content-transcribe" disabled>尝试音轨转写</button><span class="subtle">ASR 未配置时会显示等待状态，不会生成模拟转写。</span></div>
+
+          <details class="content-advanced-input"><summary>高级输入：人工文本与分析范围</summary><div class="content-advanced-body">
+            <label class="content-label" for="transcript-format">导入已校对文本 <span class="subtle">无 ASR 时用于验证后续分析</span></label>
+            <div class="content-fields">
+              <label>格式<select id="transcript-format"><option value="srt">SRT 字幕</option><option value="text">纯文本（无时间戳）</option><option value="json">JSON（带段落时间）</option></select></label>
+              <label>文本来源<select id="transcript-basis"><option value="speech">人工听写的口播</option><option value="subtitle">字幕文本</option><option value="unverified">来源未确认</option></select></label>
+              <label class="content-check"><input id="transcript-reviewed" type="checkbox">文本已经人工核对</label>
+              <textarea id="transcript-content" rows="6" placeholder="粘贴 SRT、纯文本或含 segments 的 JSON"></textarea>
+            </div>
+            <div class="content-action-row"><button type="button" class="secondary-button" id="transcript-import" disabled>保存文本并继续</button><span id="transcript-status" class="save-status">文本来源会保留在报告中。</span></div>
+            <div class="content-fields">
+              <label>分析范围<select id="content-scope"><option value="auto">自动判断</option><option value="speech_content">重点分析文案</option><option value="pure_display">纯展示，跳过深拆</option><option value="3d_showcase">3D 展示，跳过深拆</option></select></label>
+              <label>素材来源<select id="content-origin"><option value="unknown">未知</option><option value="clip">业务已确认：切片</option><option value="original">业务已确认：原片</option></select></label>
+            </div>
+          </div></details>
+          <div class="content-action-row"><button type="button" class="primary-button" id="content-analyze" disabled>分析文案</button><span class="subtle">需要已保存文本；前三秒节点只接收 0–3 秒证据。</span></div>
+          <div class="content-notice" id="content-notice" role="status"></div>
+        </article>
+        <aside class="panel content-aside">
+          <h3>当前能力状态</h3><div id="content-capability-detail" class="capability-detail">读取中</div>
+          <p>有音轨但没有 ASR 服务时，任务会停在“等待转写服务”。你可以粘贴人工校对文本继续验收结构、分类和前三秒逻辑。</p>
+          <p>字幕、人工听写和 ASR 转写会分别标记。没有时间戳时，系统只分析全文结构，不会猜测口播发生在第几秒。</p>
+        </aside>
+      </div>
+      <section class="panel content-history-panel"><div class="section-head"><div><span class="step-no">H</span><h2>已保存实验结果</h2></div><div class="content-history-filters"><select id="content-history-format"><option value="">全部形式</option><option value="talking_head">人物讲述</option><option value="product_demo">商品展示</option><option value="animation_3d">3D 动画</option><option value="subtitle_driven">字幕驱动</option></select><select id="content-history-source"><option value="">全部来源</option><option value="asr">ASR</option><option value="manual">人工导入</option><option value="fixture">模拟联调</option><option value="missing">未转写</option></select><button class="ghost-button" id="content-history-refresh">刷新</button></div></div><div id="content-history-list" class="content-history-list"></div></section>
+      <section class="panel content-result hidden" id="content-result"><div class="section-head"><div><span class="step-no">R</span><div><h2>文案分析结果</h2><p id="content-result-meta" class="subtle"></p></div></div><div class="content-action-row"><button class="ghost-button" id="content-export-json">JSON</button><button class="ghost-button" id="content-export-md">Markdown</button></div></div><div id="content-report"></div><section class="content-review"><h3>业务评价</h3><div class="content-fields"><label>结论<select id="content-review-verdict"><option value="not_assessed">未评估</option><option value="usable">可用</option><option value="needs_revision">需要修改</option><option value="unusable">不可用</option></select></label><label>评审人<input id="content-reviewer" maxlength="120"></label><label>转写准确性<select id="review-transcript"><option value="">未评</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></label><label>结构可用性<select id="review-structure"><option value="">未评</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></label><label>标签可用性<select id="review-tags"><option value="">未评</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></label><label>前三秒依据<select id="review-hook"><option value="">未评</option><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option></select></label><label class="content-wide">备注<textarea id="content-review-notes" rows="2"></textarea></label></div><button class="secondary-button" id="content-review-save">保存评价</button><span id="content-review-status" class="save-status"></span></section></section>
+    </section>
+    <footer><span>FRAME LAB <b>·</b> INTERNAL PROOF OF CONCEPT</span><span>视觉 v0.2 / Schema 1.1 <b>·</b> 文案 v0.3 / Schema content-1.0</span></footer>
+  </main>
+  <script src="__APP_BASE_PATH__/static/app.js?v=content-v0.3.3" defer></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "call_id": "30b67f54-865b-481a-aba1-fd6cae4508e7",
+  "request_id": "457f396b-f122-43b1-a8d1-2a6508751a5d",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 453,
+    "total_tokens": 3042,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2614
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f006",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "590c3d7a3e2066d12f8d1d9670eb4bde1dbddd12641d40c7e85d08ee030a2d78",
+  "image_inputs": [
+    {
+      "frame_id": "f006",
+      "sample_time_ms": 15000,
+      "source_time_ms": null,
+      "timestamp_ms": 15000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "fccb6fdf4cfc6c9dcaee7b72608b46bdd9f7bc1e4882150016d0577ada8d8131",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f006.jpg",
+      "size_bytes": 70503
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f006\",\"timestamp_ms\":15000,\"subject\":{\"value\":\"一名女性，头戴蓝色花纹头巾，身穿白色长袖短款上衣和深蓝色紧身裤，腰间系蓝色腰包，左手提一个透明塑料袋，袋内装有深色衣物。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"人物与手持物品在画面中央可见。\"},\"scene\":{\"value\":\"户外草地，背景有树木，前景为铺装地面。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"草地、树木和地面砖块可见。\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖以上入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"画面下缘截断在腿部。\"},\"camera_angle\":{\"value\":\"平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"人物面部与镜头大致同高。\"},\"composition\":{\"value\":\"人物位于画面中央，手持物品在左侧，字幕位于画面下部中央。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"人物居中，字幕叠加在腿部位置。\"},\"lighting\":{\"value\":\"自然日光，人物面部和衣物受光均匀，背景较亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"户外白天光线。\"},\"color_palette\":{\"value\":\"以绿色草地、蓝色衣物和白色上衣为主，辅以肤色和深色袋内物品。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"画面主色为绿、蓝、白。\"},\"visible_pose\":{\"value\":\"人物站立，面向镜头，左手提塑料袋，右手抬起指向左侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"手臂和手指姿势可见。\"},\"visible_text\":{\"value\":\"画面下方有白色中文字幕“还必须拿到”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f006\"],\"note\":\"字幕清晰可读。\"}}}"
+}

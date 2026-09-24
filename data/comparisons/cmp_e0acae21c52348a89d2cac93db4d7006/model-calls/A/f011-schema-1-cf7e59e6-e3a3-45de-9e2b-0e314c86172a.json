@@ -1,0 +1,46 @@
+{
+  "call_id": "cf7e59e6-e3a3-45de-9e2b-0e314c86172a",
+  "request_id": "ffc871ce-3393-4c80-951f-60dfcce802c6",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2576,
+    "completion_tokens": 452,
+    "total_tokens": 3028,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 656
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2853
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f011",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "8c36c97a329ab01f48cd9c285e59469177a95c895b3501ca8ec10de37e91bc46",
+  "image_inputs": [
+    {
+      "frame_id": "f011",
+      "sample_time_ms": 13750,
+      "source_time_ms": null,
+      "timestamp_ms": 13750,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "3b1352552bcb353820ee574410eb1c34a43b2151198af1fcc0a110270bcc3688",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f011.jpg",
+      "size_bytes": 31345
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f011\",\"timestamp_ms\":13750,\"subject\":{\"value\":\"一件浅黄绿色立领无袖上衣，正面有拉链，左胸处有一个浅色图形标志。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"仅描述可见衣物外观，不判断品牌或材质。\"},\"scene\":{\"value\":\"深黑色纯色背景，衣物占据画面主体。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"shot_size\":{\"value\":\"近景，画面主要呈现衣物上半部分，未显示完整衣身。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"依据画面中衣物占比判断。\"},\"camera_angle\":{\"value\":\"正面平视角度拍摄衣物。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"拉链与领口基本正对画面。\"},\"composition\":{\"value\":\"衣物居中偏右，领口位于画面上方，拉链沿画面中轴纵向延伸，左下角有字幕。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"lighting\":{\"value\":\"正面柔和照明，衣物表面有轻微明暗过渡，背景保持深黑。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"仅描述可见光效，不推断灯位。\"},\"color_palette\":{\"value\":\"浅黄绿色衣物与深黑色背景形成高对比，拉链为亮黄绿色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"衣物呈直立悬挂或穿在支撑物上的静态摆放，拉链处于闭合状态。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"仅描述当前静态状态。\"},\"visible_text\":{\"value\":\"画面左下角有白色中文文字“双头拉链调温”和“上下独立开合调控散热”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"文字清晰可辨。\"}}}"
+}

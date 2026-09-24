@@ -1,0 +1,46 @@
+{
+  "call_id": "d26722b4-48bc-4fcf-981a-3c6ff77d6dbd",
+  "request_id": "6f7677fa-3f6a-405b-9c92-347986851c04",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2796,
+    "completion_tokens": 443,
+    "total_tokens": 3239,
+    "prompt_tokens_details": {
+      "cached_tokens": 2176
+    },
+    "prompt_cache_hit_tokens": 2176,
+    "prompt_cache_miss_tokens": 620
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 3114
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f016",
+  "prompt_version": "poc-v0.2",
+  "schema_version": "1.1",
+  "system_prompt_sha256": "fba558a42cb47a533f8e30e0b7e4a7df8d66d9caf5927800d3a2e1c3c33a0879",
+  "input_text_sha256": "af4db9e0e34164209b3b45a750462258acf447ffecb29f04c12bc9375a3e6e86",
+  "image_inputs": [
+    {
+      "frame_id": "f016",
+      "sample_time_ms": 20000,
+      "source_time_ms": null,
+      "timestamp_ms": 20000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "c72617fdfeedf40788568d107111e44edbf87bbd07b51f00e166e3483c365f5e",
+      "image_path": "frame_sets/fs_7bee6f212dc343f5bd821bfd6640ba6a/f016.jpg",
+      "size_bytes": 27767
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.1\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f016\",\"timestamp_ms\":20000,\"subject\":{\"value\":\"一个浅黄绿色的小型收纳袋，带拉链和彩色拉绳\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"仅描述可见外观，不判断材质与品牌。\"},\"scene\":{\"value\":\"灰蓝色烟雾状背景，左上角有斜射光束\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"画面为悬浮商品展示，缺少可参照的人物或环境尺度，无法可靠判断景别。\"},\"camera_angle\":{\"value\":\"接近平视的正面视角\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"袋体正面朝向镜头，略有倾斜，无强烈俯仰线索。\"},\"composition\":{\"value\":\"收纳袋位于画面中央偏上，文字居中排列于下方，左上光束形成对角引导。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"lighting\":{\"value\":\"左上角有明亮斜射光束，主体受光均匀，背景呈烟雾状明暗过渡。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"只描述可见光效，不推断灯位与器材。\"},\"color_palette\":{\"value\":\"灰蓝背景、浅黄绿主体、白色文字，拉绳含彩色小段。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"收纳袋呈倾斜悬浮状态，拉链朝上，拉绳垂在右侧。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"描述当前静态摆放，不表示运动过程。\"},\"visible_text\":{\"value\":\"P绒轻量马甲4.0；9月20日 正式上线\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f016\"],\"note\":\"文字清晰可辨。\"}}}"
+}

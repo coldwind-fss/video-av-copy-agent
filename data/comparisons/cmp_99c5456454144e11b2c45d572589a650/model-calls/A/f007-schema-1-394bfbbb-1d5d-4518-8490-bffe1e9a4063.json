@@ -1,0 +1,46 @@
+{
+  "call_id": "394bfbbb-1d5d-4518-8490-bffe1e9a4063",
+  "request_id": "5b651b89-75b1-422c-8496-5eef2709abac",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 471,
+    "total_tokens": 3060,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2280
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f007",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "be756b53a1ad35f4012fa3dedf7bb0523141bcd53e78d4a27435326d7a6f4c03",
+  "image_inputs": [
+    {
+      "frame_id": "f007",
+      "sample_time_ms": 17500,
+      "source_time_ms": null,
+      "timestamp_ms": 17500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "792d067b5bee184526f0c49ab54caa9346daf6ee4bc6bd7af1cbf33214525f8e",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f007.jpg",
+      "size_bytes": 78586
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f007\",\"timestamp_ms\":17500,\"subject\":{\"value\":\"一名戴蓝色花纹头巾、穿白色长袖短款上衣和蓝色紧身裤的女性，双手举着一个透明塑料袋，袋内装有深色衣物和吊牌。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"人物与手中物品为画面主要可见内容。\"},\"scene\":{\"value\":\"户外草地，背景有树木和天空，前景为铺装地面。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"可见草地、树木、天空和地面铺装。\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖以上入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"画面下缘截在腿部，未显示脚部。\"},\"camera_angle\":{\"value\":\"平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"人物面部与镜头大致同高。\"},\"composition\":{\"value\":\"人物位于画面中央，手持物品在胸前偏左位置，字幕横跨画面下部。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"人物居中，字幕位于下方。\"},\"lighting\":{\"value\":\"自然日光，人物面部和衣物受光均匀，背景较亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"可见户外自然光效果。\"},\"color_palette\":{\"value\":\"以绿色草地、蓝色裤装和头巾、白色上衣为主，字幕为白字黑边。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"画面主要色块为绿、蓝、白。\"},\"visible_pose\":{\"value\":\"人物站立，双手在胸前举起透明塑料袋，面部朝向镜头。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"为当前静态姿势。\"},\"visible_text\":{\"value\":\"字幕可见“所以我们敢把并且要把黑标”和“印在吊牌上”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"字幕为中文，分两行显示。\"}}}"
+}

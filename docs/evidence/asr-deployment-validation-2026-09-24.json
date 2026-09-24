@@ -1,0 +1,74 @@
+{
+  "date": "2026-09-24",
+  "environment": {
+    "public_base": "http://121.41.164.222/poc-review-c15a6fdf7ead48fb8505",
+    "readonly_service": "frame-lab-share.service",
+    "readonly_loopback": "127.0.0.1:18767",
+    "admin_service": "frame-lab-asr-admin.service",
+    "admin_loopback": "127.0.0.1:18768",
+    "nginx_write_policy": "deny"
+  },
+  "provider": {
+    "provider": "aliyun_dashscope",
+    "model": "qwen-audio-3.1-asr-flash-filetrans",
+    "base_url": "https://dashscope.aliyuncs.com",
+    "input_mode": "public_url",
+    "timing": "word",
+    "credential_storage": "server_systemd_environment_only"
+  },
+  "checks": {
+    "local_compileall": "passed",
+    "unit_tests": "6 passed",
+    "public_home_http": 200,
+    "public_capabilities_http": 200,
+    "public_audio_range_http": 206,
+    "public_transcription_post_http": 403,
+    "public_capabilities_asr_status": "ready"
+  },
+  "samples": [
+    {
+      "name": "口播.mp4",
+      "video_id": "video_41cab5fb16bc40539ac240278815afc2",
+      "job_id": "tj_4921780cdd8f423f925523a98f9432bb",
+      "transcript_id": "tr_ed633f209b2944ab9eb0bac41e2d91e0",
+      "provider_job_id": "7636d3bd-ac40-48eb-81f3-bb3d935b374b",
+      "status": "completed",
+      "outcome": "text_available",
+      "timing": "word",
+      "segments": 2,
+      "words": 168,
+      "usage_duration_seconds": 45
+    },
+    {
+      "name": "切片.mp4",
+      "video_id": "video_02c821c048a14a5c9e0de5b01dcd3448",
+      "job_id": "tj_28c609999c2b44b6b81feea28d8763c8",
+      "transcript_id": "tr_ad9fa80db33e432fb896f8b6835c1e21",
+      "provider_job_id": "4a8014ae-c06f-43dd-b96d-b4d3c01d75ed",
+      "status": "completed",
+      "outcome": "text_available",
+      "timing": "word",
+      "segments": 8,
+      "words": 90,
+      "usage_duration_seconds": 23
+    },
+    {
+      "name": "3D.mp4",
+      "video_id": "video_225d45ddfe834732aa7bfced75054dd6",
+      "job_id": "tj_f159c78ce022406f946480f60889cfd0",
+      "transcript_id": "tr_9edceec219504b48864df12bfe7786fd",
+      "provider_job_id": "e7ff441e-f630-44b4-b367-4760f79b6545",
+      "status": "no_speech",
+      "outcome": "no_speech",
+      "timing": "none",
+      "segments": 0,
+      "words": 0,
+      "provider_no_speech_code": "ASR_RESPONSE_HAVE_NO_WORDS"
+    }
+  ],
+  "limitations": [
+    "本记录验证 ASR 工程链路，不是业务语义准确率结论。",
+    "C10/C20/C30 音画融合尚未在云端执行，因为分享服务未配置视觉模型凭据。",
+    "A02 偏移基准、A05 错误凭据 / 限流和 A06 品牌词专项样本未运行。"
+  ]
+}

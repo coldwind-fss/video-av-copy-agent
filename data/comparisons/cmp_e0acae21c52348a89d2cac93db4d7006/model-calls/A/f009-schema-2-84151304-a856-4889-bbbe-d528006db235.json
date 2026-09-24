@@ -1,0 +1,46 @@
+{
+  "call_id": "84151304-a856-4889-bbbe-d528006db235",
+  "request_id": "9cb03fb0-7686-44a2-95c3-10e40fe92ec2",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2670,
+    "completion_tokens": 449,
+    "total_tokens": 3119,
+    "prompt_tokens_details": {
+      "cached_tokens": 2048
+    },
+    "prompt_cache_hit_tokens": 2048,
+    "prompt_cache_miss_tokens": 622
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2327
+    }
+  ],
+  "input_text_chars": 304,
+  "branch": "A",
+  "node": "f009",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "ca6fb20a2e7ed3c061a4ca3fd74bae0336581c130fa0da7848a882955a8d1fa4",
+  "image_inputs": [
+    {
+      "frame_id": "f009",
+      "sample_time_ms": 11250,
+      "source_time_ms": null,
+      "timestamp_ms": 11250,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "9aa11092cdaf418b909a7a76643e237d30ace8a23bf93ee12c490078783e49ab",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f009.jpg",
+      "size_bytes": 32123
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 2,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f009\",\"timestamp_ms\":11250,\"subject\":{\"value\":\"浅绿色织物上的拉链与黑色拉链头，拉链头连接一条编织拉绳\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"画面主体为拉链结构及织物表面。\"},\"scene\":{\"value\":\"浅绿色织物近景，背景为虚化的深色区域\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"织物占据画面大部分，底部可见虚化深色背景。\"},\"shot_size\":{\"value\":\"特写\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"拉链与拉链头占据画面主要区域。\"},\"camera_angle\":{\"value\":\"正面平视\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"拉链纵向居中，未见明显俯仰角度。\"},\"composition\":{\"value\":\"拉链纵向贯穿画面中部，拉链头位于画面中下部，文字位于左下角\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"纵向线条与左下角文字形成主要构图。\"},\"lighting\":{\"value\":\"柔和均匀光，拉链齿有反光\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"拉链齿呈现亮部反光，织物明暗过渡柔和。\"},\"color_palette\":{\"value\":\"浅绿色为主，黑色拉链头与白色文字点缀\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"织物与拉链带为浅绿色，拉链头为黑色，文字为白色。\"},\"visible_pose\":{\"value\":\"拉链呈闭合状态，拉链头位于中下部，拉绳自然下垂\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"仅描述当前静态摆放状态。\"},\"visible_text\":{\"value\":\"双头拉链调温 上下独立开合调控散热\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"画面左下角可辨认的中文文字。\"}}}"
+}

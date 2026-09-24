@@ -1,0 +1,53 @@
+{
+  "call_id": "2694eb78-e7dd-4025-befb-37a400813df9",
+  "request_id": "02d322ef-b7c9-4ce9-be7f-47d7c7695b0a",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 445,
+    "total_tokens": 3034,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2520
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f009",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "0b834effec59bb5a48d42f725e74ce1ff2b610351c81246118d9b0454a4669a6",
+  "image_inputs": [
+    {
+      "frame_id": "f009",
+      "sample_time_ms": 22500,
+      "source_time_ms": null,
+      "timestamp_ms": 22500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "89223e7ba26632df6cea6c91d9d73b0a1576a028172d8a8b663fa0aac1456cbc",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f009.jpg",
+      "size_bytes": 65232
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f009\",\"timestamp_ms\":22500,\"subject\":{\"value\":\"一名戴蓝色花纹头巾、穿白色露脐长袖上衣和深蓝色紧身裤的女性，腰间系深蓝色腰包，胸前夹有小型黑色设备。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"服装与配饰为画面可见外观，未推断身份或品牌。\"},\"scene\":{\"value\":\"户外草地，背景有树木和远处坡地，前景为石板铺地。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖以上占据画面主体。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\",\"f009\"],\"note\":\"依据人物面部与镜头大致齐平。\"},\"composition\":{\"value\":\"人物居中，双臂向两侧张开，画面中央叠加放射状文字图形。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"lighting\":{\"value\":\"自然日光，人物面部和身体受光均匀，背景天空较亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"仅描述可见光照效果，不推断灯具。\"},\"color_palette\":{\"value\":\"以绿色草地、蓝色服装和白色上衣为主，中央文字图形为红黄蓝高饱和配色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"人物站立，双臂向两侧斜下方伸展，双手食指指向中央文字图形，面带微笑。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"描述当前静态姿势。\"},\"visible_text\":{\"value\":\"画面中央叠加图形中可见“8月7号”字样。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f009\"],\"note\":\"仅记录可辨认文字。\"}}}",
+  "application_normalizations": [
+    {
+      "path": "$.frame.camera_angle.evidence_frame_ids",
+      "action": "deduplicated_evidence_frame_ids",
+      "removed_count": 1
+    }
+  ]
+}

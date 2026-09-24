@@ -1,0 +1,46 @@
+{
+  "call_id": "b90c88f5-a880-4f0b-8f31-9981f0536c37",
+  "request_id": "bccbc668-60dc-4dd3-8a20-880b530cc9dc",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 383,
+    "total_tokens": 2972,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2197
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f001",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "dfa046bd1bd0ebf2434aead295cb0439c3df148c315cc70347b3b278637c76b6",
+  "image_inputs": [
+    {
+      "frame_id": "f001",
+      "sample_time_ms": 2500,
+      "source_time_ms": null,
+      "timestamp_ms": 2500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "d8f24a1bd933b316561fd30334f8e54820306cf47f694b7a0507d02f54fbbf45",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f001.jpg",
+      "size_bytes": 72749
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f001\",\"timestamp_ms\":2500,\"subject\":{\"value\":\"一名戴蓝色花纹发带、穿白色长袖上衣和深蓝色紧身裤的女性，双手拿着一个透明包装袋\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"scene\":{\"value\":\"户外草地，背景有树木和天空，前景为铺装地面\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖附近入画\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视角度\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"composition\":{\"value\":\"人物位于画面中央，手持物品在胸前偏左位置，底部有字幕和黄色问号图形\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"lighting\":{\"value\":\"自然光，人物面部和身体受光均匀，背景草地明亮\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"color_palette\":{\"value\":\"以绿色草地、白色上衣、深蓝色裤子和发带为主，底部有黄色字幕和图形\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"人物站立，双手持透明包装袋，低头看向手中物品，左手指向包装袋\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"\"},\"visible_text\":{\"value\":\"今年的吊牌很不一样？\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f001\"],\"note\":\"底部字幕可辨认。\"}}}"
+}

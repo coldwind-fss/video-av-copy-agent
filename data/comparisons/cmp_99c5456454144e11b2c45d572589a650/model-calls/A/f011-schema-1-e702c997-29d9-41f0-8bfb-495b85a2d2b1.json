@@ -1,0 +1,46 @@
+{
+  "call_id": "e702c997-29d9-41f0-8bfb-495b85a2d2b1",
+  "request_id": "9575e43e-f0e6-4068-807b-1f5eef416536",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 461,
+    "total_tokens": 3050,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2526
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f011",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "21c510903b40ae43cc4b16a3051abef525e20816b1437ac500e47d0ab01cfa18",
+  "image_inputs": [
+    {
+      "frame_id": "f011",
+      "sample_time_ms": 27500,
+      "source_time_ms": null,
+      "timestamp_ms": 27500,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "218fc3387e3b2366677a9d09b2705febf701df5b675e6065ea6411ce113aa1e4",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f011.jpg",
+      "size_bytes": 129550
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f011\",\"timestamp_ms\":27500,\"subject\":{\"value\":\"一名扎马尾、戴蓝色发带、穿白色长袖短上衣和蓝色紧身运动裤、白色运动鞋的女性，正在跑步。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"人物位于画面中央，处于腾空跑步姿态。\"},\"scene\":{\"value\":\"户外柏油路旁，背景为成排绿树、草地和一根路灯杆。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"可见路面、草地、树木和路灯。\"},\"shot_size\":{\"value\":\"全身景别，人物完整入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"从头部到脚部均在画面内。\"},\"camera_angle\":{\"value\":\"平视角度拍摄。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"镜头高度大致与人物腰部至胸部齐平。\"},\"composition\":{\"value\":\"人物位于画面中央偏左，背景树木和路灯形成纵向线条。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"人物占据画面主体位置。\"},\"lighting\":{\"value\":\"自然光，整体明亮均匀，人物面部和衣物受光清晰。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"可见户外日间光照效果。\"},\"color_palette\":{\"value\":\"以绿色树木、蓝色运动服和白色上衣为主，路面为灰色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"画面色彩以绿、蓝、白、灰为主。\"},\"visible_pose\":{\"value\":\"人物处于跑步腾空瞬间，右腿前抬、左腿后蹬，双臂弯曲摆动，头部微抬。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"为单帧静态姿势描述。\"},\"visible_text\":{\"value\":\"画面下方有白色中文字幕“迈步时跟着你伸展”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f011\"],\"note\":\"字幕清晰可读。\"}}}"
+}

@@ -1,0 +1,103 @@
+{
+  "checked_at": "2026-09-23T08:43:58.661714+00:00",
+  "scope": "design_documents_only",
+  "application_implemented": false,
+  "asr_connected": false,
+  "application_acceptance": "not_run",
+  "deployment_changed": false,
+  "schema": {
+    "path": "docs/schemas/content-analysis.schema.json",
+    "draft": "2020-12",
+    "valid": true,
+    "local_refs_resolved": true
+  },
+  "examples": [
+    {
+      "path": "docs/content-analysis-v0.3/examples/report-untimed.fixture.json",
+      "schema": "passed",
+      "references_and_time": "passed"
+    },
+    {
+      "path": "docs/content-analysis-v0.3/examples/report.fixture.json",
+      "schema": "passed",
+      "references_and_time": "passed"
+    },
+    {
+      "path": "docs/content-analysis-v0.3/examples/transcript.fixture.json",
+      "schema": "passed",
+      "references_and_time": "passed"
+    }
+  ],
+  "negative_cases": [
+    {
+      "case": "unknown_claim_with_value",
+      "rejected_by": "schema"
+    },
+    {
+      "case": "fixture_label_removed",
+      "rejected_by": "schema"
+    },
+    {
+      "case": "manual_mode_with_fixture_source",
+      "rejected_by": "schema"
+    },
+    {
+      "case": "required_field_missing",
+      "rejected_by": "schema"
+    },
+    {
+      "case": "invalid_role",
+      "rejected_by": "schema"
+    },
+    {
+      "case": "nonexistent_evidence",
+      "rejected_by": "design_cross_check"
+    },
+    {
+      "case": "changed_quote",
+      "rejected_by": "design_cross_check"
+    },
+    {
+      "case": "late_content_in_opening",
+      "rejected_by": "design_cross_check"
+    },
+    {
+      "case": "unverified_clip_origin",
+      "rejected_by": "design_cross_check"
+    },
+    {
+      "case": "duplicate_copy_coverage",
+      "rejected_by": "design_cross_check"
+    },
+    {
+      "case": "cross_boundary_sentence_in_opening",
+      "rejected_by": "design_cross_check"
+    },
+    {
+      "case": "subtitle_claimed_as_speech",
+      "rejected_by": "design_cross_check"
+    }
+  ],
+  "local_markdown_links_checked": 48,
+  "requirement_ids": [
+    "R01",
+    "R02",
+    "R03",
+    "R04",
+    "R05",
+    "R06",
+    "R07",
+    "R08"
+  ],
+  "planned_acceptance_counts": {
+    "D": 5,
+    "E": 23,
+    "A": 7,
+    "B": 6,
+    "RLS": 4
+  },
+  "limits": [
+    "Cross-checks exercised on synthetic examples only; runtime validators remain planned.",
+    "No model calls, application tests, ASR quality evaluation or deployment performed."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "call_id": "1ae82311-1ed1-41df-9c4f-172363d041d2",
+  "request_id": "83759dca-ffd5-4ed2-af5b-2c389ceba60a",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 427,
+    "total_tokens": 3016,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2335
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f008",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "0801c5968e6b22d7a016345fbdb3f37d356a93fd48dc6197190c4bd65a91328c",
+  "image_inputs": [
+    {
+      "frame_id": "f008",
+      "sample_time_ms": 20000,
+      "source_time_ms": null,
+      "timestamp_ms": 20000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "5cf3c1f1bdbb5065043d1411dc0590f11abcd5c43c2639cb483c678cb1469d06",
+      "image_path": "frame_sets/fs_6c03b50ed7f847388c8be2341e2b907d/f008.jpg",
+      "size_bytes": 48007
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f008\",\"timestamp_ms\":20000,\"subject\":{\"value\":\"一名站立女性，戴蓝色花纹头巾，穿白色长袖短款上衣和深蓝色紧身裤，双手抬起于胸前两侧，颈部挂有一个黑色小设备。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"仅描述可见外观，不推断身份。\"},\"scene\":{\"value\":\"户外草地，背景有树木和天空，前景为石板铺地。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"shot_size\":{\"value\":\"中景，人物从头部到膝盖以上入画。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"camera_angle\":{\"value\":\"平视角度。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"静态画面，无运动信息。\"},\"composition\":{\"value\":\"人物居中，占据画面主要位置，背景草地和树木形成自然层次。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"lighting\":{\"value\":\"户外自然光，人物面部和身体受光均匀，背景天空较亮。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"不推断具体灯具或灯位。\"},\"color_palette\":{\"value\":\"白色上衣、深蓝色裤子、蓝色头巾、绿色草地和树木、浅色天空。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"人物站立，双臂弯曲抬起，手掌朝上，头部微仰，嘴部张开。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"描述当前静态姿势。\"},\"visible_text\":{\"value\":\"画面下方有白色中文字幕“而飞比特想要的”。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"仅记录可辨认文字。\"}}}"
+}

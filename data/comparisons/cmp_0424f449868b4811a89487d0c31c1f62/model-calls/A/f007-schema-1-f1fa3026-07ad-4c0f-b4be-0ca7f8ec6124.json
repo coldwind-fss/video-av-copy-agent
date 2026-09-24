@@ -1,0 +1,46 @@
+{
+  "call_id": "f1fa3026-07ad-4c0f-b4be-0ca7f8ec6124",
+  "request_id": "e0f7a76c-88ba-40b6-af25-d12a9170ef33",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2589,
+    "completion_tokens": 418,
+    "total_tokens": 3007,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 669
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 1864
+    }
+  ],
+  "input_text_chars": 90,
+  "branch": "A",
+  "node": "f007",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "119418890b54e9ac984893a27dd10b368a42520cf8f88bead6174647fa66f4ce",
+  "input_text_sha256": "4c0d40d853010ff6aab98254db0cc5f68d2d7b710410c50cf131213d7b99df1a",
+  "image_inputs": [
+    {
+      "frame_id": "f007",
+      "sample_time_ms": 8750,
+      "source_time_ms": null,
+      "timestamp_ms": 8750,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "94c4b0a04569616f98c5f2f607bbed04433f8ebdd8fcfbe689eb55843c8fdf6c",
+      "image_path": "frame_sets/fs_5cd07c0a297a402589766a09aa881bc3/f007.jpg",
+      "size_bytes": 12926
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f007\",\"timestamp_ms\":8750,\"subject\":{\"value\":\"画面右下角露出一块浅绿色织物边缘，其余画面为浅灰色织物表面。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"仅见局部织物，无法确认整体物品。\"},\"scene\":{\"value\":\"浅灰色织物表面占据画面绝大部分，右下角有浅绿色织物边缘。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"背景为织物近景，无其他环境元素。\"},\"shot_size\":{\"value\":\"织物局部特写\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"画面被织物表面填满，仅见局部。\"},\"camera_angle\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"纯织物表面缺少空间参照，无法判断拍摄角度。\"},\"composition\":{\"value\":\"浅灰色织物占据画面主体，浅绿色织物位于右下角，文字位于左下角。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"lighting\":{\"value\":\"整体明亮均匀，织物表面有轻微明暗起伏。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"仅描述可见明暗效果。\"},\"color_palette\":{\"value\":\"以浅灰色为主，右下角为浅绿色，文字为白色。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"织物呈自然褶皱铺展状态，右下角绿色织物边缘略微卷起。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"描述当前静态摆放状态。\"},\"visible_text\":{\"value\":\"轻量防风外层面料；建立迎风面的低透风屏障\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f007\"],\"note\":\"白色文字位于画面左下角。\"}}}"
+}

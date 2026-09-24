@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.1",
+  "kind": "final_report",
+  "intervals": [
+    {
+      "from_frame_id": "f000",
+      "to_frame_id": "f001",
+      "start_ms": 0,
+      "end_ms": 1000,
+      "evidence_source": "frame_descriptions",
+      "visual_change": {
+        "value": "方块在两帧中的位置从左侧变为右侧。",
+        "basis": "inferred",
+        "evidence_frame_ids": [
+          "f000",
+          "f001"
+        ],
+        "note": "依据两条独立单帧文字描述推断位置差异，汇总节点未看到原图。"
+      },
+      "subject_motion": {
+        "value": "方块可能向右移动。",
+        "basis": "inferred",
+        "evidence_frame_ids": [
+          "f000",
+          "f001"
+        ],
+        "note": "两帧之间的连续轨迹未被观察。"
+      },
+      "camera_motion": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": [
+          "f000",
+          "f001"
+        ],
+        "note": "纯色背景缺少可用于区分主体运动与摄像机运动的参照。"
+      },
+      "transition": {
+        "value": null,
+        "basis": "unknown",
+        "evidence_frame_ids": [
+          "f000",
+          "f001"
+        ],
+        "note": "两帧之间是否存在剪辑无法确认。"
+      }
+    }
+  ],
+  "summary": {
+    "theme": {
+      "value": "几何图形的位置变化展示",
+      "basis": "inferred",
+      "evidence_frame_ids": [
+        "f000",
+        "f001"
+      ],
+      "note": "仅为画面主题归纳，创作意图未知。"
+    },
+    "visual_style": {
+      "value": "黑底白块、简洁、高反差。",
+      "basis": "inferred",
+      "evidence_frame_ids": [
+        "f000",
+        "f001"
+      ],
+      "note": "依据提供的视觉记录归纳。"
+    },
+    "content_structure": {
+      "value": "先展示靠左方块，再展示靠右方块。",
+      "basis": "inferred",
+      "evidence_frame_ids": [
+        "f000",
+        "f001"
+      ],
+      "note": ""
+    },
+    "reusable_features": [
+      {
+        "value": "保留单一几何主体与大面积纯色留白。",
+        "basis": "inferred",
+        "evidence_frame_ids": [
+          "f000",
+          "f001"
+        ],
+        "note": ""
+      }
+    ]
+  },
+  "source_prompt": "制作约两秒的简洁黑白画面：黑色背景，单个白色方块，先靠左展示，再靠右展示；保持主体形状与高反差风格。两段之间的具体运动方式未确定。",
+  "adapted_prompt": null,
+  "adaptation_notes": [],
+  "limitations": [
+    "示例仅有两张采样图片，无法确认连续运动和实际切点。",
+    "没有音轨输入。",
+    "1000 ms 至片段结束的画面未被充分观察。",
+    "相邻变化来自独立帧描述，描述遗漏可能影响归纳。"
+  ]
+}

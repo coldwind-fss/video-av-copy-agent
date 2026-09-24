@@ -1,0 +1,46 @@
+{
+  "call_id": "59bb55a7-b8be-4b01-9f56-fd329af6353f",
+  "request_id": "c3d63f25-1215-4233-b581-49ebd235d033",
+  "returned_model": "deepseek-flash",
+  "finish_reason": "stop",
+  "usage": {
+    "prompt_tokens": 2576,
+    "completion_tokens": 422,
+    "total_tokens": 2998,
+    "prompt_tokens_details": {
+      "cached_tokens": 1920
+    },
+    "prompt_cache_hit_tokens": 1920,
+    "prompt_cache_miss_tokens": 656
+  },
+  "transport_attempts": [
+    {
+      "attempt": 1,
+      "http_status": 200,
+      "latency_ms": 2274
+    }
+  ],
+  "input_text_chars": 91,
+  "branch": "A",
+  "node": "f008",
+  "prompt_version": "poc-v0.1",
+  "schema_version": "1.0",
+  "system_prompt_sha256": "1690ff558b07ba309831173453240d92fc7701a29f519942c780bd943be90a62",
+  "input_text_sha256": "eae1d2cc535b6f8c844e4606ab6779f3df6d3b6fc6fb72f8fe3d659fb36b7033",
+  "image_inputs": [
+    {
+      "frame_id": "f008",
+      "sample_time_ms": 10000,
+      "source_time_ms": null,
+      "timestamp_ms": 10000,
+      "width": 576,
+      "height": 1024,
+      "image_sha256": "b67c05ba67a507732b2fa278cc81e685a90190f6029b6ca3d7f928e1467fab81",
+      "image_path": "frame_sets/fs_8b77663dd0c44338bb910f9cdf1c87cb/f008.jpg",
+      "size_bytes": 28860
+    }
+  ],
+  "request_model": "deepseek-flash",
+  "schema_attempt": 1,
+  "raw_response": "{\"schema_version\":\"1.0\",\"kind\":\"single_frame\",\"frame\":{\"frame_id\":\"f008\",\"timestamp_ms\":10000,\"subject\":{\"value\":\"一件浅绿色立领拉链外套的肩颈与胸前局部\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"可见立领、黑色拉链头与浅绿面料。\"},\"scene\":{\"value\":\"浅灰白色背景，左侧有白色丝状气流纹理\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"背景无其他可辨物体。\"},\"shot_size\":{\"value\":null,\"basis\":\"unknown\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"仅见衣物局部，缺少人物或完整商品轮廓，无法判断景别。\"},\"camera_angle\":{\"value\":\"近似平视的正面偏侧角度\",\"basis\":\"inferred\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"由领口与拉链的朝向推测，非精确测量。\"},\"composition\":{\"value\":\"衣物占据画面右下与下方，左上大面积留白，字幕位于左下。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"lighting\":{\"value\":\"柔和均匀的亮调照明，面料上有平缓高光\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"不推断具体灯具或灯位。\"},\"color_palette\":{\"value\":\"浅绿、浅灰白为主，拉链头为黑色\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"\"},\"visible_pose\":{\"value\":\"外套呈立领竖起、拉链部分拉合的状态，无人物可见。\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"描述当前静态摆放状态。\"},\"visible_text\":{\"value\":\"轻量防风外层面料；建立迎风面的低透风屏障\",\"basis\":\"observed\",\"evidence_frame_ids\":[\"f008\"],\"note\":\"画面左下角两行白色中文字幕。\"}}}"
+}
